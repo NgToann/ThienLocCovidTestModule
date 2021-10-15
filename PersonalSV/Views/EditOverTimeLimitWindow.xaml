@@ -1,0 +1,158 @@
+﻿<Window x:Class="TLCovidTest.Views.EditOverTimeLimitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontSize="13"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen"
+        Title="{DynamicResource ResourceKey=titleOverTimeLimitWindow}" Height="400" Width="600" Loaded="Window_Loaded" Closing="Window_Closing" KeyUp="Window_KeyUp">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Grid.Column="2" Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxOverTimeInformation}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid x:Name="gridOTInfor">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}" VerticalAlignment="Bottom"/>
+                <DatePicker Grid.Row="1" x:Name="dpDateFrom" TabIndex="1" SelectedDate="1992/11/16"/>
+
+                <TextBlock Grid.Row="2" Text="{DynamicResource ResourceKey=commonDatePickerTimeOutLimit}" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtTimeOutLimit" Grid.Row="3" Height="{Binding ElementName=dpDateFrom, Path=ActualHeight}" BorderBrush="Black" Text="{Binding TimeOutLimit}" PreviewKeyUp="TextBox_PreviewKeyUp" PreviewGotKeyboardFocus="TextBox_PreviewGotKeyboardFocus" MaxLength="4" VerticalContentAlignment="Center" TabIndex="3"/>
+
+                <TextBlock Grid.Column="2" Text="{DynamicResource ResourceKey=commonDatePickerTo}" Margin="0,5,0,0"/>
+                <DatePicker Grid.Row="1" Grid.Column="2" x:Name="dpDateTo" SelectedDate="1992/11/16" TabIndex="2"/>
+                
+                <TextBlock Grid.Row="2" Grid.Column="2" Text="{DynamicResource ResourceKey=commonDatePickerOverTime}" Margin="0,5,0,0"/>
+                <TextBox x:Name="txtOverTime" Grid.Row="3" Grid.Column="2" BorderBrush="Black" Text="{Binding OverTime}" PreviewKeyUp="TextBox_PreviewKeyUp" PreviewGotKeyboardFocus="TextBox_PreviewGotKeyboardFocus" VerticalContentAlignment="Center" TabIndex="4"/>
+
+                <Button x:Name="btnAdd" Grid.Row="4" Grid.Column="2" Template="{DynamicResource ResourceKey=ButtonTemplate}" Margin="0,5,0,0" Click="btnAdd_Click" TabIndex="5">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/edit_add.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonAdd}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="0,5,0,0" >
+            <DataGrid x:Name="dgOverTimeTemp" AutoGenerateColumns="False" AlternationCount="2" AlternatingRowBackground="LightCyan" RowHeaderWidth="NaN"
+                      CanUserAddRows="False" SelectionUnit="FullRow" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray"
+                      FontFamily="Times New Roman" FontSize="14" LoadingRow="dgOverTimeTemp_LoadingRow">
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Style.Triggers>
+                            <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                <Setter Property="Background" Value="RoyalBlue" />
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        <Setter Property="FontSize" Value="15"/>
+                        <Setter Property="Background" Value="{DynamicResource ResourceKey=DataGridRowHeaderBG}"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Setter Property="BorderThickness" Value="0.5,0.5,0.5,0"/>
+                        <Setter Property="Padding" Value="5"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="miRemove" Header="{DynamicResource ResourceKey=commonMenuItemRemove}" Click="miRemove_Click">
+                        </MenuItem>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployee}" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding EmployeeCode}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployeeID}" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding EmployeeID}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn MinWidth="100" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDate}" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding OverTimeDate, StringFormat=dd/MM/yyyy}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn MinWidth="70" Header="{DynamicResource ResourceKey=commonDatePickerTimeOutLimit}" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeOutLimit}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonDatePickerOverTime}" IsReadOnly="False">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding OverTime, StringFormat={}N2}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnSave" Grid.Column="3" Template="{DynamicResource ResourceKey=ButtonTemplate}" Margin="0,5,0,0" Click="btnSave_Click">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="16" Height="16" Source="/Images/filesave.png"/>
+                        <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonSave}"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button x:Name="btnDelete" Grid.Column="2" Template="{DynamicResource ResourceKey=ButtonTemplate}" Margin="0,5,5,0" Click="btnDelete_Click">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="16" Height="16" Source="/Images/edit_remove.png"/>
+                        <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonDelete}"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

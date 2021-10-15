@@ -1,0 +1,252 @@
+﻿<Window x:Class="TLCovidTest.Views.DailyReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontSize="13"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen"
+        Title="{DynamicResource ResourceKey=titleWorkingDailyReportWindow}" MinHeight="450" MinWidth="1000" WindowState="Maximized">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxFilter}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <RadioButton x:Name="radAttendance" Content="{DynamicResource ResourceKey=commonRadioButtonAttendance}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" GroupName="Filter" VerticalAlignment="Center" Checked="radAttendance_Checked"/>
+                    <RadioButton Grid.Column="1" Margin="0,5,0,5" x:Name="radAbsent" Content="{DynamicResource ResourceKey=commonRadioButtonAbsent}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" GroupName="Filter" VerticalAlignment="Center" Checked="radAbsent_Checked"/>
+                    <RadioButton Grid.Column="2" x:Name="radAll" Content="{DynamicResource ResourceKey=commonRadioAll}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" GroupName="Filter" VerticalAlignment="Center" IsChecked="True" Checked="radAll_Checked"/>
+                </Grid>
+
+                <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cboSection" DisplayMemberPath="DepartmentName" SelectionChanged="cboSection_SelectionChanged" VerticalContentAlignment="Center"/>
+                    <ComboBox x:Name="cboDepartment" Grid.Column="2" DisplayMemberPath="DepartmentFullName" SelectionChanged="cboDepartment_SelectionChanged" VerticalContentAlignment="Center"/>
+                </Grid>
+                
+                
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="tblEmployee" Text="{DynamicResource ResourceKey=commonEmployee}" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtEmployeeSearch" Grid.Column="1" Margin="5,0,0,0" BorderBrush="Black" BorderThickness="1,1,1,1" VerticalContentAlignment="Center" Padding="2,0,0,0" FontWeight="Bold" GotKeyboardFocus="txtEmployeeSearch_GotKeyboardFocus" PreviewKeyUp="txtEmployeeSearch_PreviewKeyUp"/>
+                </Grid>
+                
+                <Grid Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="5,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <!---->
+                    <TextBox Height="{Binding ElementName=dpFilterDate, Path=ActualHeight}" x:Name="txtTimeInFrom" BorderBrush="Black" MaxLength="4" VerticalContentAlignment="Center"/>
+                    <TextBlock Width="{Binding ElementName=tblTitleTimeOut, Path=ActualWidth}" Text="{DynamicResource ResourceKey=commonDatePickerTimeIn}" Margin="5,0,5,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBox Grid.Column="2" x:Name="txtTimeInTo" BorderBrush="Black" MaxLength="4" VerticalContentAlignment="Center"/>
+                </Grid>
+                
+                <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="5,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <!--Height="{Binding ElementName=dpFilterDate, Path=ActualHeight}"-->
+                    <TextBox x:Name="txtTimeOutFrom" BorderBrush="Black" MaxLength="4" VerticalContentAlignment="Center"/>
+                    <TextBlock x:Name="tblTitleTimeOut" MinWidth="58" Text="{DynamicResource ResourceKey=commonDatePickerTimeOut}" Margin="5,0,5,0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <!--Height="{Binding ElementName=dpFilterDate, Path=ActualHeight}"-->
+                    <TextBox Grid.Column="2" x:Name="txtTimeOutTo" BorderBrush="Black" MaxLength="4" VerticalContentAlignment="Center"/>
+                </Grid>
+
+                <StackPanel Grid.Row="4" Orientation="Horizontal">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}" Width="{Binding ElementName=tblEmployee, Path=ActualWidth}" VerticalAlignment="Bottom"/>
+                    <DatePicker x:Name="dpFilterDate" Grid.Row="4" Margin="5,5,0,0" VerticalContentAlignment="Center"/>
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerTo}" VerticalAlignment="Bottom" Margin="5,0,5,0"/>
+                    <DatePicker x:Name="dpFilterDateTo" Grid.Row="4" Margin="0,5,0,0" VerticalContentAlignment="Center"/>
+                    <CheckBox x:Name="chkSunday" Margin="10,0,0,0" Content="{DynamicResource ResourceKey=commonCheckboxSunday}" VerticalAlignment="Bottom" IsChecked="True" Checked="chkSunday_Checked" Unchecked="chkSunday_Unchecked"/>
+                </StackPanel>
+
+                <Button x:Name="btnPreview" Margin="5,0,0,0" Template="{DynamicResource ResourceKey=ButtonTemplate}" Grid.Column="3" Grid.RowSpan="5" Click="btnPreview_Click">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/update.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Row="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonPreview}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Column="1" Margin="5,0,0,0" Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock x:Name="txtGroupSummaryHeader" Text="{DynamicResource ResourceKey=dailyAttendanceSummary}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=dailyAttendanceQuantity}" VerticalAlignment="Center" FontSize="18" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="txtQuantity" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16"/>
+
+                <TextBlock Grid.Column="2" Text="{DynamicResource ResourceKey=dailyAttendanceAttendance}" VerticalAlignment="Center"  FontSize="18" Foreground="Blue" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="txtAttendance" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="Blue"/>
+
+                <TextBlock Grid.Column="4" Text="{DynamicResource ResourceKey=dailyAttendanceAbsent}" VerticalAlignment="Center"  FontSize="16" Foreground="Red" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="txtAbsent" Grid.Column="4" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="Red"/>
+
+                <CheckBox Grid.Row="2" Grid.ColumnSpan="6" Content="{StaticResource ResourceKey=dailyAttendanceCheckDisplayChart}" VerticalContentAlignment="Center" Cursor="Hand" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" IsChecked="True" Foreground="DarkBlue" FontWeight="SemiBold" />
+
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="1" Margin="0,5,0,0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="0"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="dgResult" AutoGenerateColumns="False" AlternationCount="2" ClipboardCopyMode="IncludeHeader"
+                      CanUserAddRows="False" SelectionUnit="Cell" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray"
+                      RowHeaderWidth="NaN" LoadingRow="DgResult_LoadingRow"
+                      IsReadOnly="True" FontFamily="Times New Roman" FontSize="14">
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        <Setter Property="FontSize" Value="15"/>
+                        <Setter Property="Background" Value="{DynamicResource ResourceKey=DataGridRowHeaderBG}"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Setter Property="BorderThickness" Value="0.5,0.5,0.5,0"/>
+                        <Setter Property="Padding" Value="5"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonDateSearch}" SortMemberPath="DateSearch" ClipboardContentBinding="{Binding DateSearch}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding DateSearch, StringFormat=dd/MM}" Margin="3" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployee}" SortMemberPath="EmployeeName" ClipboardContentBinding="{Binding EmployeeName}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding EmployeeName}" Margin="3" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployeeID}" SortMemberPath="EmployeeID" ClipboardContentBinding="{Binding EmployeeID}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding EmployeeID}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployeeDepartment}" SortMemberPath="DepartmentName" ClipboardContentBinding="{Binding DepartmentName}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding DepartmentName}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonDatePickerTimeIn}" SortMemberPath="TimeInView" ClipboardContentBinding="{Binding TimeInView}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeInView}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonDatePickerTimeOut}" SortMemberPath="TimeOutView" ClipboardContentBinding="{Binding TimeOutView}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeOutView}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonDatePickerRemarks}" SortMemberPath="Remarks" ClipboardContentBinding="{Binding Remarks}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Remarks}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <GroupBox x:Name="groupChart" Margin="2,0,0,0" Grid.Column="2" Template="{DynamicResource ResourceKey=GroupBoxTemplate}" Visibility="Collapsed" Width="450">
+                <GroupBox.Header>
+                    <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                        <TextBlock x:Name="chartTitle" Text="{DynamicResource ResourceKey=dailyAttendanceChart}"/>
+                        <!--<Button x:Name="btnShowChart" Content="{DynamicResource ResourceKey=dailyAttendanceChart}" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnShowChart_Click" />-->
+                    </Border>
+                </GroupBox.Header>
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <StackPanel x:Name="stkChart" Orientation="Vertical">
+                    </StackPanel>
+                </ScrollViewer>
+            </GroupBox>
+        </Grid>
+        <TextBlock x:Name="tblStatus" Grid.Row="2" VerticalAlignment="Bottom" Foreground="Blue" FontStyle="Italic" FontSize="12"/>
+        <Grid Grid.Row="2" Grid.Column="1" Margin="0,5,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnReport" Grid.Column="1" MinWidth="98" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnReport_Click">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="16" Height="16" Source="/Images/large_chart.png"/>
+                        <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonReport}"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,156 @@
+﻿<Window x:Class="TLCovidTest.Views.MissingRecordTimeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TLCovidTest.Views" FontSize="13"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded"
+        Title="{DynamicResource ResourceKey=titleMissingRecordTime}" Height="500" Width="800">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+                <GroupBox.Header>
+                    <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                        <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxSearchingInformation}"/>
+                    </Border>
+                </GroupBox.Header>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}"/>
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerTo}" Grid.Column="2"/>
+                    <DatePicker x:Name="dpFrom" Grid.Row="1" Margin="0,2,0,0"/>
+                    <DatePicker x:Name="dpTo" Grid.Row="1" Grid.Column="2" Margin="0,2,0,0"/>
+
+                    <TextBlock Grid.Column="4" Text="{DynamicResource ResourceKey=commonEmployee}"/>
+                    <TextBox Grid.Row="1" Grid.Column="4" MinWidth="120" Padding="3,0,0,0" x:Name="txtEmployeeIDSearch" BorderBrush="Black" PreviewKeyUp="txtEmployeeIDSearch_PreviewKeyUp" FontSize="15" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtEmployeeIDSearch_PreviewGotKeyboardFocus"/>
+
+                    <Grid Grid.Column="6" Grid.Row="1" Grid.RowSpan="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnSearch" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnSearch_Click" Cursor="Hand">
+                            <Button.Content>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Width="16" Height="16" Source="/Images/search.png"/>
+                                    <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonSearch}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+                    </Grid>
+                    <TextBlock Grid.Row="3" Grid.ColumnSpan="10" Margin="0,5,0,0" FontWeight="Bold" Foreground="Red" FontStyle="Italic" Text="{DynamicResource ResourceKey=missingRecordRemarks}"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <DataGrid Grid.Row="1" Margin="0,5,0,0" x:Name="dgMissingRecord" AutoGenerateColumns="False" CanUserSortColumns="True" ClipboardCopyMode="IncludeHeader"
+                      CanUserAddRows="False" SelectionUnit="FullRow" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" RowHeaderWidth="NaN" LoadingRow="dgMissingRecord_LoadingRow"
+                      IsReadOnly="True" FontFamily="Times New Roman" FontSize="14" FrozenColumnCount="2">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Background" Value="DeepSkyBlue"/>
+                            <Setter Property="FontWeight" Value="Semibold"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="Background" Value="{DynamicResource ResourceKey=DataGridRowHeaderBG}"/>
+                    <Setter Property="BorderBrush" Value="Gray"/>
+                    <Setter Property="BorderThickness" Value="0.5,0.5,0.5,0"/>
+                    <Setter Property="Padding" Value="5"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeCardId}" SortMemberPath="CardId" ClipboardContentBinding="{Binding CardId}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding CardId}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeWorkerId}" SortMemberPath="WorkerId" ClipboardContentBinding="{Binding WorkerId}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WorkerId}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeWorkerName}" SortMemberPath="Name" ClipboardContentBinding="{Binding Name}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" Margin="3" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeJoinDate}" SortMemberPath="JoinDate" ClipboardContentBinding="{Binding JoinDate}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding JoinDate, StringFormat=dd/MM/yyyy}" Margin="3" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeDepartment}" SortMemberPath="Department" ClipboardContentBinding="{Binding Department}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Department}" Margin="3" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeDate}" SortMemberPath="Date" ClipboardContentBinding="{Binding Date}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Date, StringFormat=dd/MM/yyyy}" Margin="3" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeNoOfScan}" SortMemberPath="NoOfScan" ClipboardContentBinding="{Binding NoOfScan}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding NoOfScan}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=missingRecordTimeRecordTime}" SortMemberPath="RecordTime" ClipboardContentBinding="{Binding RecordTime}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding RecordTime}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

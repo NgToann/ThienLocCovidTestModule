@@ -1,0 +1,195 @@
+﻿<Window x:Class="TLCovidTest.Views.WorkingShiftListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontSize="13" WindowState="Maximized" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded"
+        Title="{DynamicResource ResourceKey=titleWorkingShiftListWindow}" MinHeight="400" MinWidth="900">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="{DynamicResource ResourceKey=workingShiftTilte}"  FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button x:Name="btnAddNew" Grid.Column="2" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnAddNew_Click">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/edit_add.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonAddNew}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <TextBox x:Name="txtSearch" Margin="5,0,0,0" MinWidth="120" Foreground="Blue" Padding="3,0,0,0" ToolTip="Type Shift ID" VerticalContentAlignment="Center" TextChanged="txtSearch_TextChanged"/>
+            </StackPanel>
+        </Grid>
+        <DataGrid Grid.Row="1" Margin="0,5,0,0" x:Name="dgWorkingShift" AutoGenerateColumns="False" CanUserSortColumns="True"
+                      CanUserAddRows="False" SelectionUnit="FullRow" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" RowHeaderWidth="NaN" LoadingRow="dgWorkingShift_LoadingRow"
+                      IsReadOnly="True" FontFamily="Times New Roman" FontSize="14" FrozenColumnCount="2" MouseLeftButtonDown="DgWorkingShift_MouseLeftButtonDown">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Background" Value="DeepSkyBlue"/>
+                            <Setter Property="FontWeight" Value="Semibold"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="Background" Value="{DynamicResource ResourceKey=DataGridRowHeaderBG}"/>
+                    <Setter Property="BorderBrush" Value="Gray"/>
+                    <Setter Property="BorderThickness" Value="0.5,0.5,0.5,0"/>
+                    <Setter Property="Padding" Value="5"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtID}" MinWidth="86" SortMemberPath="WorkingShiftCode" ClipboardContentBinding="{Binding WorkingShiftCode}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WorkingShiftCode}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtName}" SortMemberPath="WorkingShiftName" ClipboardContentBinding="{Binding WorkingShiftName}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WorkingShiftName}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtIn1}" SortMemberPath="TimeIn1" ClipboardContentBinding="{Binding TimeIn1}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeIn1}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtOut1}" SortMemberPath="TimeOut1" ClipboardContentBinding="{Binding TimeOut1}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeOut1}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=workingShiftHeaderMinutesInOut1}" SortMemberPath="MinutesInOut1" ClipboardContentBinding="{Binding MinutesInOut1}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding MinutesInOut1}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtIn2}" SortMemberPath="TimeIn2" ClipboardContentBinding="{Binding TimeIn2}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeIn2}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtOut2}" SortMemberPath="TimeOut2" ClipboardContentBinding="{Binding TimeOut2}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeOut2}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=workingShiftHeaderMinutesInOut2}" SortMemberPath="MinutesInOut2" ClipboardContentBinding="{Binding MinutesInOut2}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding MinutesInOut2}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtIn3}" SortMemberPath="TimeIn3" ClipboardContentBinding="{Binding TimeIn3}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeIn3}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtOut3}" SortMemberPath="TimeOut3" ClipboardContentBinding="{Binding TimeOut3}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TimeOut3}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=workingShiftHeaderMinutesInOut3}" SortMemberPath="MinutesInOut3" ClipboardContentBinding="{Binding MinutesInOut3}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding MinutesInOut3}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtDay}" SortMemberPath="WorkingDay" ClipboardContentBinding="{Binding WorkingDay}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WorkingDay, StringFormat={}N3}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtHour}" SortMemberPath="WorkingHour" ClipboardContentBinding="{Binding WorkingHour}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WorkingHour}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=workingShiftHeaderTotalMinutes}" SortMemberPath="TotalMinutes" ClipboardContentBinding="{Binding TotalMinutes}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding TotalMinutes}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource ResourceKey=addUpdateWorkingShiftTxtStatus}" SortMemberPath="IsActive" ClipboardContentBinding="{Binding IsActive}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding IsActive}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="WRK-JB30BZ" SortMemberPath="WRK_JB30BZ" ClipboardContentBinding="{Binding WRK_JB30BZ}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WRK_JB30BZ}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="WRK-XXFZ1" SortMemberPath="WRK_XXFZ1" ClipboardContentBinding="{Binding WRK_XXFZ1}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WRK_XXFZ1}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="WRK-JBFZ" SortMemberPath="WRK_JBFZ" ClipboardContentBinding="{Binding WRK_JBFZ}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WRK_JBFZ}" Margin="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,497 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    <!--Login Window-->
+    <system:String x:Key="logInWindowTitle">Đăng Nhập</system:String>
+    <system:String x:Key="logInWindowMsgWelcome">Xin Chào: </system:String>
+    <system:String x:Key="logInWindowMsgLoginFailed">Đăng Nhập Thất Bại :(</system:String>
+    
+    <!--About Window-->
+    <system:String x:Key="aboutWindowTitle">Giới Thiệu</system:String>
+    <system:String x:Key="aboutWindowProject">Phần Mềm</system:String>
+    <system:String x:Key="aboutWindowVersion">Phiên Bản</system:String>
+    <system:String x:Key="aboutWindowCreatedBy">Tạo Bởi</system:String>
+    <system:String x:Key="aboutWindowContact">Liên Hệ</system:String>
+    
+    <!--Main Window-->
+    <system:String x:Key="mainWindowMenuManager">Quản Lý</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerEmployee">Nhân Viên</system:String>
+    <system:String x:Key="mainWindowMenuManagerAddUpdateEmployee">Thêm / Cập Nhật Nhân Viên</system:String>
+    <system:String x:Key="mainWindowMenuManagerEmployeeList">Danh Sách Nhân Viên</system:String>
+    <system:String x:Key="mainWindowMenuManagerChangeCard">Đổi Thẻ Từ</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerCheckRecordingTime">Kiểm Tra Dữ Liệu Quẹt Thẻ</system:String>
+    <system:String x:Key="mainWindowMenuManagerAddNewRecordTime">Thêm / Cập Nhật Giờ Làm Việc</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerWorkingShift">Ca Làm Việc</system:String>
+    <system:String x:Key="mainWindowMenuManagerWorkingTime">Giờ Ra, Vào</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerAddNewWorkingShift">Thêm / Cập Nhật Ca Làm Việc</system:String>
+    <system:String x:Key="mainWindowMenuManagerArrangeWorkingShift">Sắp Xếp Ca Làm Việc</system:String>
+    <system:String x:Key="mainWindowMenuManagerOverTimeLimit">Giới Hạn Tăng Ca</system:String>
+    <system:String x:Key="mainWindowMenuManagerWorkingShiftList">Danh Sách Ca Làm Việc</system:String>
+    <system:String x:Key="mainWindowMenuManagerLeaveWithSalary">Chi Tiết Vắng</system:String>
+    <system:String x:Key="mainWindowMenuManagerImportRemarksWorker">Ghi Chú Nhân Viên (Covid)</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerAttendanceDetail">Chi Tiết Ngày Công</system:String>
+    
+    <system:String x:Key="mainWindowMenuSalary">Lương</system:String>
+    <system:String x:Key="mainWindowMenuExecuteData">Xử Lý Dữ Liệu</system:String>
+    <system:String x:Key="mainWindowMenuSalaryWorkingDayDetail">Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="mainWindowMenuReport">Báo Cáo</system:String>
+    <system:String x:Key="mainWindowMenuReportDaily">Hàng Ngày</system:String>
+    <system:String x:Key="mainWindowMenuWorkingDaySummary">Ngày Công Tổng Quan</system:String>
+    <system:String x:Key="mainWindowMenuMissingRecordTime">Thiếu Giờ (Ra, Vào)</system:String>
+    <system:String x:Key="mainWindowMenuSettings">Cài Đặt</system:String>
+    <system:String x:Key="mainWindowMenuSettingLanguage">Ngôn Ngữ</system:String>
+    <system:String x:Key="mainWindowMenuSettingAbout">Giới Thiệu</system:String>
+    
+    <!--Common Title-->
+    <system:String x:Key="commonEmployee">Nhân Viên</system:String>
+    <system:String x:Key="commonEmployeeCode">Số Thẻ Từ</system:String>
+    <system:String x:Key="commonEmployeeID">Mã Nhân Viên</system:String>
+    <system:String x:Key="commonEmployeeName">Họ Tên</system:String>
+    <system:String x:Key="commonEmployeeGender">Giới Tính</system:String>
+    <system:String x:Key="commonEmployeeGenderMan">Nam</system:String>
+    <system:String x:Key="commonEmployeeGenderWoman">Nữ</system:String>
+    <system:String x:Key="commonEmployeeNationID">Số CMND</system:String>
+    <system:String x:Key="commonEmployeeDayOfBirth">Ngày Sinh</system:String>
+    <system:String x:Key="commonEmployeeAddress">Địa Chỉ</system:String>
+    <system:String x:Key="commonEmployeeAddressDisplay">Địa Chỉ Thường Trú</system:String>
+    <system:String x:Key="commonEmployeeAddressCurrent">Địa Chỉ Tạm Trú</system:String>
+    <system:String x:Key="commonEmployeePhoneNumber">Số Điện Thoại</system:String>
+    <system:String x:Key="commonEmployeeDepartment">Phòng Ban (Chuyền)</system:String>
+    <system:String x:Key="commonEmployeeReason">Lý Do Nghỉ</system:String>
+    <system:String x:Key="commonEmployeePosition">Vị Trí</system:String>
+    <system:String x:Key="commonEmployeeJoinDate">Ngày Vào Công Ty</system:String>
+    <system:String x:Key="commonEmployeeSection">Xưởng</system:String>
+    <system:String x:Key="commonEmployeeRemark">Ghi Chú</system:String>
+    <system:String x:Key="commonTotalEmployee">Tổng Số Nhân Viên</system:String>
+    <system:String x:Key="commonSelectWorkingShiftNo">Chọn Ca Làm Việc</system:String>
+    <system:String x:Key="commonWorkingShiftNo">Ca</system:String>
+    <system:String x:Key="commonEmployeeList">DANH SÁCH NHÂN VIÊN</system:String>
+    <system:String x:Key="commonDateSearch">Ngày</system:String>
+    <system:String x:Key="commonEmployeeDate">Ngày</system:String>
+    
+    
+    <!--Add new Employee-->
+    <system:String x:Key="addNewSelectAddress">Địa chỉ thường trú</system:String>
+    <system:String x:Key="addNewSelectAddressTemp">Địa chỉ tạm trú</system:String>
+    <system:String x:Key="addNewSelectProvince">Tỉnh/Thành phố</system:String>
+    <system:String x:Key="addNewSelectDistrict">Quận/Huyện</system:String>
+    <system:String x:Key="addNewSelectCommune">Xã/Phường/Thị trấn</system:String>
+    <system:String x:Key="addNewAddressDetail">Chi tiết</system:String>
+    
+    <!--Datagrid Header Special EmlpyeeList-->
+    <system:String x:Key="dgHeaderEmployeeCode">Số Thẻ</system:String>
+    <system:String x:Key="dgHeaderEmployeeID">     Mã&#10;Nhân Viên</system:String>
+    <system:String x:Key="dgHeaderEmployeeFullName">Họ Tên</system:String>
+    <system:String x:Key="dgHeaderDepartment">Phòng Ban&#10;  (Chuyền)</system:String>
+    <system:String x:Key="dgHeaderDayOfBirth">Ngày Sinh</system:String>
+    <system:String x:Key="dgHeaderJoinDate">Ngày Vào&#10; Công Ty</system:String>
+    <system:String x:Key="dgHeaderNationID">Số Chứng Minh&#10;    Nhân Dân</system:String>
+    
+    <!--Change Employee Code Window-->
+    <system:String x:Key="changeEmployeeCodeWindowTxtNewCardNumber">Số Thẻ Mới</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowMsgConfirm">Xác Nhận Đổi ?</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowTxtStatus">Trạng thái</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowRadChangeCard">Đổi thẻ</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowRadResign">Nghỉ Việc</system:String>
+    
+    <!--Check Recording Time Window-->
+    <system:String x:Key="checkRecordingTimeExpanderSearchByDepartment">Tìm Theo Chuyền</system:String>
+    <system:String x:Key="checkRecordingTimeExpanderSearchByWorker">Tìm Theo Mã Nhân Viên</system:String>
+    
+    <!--Record Time Detail Window-->
+    <system:String x:Key="recordTimeDetailDataGridHeaderDate">Ngày&#10;Quẹt Thẻ</system:String>
+    <system:String x:Key="recordTimeDetailDataGridHeaderTime">Giờ&#10;Quẹt Thẻ</system:String>
+    <system:String x:Key="recordTimeDetailDataGridHeaderCardNo">Máy&#10;Chấm Công</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderEmployeeCode">Số Thẻ Từ</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderEmployeeID">     Mã&#10;Nhân Viên</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDate">Ngày</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderShiftNo">     Ca&#10;Làm Việc</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn1">Giờ Vào&#10;     1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn1">Ngày Vào 1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut1">Giờ Ra&#10;     1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut1">Ngày Ra 1</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn2">Giờ Vào&#10;     2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn2">Ngày Vào 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut2">Giờ Ra&#10;     2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut2">Ngày Ra 2</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn3">Giờ Vào&#10;     3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn3">Ngày Vào 3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut3">Giờ Ra&#10;     3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut3">Ngày Ra 3</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingDay">Ngày&#10;Công</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingTime"> Giờ&#10;Công</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingOverTime">    Giờ&#10;Tăng Ca</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingTimeLate">Trễ</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingOverTime2">     Giờ&#10;Tăng Ca 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingAbsent">Vắng</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceRemark">Ghi Chú</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDayOfWeek">     Ngày&#10;Trong Tuần</system:String>
+    
+    <system:String x:Key="checkRecordingTimeMiSetOverTimeLimit">1. Cài đặt giờ tăng ca</system:String>
+    <system:String x:Key="checkRecordingTimeMiSetTimeInTimeOut">2. Cài đặt giờ ra (vào)</system:String>
+    <system:String x:Key="checkRecordingTimeMiSetLeaveDay">3. Cài đặt ngày nghỉ (phép)</system:String>
+    
+    <!--Working Shift Window-->
+    <system:String x:Key="addUpdateWorkingShiftTxtWorkingShiftID">Mã Ca</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtID">Mã Ca</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtName">Tên Ca</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtDay">Ngày Công</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtHour">Giờ Công</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtTotalMinutes">Tổng Số Phút</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStatus">Trạng Thái</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStatusEnable">Hoạt Động</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStautsDisable">Không Hoạt Động</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn1">Giờ Vào 1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut1">Giờ Ra 1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn2">Giờ Vào 2</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut2">Giờ Ra 2</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn3">Giờ Vào 3</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut3">Giờ Ra 3</system:String>
+    <system:String x:Key="addUpdateWorkingShiftOthers">Tùy Chọn Khác</system:String>
+    <system:String x:Key="addUpdateWorkingShiftInOutManyTimes">Vào, Ra Nhiều Lần</system:String>
+    <system:String x:Key="addUpdateWorkingShiftNotInOutManyTimes">Không</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_JB30BZ_0">0</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_JB30BZ_1">1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_XXFZ1_0">0</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_XXFZ1_1">1</system:String>
+    
+    <!--Missing RecordTimeReport Window-->
+    <system:String x:Key="missingRecordTimeCardId">Số Thẻ</system:String>
+    <system:String x:Key="missingRecordTimeWorkerId">Mã Thẻ</system:String>
+    <system:String x:Key="missingRecordTimeWorkerName">Tên</system:String>
+    <system:String x:Key="missingRecordTimeDepartment">Chuyền (Phòng Ban)</system:String>
+    <system:String x:Key="missingRecordTimeJoinDate">Ngày Vào</system:String>
+    <system:String x:Key="missingRecordTimeDate">Ngày</system:String>
+    <system:String x:Key="missingRecordTimeNoOfScan">Số lần</system:String>
+    <system:String x:Key="missingRecordTimeRecordTime">Thời gian</system:String>
+    <system:String x:Key="missingRecordTimeFrom">Từ ngày</system:String>
+    <system:String x:Key="missingRecordTimeTo">Đến</system:String>
+    <system:String x:Key="missingRecordBtnExcute">Xem</system:String>
+    <system:String x:Key="missingRecordRemarks">* Bỏ qua CA ĐÊM và NGHỈ VIỆC</system:String>
+    
+    
+    <system:String x:Key="workingShiftHeaderMinutesInOut1">Số Phút 1</system:String>
+    <system:String x:Key="workingShiftHeaderMinutesInOut2">Số Phút 2</system:String>
+    <system:String x:Key="workingShiftHeaderMinutesInOut3">Số Phút 3</system:String>
+    <system:String x:Key="workingShiftHeaderTotalMinutes">Tổng Số&#10;Phút</system:String>
+    
+    <system:String x:Key="workingShiftMinutesInOut1">Số Phút 1</system:String>
+    <system:String x:Key="workingShiftMinutesInOut2">Số Phút 2</system:String>
+    <system:String x:Key="workingShiftMinutesInOut3">Số Phút 3</system:String>
+    <system:String x:Key="workingShiftTilte">DANH SÁCH CA LÀM VIỆC</system:String>
+    <system:String x:Key="workingShiftWRK_JBFZ">WRK_JBFZ (Phút)</system:String>
+    
+    <!--Arrange Working Shift Window-->
+    <system:String x:Key="arrangeWorkingShiftListOfDepartment">Danh Sách Chuyền</system:String>
+    <system:String x:Key="arrangeWorkingShiftListOfStaff">Danh Sách Nhân Viên</system:String>
+    <system:String x:Key="arrangeWorkingShiftListOfWorkingShift">Ca Làm Việc</system:String>
+    <system:String x:Key="arrangeWorkingShiftSelectWorkingShift">Chọn Ca</system:String>
+    <system:String x:Key="arrangeWorkingShiftArrange">Xếp Ca</system:String>
+    <system:String x:Key="arrangeWorkingShiftDelete">Xóa Ca</system:String>
+    <system:String x:Key="arrangeWorkingShiftViewDetail">Xem Chi Tiết</system:String>
+    <system:String x:Key="arrangeWorkingShiftInputEmployeeID">Nhập Mã Nhân Viên</system:String>
+    
+    <!--Execute Salary Data Window-->
+    <system:String x:Key="executeSalaryDataProcessForEmployee">Xử Lý Dữ Liệu Nhân Viên</system:String>
+    <system:String x:Key="executeSalaryDataProcessForDepartment">Xử Lý Dữ Liệu Phòng Ban(Chuyền)</system:String>
+    <system:String x:Key="executeSalaryDataProcessCompleted">Hoàn Thành !</system:String>
+    <system:String x:Key="executeSalaryDataPerSection">Cho Xưởng</system:String>
+    <system:String x:Key="executeSalaryDataPerDepartment">Cho Phòng Ban (Chuyền)</system:String>
+    <system:String x:Key="executeSalaryDataPerEmployee">Cho Nhân Viên</system:String>
+    <system:String x:Key="executeSalaryAll">Tất Cả Nhân Viên</system:String>
+    
+    
+    <!--Daily Attendance Window-->
+    <system:String x:Key="dailyAttendanceSummary">Tổng Quan</system:String>
+    <system:String x:Key="dailyAttendanceQuantity">Số Lượng</system:String>
+    <system:String x:Key="dailyAttendanceAttendance">Có Mặt</system:String>
+    <system:String x:Key="dailyAttendanceAbsent">Vắng</system:String>
+    <system:String x:Key="dailyAttendanceChart"> Biểu Đồ </system:String>
+    <system:String x:Key="dailyAttendanceCheckDisplayChart">Xem biểu đồ</system:String>
+    
+    <!--Leave Day Window-->
+    <system:String x:Key="leaveDayTotalDay">Số Ngày Nghỉ</system:String>
+    <system:String x:Key="leaveDayRemark">Ghi Chú</system:String>
+    <system:String x:Key="leaveDayDate">Ngày</system:String>
+    <system:String x:Key="leaveDayPaidLeave">Trả Lương</system:String>
+    
+    <!--Filter Data-->
+    <system:String x:Key="expanderFilter">   Lọc Dữ Liệu   </system:String>
+    <system:String x:Key="filterWorkingDay">từ Ngày Công đến</system:String>
+    <system:String x:Key="filterOverTime">từ Tăng Ca đến</system:String>
+    <system:String x:Key="filterAbsent">Vắng >= </system:String>
+    <system:String x:Key="filterLate">Trễ >=</system:String>
+    <system:String x:Key="filterRemark">Ghi Chú =</system:String>
+    
+    <!--Common Button-->
+    <system:String x:Key="commonButtonAdd">  Thêm  </system:String>
+    <system:String x:Key="commonButtonSave">  Lưu  </system:String>
+    <system:String x:Key="commonButtonUpdate">Cập Nhật</system:String>
+    <system:String x:Key="commonButtonDelete">  Xóa  </system:String>
+    <system:String x:Key="commonButtonSearch">Tìm Kiếm</system:String>
+    <system:String x:Key="commonButtonExecute">Xử Lý</system:String>
+    <system:String x:Key="commonButtonReport">Báo Cáo</system:String>
+    <system:String x:Key="commonButtonAddNew">Thêm Mới</system:String>
+    <system:String x:Key="commonButtonPreview">   Xem   </system:String>
+    <system:String x:Key="commonButtonFilter">Lọc</system:String>
+    <system:String x:Key="commonButtonRemove">Xóa</system:String>
+    <system:String x:Key="commonButtonPrint">In</system:String>
+    
+    <!--CommonGroupBox-->
+    <system:String x:Key="commonGroupBoxSearchingInformation">Tìm Kiếm</system:String>
+    <system:String x:Key="commonGroupBoxEmployeeInformation">Thông Tin Cá Nhân</system:String>
+    <system:String x:Key="commonGroupBoxLine">Phòng Ban (Chuyền)</system:String>
+    <system:String x:Key="commonGroupBoxCardSectionLineInformation">Thẻ, Chuyền, Xưởng ...</system:String>
+    <system:String x:Key="commonGroupBoxWorkerInformation">Thông Tin Nhân Viên</system:String>
+    <system:String x:Key="commonGroupBoxCardInformation">Thông Tin Thẻ</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftInfor">Thông Tin Ca Làm</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftTimeInTimeOut">Giờ Vào ... Giờ Ra</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftWorkingDayHoursMinutes">Ngày Công, Giờ Công ...</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftAbnormalSetting">Tùy Chỉnh Khác ...</system:String>
+    <system:String x:Key="commonGroupBoxOption">Tùy Chọn</system:String>
+    <system:String x:Key="commonGroupBoxDateRange">Khoảng Thời Gian</system:String>
+    <system:String x:Key="commonGroupBoxTimeRange">Khoảng Thời Gian</system:String>
+    <system:String x:Key="commonGroupBoxAddRecordTime">Thêm Giờ</system:String>
+    <system:String x:Key="commonGroupBoxOverTimeInformation">Thông Tin Giờ Tăng Ca</system:String>
+    <system:String x:Key="commonGroupBoxLeaveWithSalaryInformation">Thông Tin Ngày Vắng Chi Tiết</system:String>
+    <system:String x:Key="commonGroupBoxLeaveDayInformation">Thông Tin Ngày Nghỉ Phép</system:String>
+    <system:String x:Key="commonGroupBoxFilter">   Tìm Kiếm   </system:String>
+    <system:String x:Key="commonGroupBoxOther">   Khác ...   </system:String>
+    <system:String x:Key="commonGroupBoxImage">   Hình Ảnh   </system:String>
+    <system:String x:Key="commonGroupEmployeeStatistics">Chi tiết thống kê</system:String>
+    <system:String x:Key="commonGroupEmployeeStatisticsChkDisplay">Hiển thị</system:String>
+    
+    <!--Common TextBlock-->
+    <system:String x:Key="commonTextBlockFrom">Tổng</system:String>
+    <system:String x:Key="commonTextBlockSalaryRate">Tỷ Lệ Lương (%)</system:String>
+    <!--Common MenuItem-->
+    <system:String x:Key="commonMenuItemRemove">Xóa</system:String>
+    
+    <!--Common Radio Button-->
+    <system:String x:Key="commonRadioButtonExecutePerSection">Xưởng</system:String>
+    <system:String x:Key="commonRadioButtonExecutePerDepartment">Phòng Ban (Chuyền)</system:String>
+    <system:String x:Key="commonRadioButtonExecutePerEmployee">Nhân Viên</system:String>
+    <system:String x:Key="commonRadioButtonExecuteAll">Tất Cả</system:String>
+    <system:String x:Key="commonRadioButtonAttendance">Có Mặt</system:String>
+    <system:String x:Key="commonRadioButtonAbsent">Vắng</system:String>
+    <system:String x:Key="commonRadioAll">Tất Cả</system:String>
+    <system:String x:Key="commonRadioPaid">Trả Lương</system:String>
+    <system:String x:Key="commonRadioNotPaid">Không</system:String>
+    
+    <!--Common CheckBox-->
+    <system:String x:Key="commonCheckboxSunday">Chủ Nhật</system:String>
+    
+    <!--Common DateTime-->
+    <system:String x:Key="commonDatePickerFrom">Từ Ngày</system:String>
+    <system:String x:Key="commonDatePickerTo">Đến</system:String>
+    <system:String x:Key="commonDatePickerYear">Năm</system:String>
+    <system:String x:Key="commonDatePickerMonth">Tháng</system:String>
+    <system:String x:Key="commonDatePickerDate">Ngày</system:String>
+    <system:String x:Key="commonDatePickerDateBegin">Ngày Bắt Đầu</system:String>
+    <system:String x:Key="commonDatePickerDateEnd">Ngày Kết Thúc</system:String>
+    <system:String x:Key="commonDatePickerDateIn">Ngày Vào</system:String>
+    <system:String x:Key="commonDatePickerDateOut">Ngày Ra</system:String>
+    <system:String x:Key="commonDatePickerTime">Giờ</system:String>
+    <system:String x:Key="commonDatePickerTimeIn">Giờ Vào</system:String>
+    <system:String x:Key="commonDatePickerTimeOut">Giờ Ra</system:String>
+    <system:String x:Key="commonDatePickerOverTime">Số Giờ Tăng Ca</system:String>
+    <system:String x:Key="commonDatePickerTimeOutLimit">Giờ Ra Giới Hạn</system:String>
+    <system:String x:Key="commonTime">Giờ Quẹt Thẻ</system:String>
+    <system:String x:Key="commonDatePickerRemarks">Ghi Chú</system:String>
+
+    <!--SettingLanguage Window-->
+    <system:String x:Key="settingLanguageTxtChooseLanguage">Chọn Một Ngôn Ngữ:</system:String>
+    <system:String x:Key="settingLanguageRadEnglish">Tiếng Anh</system:String>
+    <system:String x:Key="settingLanguageRadVietnamese">Tiếng Việt</system:String>
+    
+    <!--System Messages-->
+    <system:String x:Key="messageNotFound">Không Tìm Thấy !</system:String>
+    <system:String x:Key="messageDataEmpty">Trống !</system:String>
+    <system:String x:Key="messageDataExist">Đã Tồn Tại !</system:String>
+    <system:String x:Key="messageDataIncorrect">Không Hợp Lệ !</system:String>
+    <system:String x:Key="messageDataDuplicate">Trùng Lặp !</system:String>
+    <system:String x:Key="messageDataIrRegular">Không Hợp Lệ !</system:String>
+    
+    <system:String x:Key="messageAddDataSucessful">Đã Lưu Dữ Liệu !</system:String>
+    <system:String x:Key="messageDeleteDataSucessful">Đã Xóa !</system:String>
+    <system:String x:Key="messageAddDataError">Có Lỗi Xảy Ra Khi Lưu Dữ Liệu, Vui Lòng Thử Lại !</system:String>
+    <system:String x:Key="messageConfirmClosing">Bạn Có Muốn Đóng Cửa Sổ ?</system:String>
+    <system:String x:Key="messageConfirmDelete">Bạn Có Muốn Xóa ?</system:String>
+    <system:String x:Key="messageConfirmRemove">Bạn Có Muốn Xóa ?</system:String>
+    <system:String x:Key="messageConfirmExecute">Xác Nhận Xử Lý Dữ Liệu</system:String>
+    
+    <!--System Title-->
+    <system:String x:Key="titleMainWindow">TL - Covid Test</system:String>
+    <system:String x:Key="titleCreateUpdateEmployeeWindow">TL NS - Thêm / Cập Nhật Nhân Viên</system:String>
+    <system:String x:Key="titleSettingLanguageWindow">TL NS - Cài Đặt Ngôn Ngữ</system:String>
+    <system:String x:Key="titleChangeEmployeeList">TL - NS Danh Sách Nhân Viên</system:String>
+    <system:String x:Key="titleChangeEmployeeCodeWindow">TL NS - Đổi Thẻ Từ</system:String>
+    <system:String x:Key="titleCheckingRecordingTimeWindow">TL NS - Kiểm Tra Dữ Liệu Quẹt Thẻ</system:String>
+    <system:String x:Key="titleCheckingRecordTimeDetail">TL NS - Chi Tiết Giờ Quẹt Thẻ</system:String>
+    <system:String x:Key="titleAddRecordTimeWindow">TL NS - Thêm / Cập Nhật Giờ Làm Việc</system:String>
+    <system:String x:Key="titleAddWorkingShiftWindow">TL NS - Thêm / Cập Nhật Ca Làm Việc</system:String>
+    <system:String x:Key="titleArrangeWorkingShiftWindow">TL NS - Sắp Xếp Ca Làm Việc</system:String>
+    <system:String x:Key="titleWorkingShiftDetailWindow">TL NS - Chi Tiết Ca Làm Việc</system:String>
+    <system:String x:Key="titleExecuteDataSalaryWindow">TL NS - Xử Lý Dữ Liệu Lương</system:String>
+    <system:String x:Key="titleWorkingShiftWindow">TL NS - Ca Làm Việc</system:String>
+    <system:String x:Key="titleOverTimeLimitWindow">TL NS - Giới Hạn Tăng Ca</system:String>
+    <system:String x:Key="titleLeaveWithSalaryWindow">TL - Lý Do Vắng Chi Tiết</system:String>
+    <system:String x:Key="titleAttendanceDetailWindow">TL NS - Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleAttendanceDetaiReportlWindow">TL NS - In Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleAttendanceSummaryReportlWindow">TL - NS Báo Cáo Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleWorkingShiftListWindow">TL NS - Danh Sách Ca Làm Việc</system:String>
+    <system:String x:Key="titleWorkingDailyReportWindow">TL NS - Báo Cáo Hàng Ngày</system:String>
+    <system:String x:Key="titleWorkingDailyReportPrintWindow">TL NS - In Báo Cáo Hàng Ngày</system:String>
+    <system:String x:Key="titleAddUpdateLeaveDayWindow">TL NS - Ngày Phép</system:String>
+    <system:String x:Key="titleWorkingDaySummaryWindow">TL NS - Ngày Công Tổng Quát</system:String>
+    <system:String x:Key="titleMissingRecordTime">TL NS - Thiếu Giờ (Ra, Vào)</system:String>
+    <system:String x:Key="titleEmployeeChartWindow">TL NS - Biểu Đồ</system:String>
+    <system:String x:Key="titleImportRemarksWorker">TL NS - Thêm Ghi Chú Công Nhân (Covid)</system:String>
+    
+    
+    <!-- Statistics -->
+    <system:String x:Key="statisticsTotal">Tổng</system:String>
+    <system:String x:Key="statisticsNewWorkerInMonth">Công nhân mới</system:String>
+    <system:String x:Key="statisticsResign">Nghỉ việc</system:String>
+    <system:String x:Key="statisticsRateSexual">Nam / Nữ</system:String>
+    <system:String x:Key="statisticsMonth"> / tháng</system:String>
+    
+    <!-- Day Of Week -->
+    <system:String x:Key="dayOfWeekMonday">Thứ Hai</system:String>
+    <system:String x:Key="dayOfWeekTuesday">Thứ Ba</system:String>
+    <system:String x:Key="dayOfWeekWednesday">Thứ Tư</system:String>
+    <system:String x:Key="dayOfWeekThursday">Thứ Năm</system:String>
+    <system:String x:Key="dayOfWeekFriday">Thứ Sáu</system:String>
+    <system:String x:Key="dayOfWeekSaturday">Thứ Bảy</system:String>
+    <system:String x:Key="dayOfWeekSunday">Chủ Nhật</system:String>
+    
+    <!--Worker Check In, Out Window-->
+    <system:String x:Key="workerCheckInWindowTitle">TL-HRS Scan giờ vào</system:String>
+    <system:String x:Key="workerCheckOutWindowTitle">TL-HRS Scan giờ ra</system:String>
+    <system:String x:Key="workerCheckInTitle">SCAN GIỜ VÀO</system:String>
+    <system:String x:Key="workerCheckOutTitle">SCAN GIỜ RA</system:String>
+    <system:String x:Key="workerCheckInScanCardId">Xin Mời Quẹt Thẻ</system:String>
+    <system:String x:Key="workerCheckInLblNotYetCheckOut">Did not complete the Covid test</system:String>
+    <system:String x:Key="menuWorkerCheckIn">Scan Giờ Vào</system:String>
+    <system:String x:Key="menuWorkerCheckOut">Scan Giờ Ra</system:String>
+    <system:String x:Key="menuReportCheckInOut">Báo Cáo Giờ Ra, Vào (Scan Thẻ)</system:String>
+    <system:String x:Key="reportCheckInOutWindowTitle">TL-HRS  Báo Cáo Giờ Ra, Vào (Scan Thẻ)</system:String>    
+    
+    <system:String x:Key="workerCheckInStatistics">Thống kê</system:String>
+    <system:String x:Key="workerCheckInStatisticsTestDate">Ngày</system:String>
+    <system:String x:Key="workerCheckInStatisticsTotalWorkList">Danh sách đi làm</system:String>
+    <system:String x:Key="workerCheckInStatisticsCurrentScan">Đã Scan</system:String>
+    <system:String x:Key="workerCheckInStatisticsRatio">Tỷ Lệ</system:String>    
+    
+    <system:String x:Key="workerCheckOutStatisticsCheckOutDate">Ngày kiểm tra</system:String>
+    <system:String x:Key="workerCheckOutStatisticsCheckIn">Check In</system:String>
+    <system:String x:Key="workerCheckOutStatisticsCheckOut">Check Out</system:String>
+    
+    <system:String x:Key="workerCheckOutMessageDoNotCheckIn">Chưa Check In</system:String>    
+    
+    <system:String x:Key="workerCheckInLblNextTestDate">Xét nghiệm vào ngày</system:String>     
+    <system:String x:Key="workerCheckInLblTestTime">Giờ xét nghiệm</system:String>     
+    <system:String x:Key="workerCheckInLblWorkTime">Giờ làm</system:String>     
+    <system:String x:Key="workerCheckInLblGetInQueue">Mời xếp hàng lấy mẫu</system:String>  
+    
+    <system:String x:Key="workerCheckInMessageNotPriority">KHÔNG CÓ TRONG DANH SÁCH ĐI LÀM</system:String>
+    <system:String x:Key="workerCheckInMessageExistInF0List">CÓ TRONG DANH SÁCH F0</system:String>
+    <system:String x:Key="workerCheckInMessageDoTheCovidTest">Làm Test Nhanh</system:String>
+    <system:String x:Key="workerCheckInMessageNotAllowed">Không Cho Phép</system:String>
+    <system:String x:Key="workerCheckOutMessageDoNotScan">Chưa Scan</system:String>
+    <system:String x:Key="workerCheckInMessageNotExistInTestList">Không Có Trong Danh Sách Test</system:String>
+    
+    <system:String x:Key="reportCheckInOutOption">Tùy Chọn</system:String>
+    <system:String x:Key="reportRadCheckIn">Giờ Vào</system:String>
+    <system:String x:Key="reportRadCheckOut">Giờ Ra</system:String>
+    <system:String x:Key="reportRadAll">Tất Cả</system:String>
+    <system:String x:Key="reportGridTimeIn">Giờ vào</system:String>
+    <system:String x:Key="reportGridTimeOut">Giờ ra</system:String>
+    <system:String x:Key="reportGridStatus">Trạng thái</system:String>
+    
+    
+    <!--ThienLoc Test Random-->
+    <system:String x:Key="tlTestRandomWindowTitle">ThienLoc Covid Quick Test Random</system:String>
+    <system:String x:Key="tlTestRandomMsgGetInQueue">Mời xếp hàng lấy mẫu</system:String>
+    <system:String x:Key="tlTestRandomMsgDoNotConfirmTestResult">Chưa xác nhận kết quả Test</system:String>
+    <system:String x:Key="tlTestRandomMsgNotAllowed">Not Allowed</system:String>
+    <system:String x:Key="tlTestRandomMsgWelcome">Welcome !</system:String>
+    <system:String x:Key="tlTestRandomNextTestDate">Lịch Test Ngày</system:String>
+    <system:String x:Key="tlTestRandomTestDate">Ngày Test</system:String>
+    <system:String x:Key="tlTestRandomTotalWorkerTest">Danh Sách Test</system:String>
+    <system:String x:Key="tlTestRandomNextCurrentTimeIn">Đã CheckIn</system:String>
+    <system:String x:Key="tlTestRandomTestRate">Tỷ lệ</system:String>
+    
+    <!--Create New Test Term Feature-->
+    <system:String x:Key="createTestTermWindowTitle">TL-HRS Tạo kỳ Test mới</system:String>   
+    <system:String x:Key="createTestTermGroupHeader">Thông tin kỳ Test Nhanh</system:String>   
+    <system:String x:Key="createTestTestDate">Ngày Test</system:String>
+    <system:String x:Key="createTestLblTestRate">Tỷ Lệ</system:String>
+    <system:String x:Key="createTestBtnCreate">Tạo Ngẫu Nhiên</system:String>
+    <system:String x:Key="createTestViewWorkerList">Danh sách Worker</system:String>
+    <system:String x:Key="createTestViewTestPlanList">Kế hoạch Test Covid</system:String>
+    <system:String x:Key="createTestTerm">Kỳ</system:String>
+    <system:String x:Key="createTestRound">Vòng</system:String>
+    
+    
+    <!--Test Random Feature-->
+    <system:String x:Key="testRandomWindowTitle">TL-HRS Test Nhanh Covid Ngẫu Nhiên</system:String>
+    <system:String x:Key="testRandomLblTime">Thời gian</system:String>
+    <system:String x:Key="testRandomHeader">TEST NHANH COVID RANDOM</system:String>
+    <system:String x:Key="testRandomGroupTestInfo">Thông tin Test</system:String>
+    <system:String x:Key="testRandomLblVaccine">Vaccine</system:String>
+    <system:String x:Key="testRandomLblVaccineNull">Chưa Tiêm</system:String>
+    <system:String x:Key="testRandomLblRequireTest">Làm Test Nhanh</system:String>
+    <system:String x:Key="testRandomLblWelcome">WELCOME</system:String>
+    <system:String x:Key="testRandomLinkButtonViewData">Xem danh sách</system:String>
+    
+    <system:String x:Key="testRandomInfoTestDate">Ngày kiểm tra</system:String>
+    <system:String x:Key="testRandomInfoTerm">Kỳ</system:String>
+    <system:String x:Key="testRandomInfoRound">Vòng</system:String>
+    <system:String x:Key="testRandomInfoTotalWorker">Tổng số</system:String>
+    <system:String x:Key="testRandomInfoCurrent">Hiện tại</system:String>
+    <system:String x:Key="testRandomInfoRandomRatio">Tỷ Lệ</system:String>    
+    
+    <system:String x:Key="testRequestListWindowTitle">TL-HRS Danh Sách Test</system:String>
+    <system:String x:Key="testRequestListHeader">DANH SÁCH CẦN TEST NHANH</system:String>
+    <system:String x:Key="testRequestListVaccince1st">Vắc Xin Mũi 1</system:String>
+    <system:String x:Key="testRequestListVaccince2nd">Vắc Xin Mũi 2</system:String>
+    <system:String x:Key="testRequestListRecordTime">Giờ Vào</system:String>
+    
+    <system:String x:Key="CovidTestPlanWindowTitle">Kế hoạch Test Covid</system:String>
+    <system:String x:Key="CovidTestPlanSelectDate">Chọn Ngày</system:String>
+    
+    
+    <!--Confirm Test Result Feature-->
+    <system:String x:Key="confirmTestResultWindowTitle">TL-HRS Xác Nhận Kết Quả Test</system:String>
+    <system:String x:Key="confirmTestResultHeader">XÁC NHẬN KẾT QUẢ TEST COVID</system:String>
+    <system:String x:Key="confirmTestResultFullName">Họ Tên</system:String>
+    <system:String x:Key="confirmTestResultEmployeeCode">Số Thẻ</system:String>
+    <system:String x:Key="confirmTestResultEmployeeId">Mã Worker</system:String>
+    <system:String x:Key="confirmTestResultDepartmentName">Phòng Ban (Chuyền)</system:String>
+    <system:String x:Key="confirmTestResultTestDate">Ngày Test</system:String>
+    <system:String x:Key="confirmTestResultTimeIn">Giờ CheckIn</system:String>
+    <system:String x:Key="confirmTestResultConfirmedTime">Thời gian xác nhận</system:String>
+    <system:String x:Key="confirmTestResultTestResult">Kết Quả Test</system:String>
+    <system:String x:Key="confirmTestResultConfirmedBy">Người xác nhận</system:String>
+    <system:String x:Key="confirmTestResultRemark">Ghi Chú</system:String>
+    
+    
+    <system:String x:Key="confirmTestResultMsgDoNotCheckIn">Chưa Hoàn Thành Test</system:String>
+    
+    <system:String x:Key="menuCreateNewTestTerm">Tạo Kỳ Test Covid Mới</system:String>
+    <system:String x:Key="menuConfirmTestResult">Xác Nhận Kết Quả Test Covid</system:String>
+    
+</ResourceDictionary>

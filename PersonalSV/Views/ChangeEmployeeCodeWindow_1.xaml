@@ -1,0 +1,137 @@
+﻿<Window x:Class="TLCovidTest.Views.ChangeEmployeeCodeWindow_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TLCovidTest.Views"
+        mc:Ignorable="d" FontSize="14"
+        Title="{DynamicResource ResourceKey=titleChangeEmployeeCodeWindow}" MinHeight="350" MinWidth="700" 
+        SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            
+        </Grid>
+        <GroupBox x:Name="grbWorkerInformation" Grid.Row="2" Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border x:Name="brSearch" Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <!--<TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxWorkerInformation}"/>-->
+                    <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonEmployee}" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtEmployeeIDSearch" MinWidth="120" Margin="5,0,0,0" Padding="2,0,0,0" BorderBrush="Black" PreviewKeyUp="TxtEmployeeIDSearch_PreviewKeyUp" FontSize="15" VerticalContentAlignment="Center" MaxLength="10"/>
+                    <Button x:Name="btnSearch" Grid.Column="2" HorizontalAlignment="Left" Margin="5,0,0,0" Click="btnSearch_Click" Template="{DynamicResource ResourceKey=ButtonTemplate}">
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Image Width="16" Height="16" Source="/Images/search.png"/>
+                                <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    </StackPanel>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="5"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeeName}" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding EmployeeName}" VerticalAlignment="Center" Grid.Column="1" FontWeight="Bold"/>
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeeCode}" VerticalAlignment="Center" Grid.Row="2"/>
+                <TextBlock x:Name="txtEmployeeCode" Text="{Binding EmployeeCode}" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" FontWeight="Bold"/>
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeeID}" VerticalAlignment="Center" Grid.Row="4"/>
+                <TextBlock x:Name="txtEmployeeID" Text="{Binding EmployeeID}" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" FontWeight="Bold"/>
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeeDepartment}" VerticalAlignment="Center" Grid.Row="6"/>
+                <TextBlock Text="{Binding DepartmentName}" VerticalAlignment="Center" Grid.Row="6" Grid.Column="1" FontWeight="Bold"/>
+
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeePosition}" Grid.Row="8" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding PositionName}" VerticalAlignment="Center" Grid.Row="8" Grid.Column="1" FontWeight="Bold"/>
+                
+                <TextBlock Text="{DynamicResource ResourceKey=commonEmployeeJoinDate}" Grid.Row="10" VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding JoinDate, StringFormat=MM/dd/yyyy}" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="2" Grid.Column="2" Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Height="{Binding ElementName=brSearch, Path=ActualHeight}" Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxCardInformation}" VerticalAlignment="Center" Margin="10,0,10,0"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                    <RadioButton x:Name="radChangeCard" Content="{DynamicResource ResourceKey=changeEmployeeCodeWindowRadChangeCard}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" GroupName="DoiThe" IsChecked="True" VerticalContentAlignment="Center" Checked="radChangeCard_Checked"/>
+                    <RadioButton x:Name="radResign" Content="{DynamicResource ResourceKey=changeEmployeeCodeWindowRadResign}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" Margin="0,5,0,0" GroupName="DoiThe" VerticalContentAlignment="Center" Checked="radResign_Checked"/>
+                </StackPanel>
+                <TextBlock Text="{DynamicResource ResourceKey=changeEmployeeCodeWindowTxtNewCardNumber}" Grid.Row="1" Grid.Column="1" Margin="0,0,0,5"/>
+                <TextBox x:Name="txtNewEmployeeCode" MinWidth="150" Grid.Row="2" Padding="2,0,0,0" Grid.Column="1" BorderBrush="Black" Foreground="Blue" PreviewKeyUp="txtNewEmployeeCode_PreviewKeyUp" FontSize="20" MaxLength="10"/>
+            </Grid>
+        </GroupBox>
+        <Grid Grid.Row="4" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="5" x:Name="btnSave" Template="{DynamicResource ResourceKey=ButtonTemplate}" IsEnabled="False" Click="btnSave_Click">
+                <Button.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="16" Height="16" Source="/Images/filesave.png"/>
+                        <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonSave}"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

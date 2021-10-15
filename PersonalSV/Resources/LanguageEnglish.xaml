@@ -1,0 +1,507 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    <!--Login Window-->
+    <system:String x:Key="logInWindowTitle">Login to System</system:String>
+    <system:String x:Key="logInWindowMsgWelcome">Welcome: </system:String>
+    <system:String x:Key="logInWindowMsgLoginFailed">Login Failed :(</system:String>
+    
+    <!--About Window-->
+    <system:String x:Key="aboutWindowTitle">About Me</system:String>
+    <system:String x:Key="aboutWindowProject">Project</system:String>
+    <system:String x:Key="aboutWindowVersion">Version</system:String>
+    <system:String x:Key="aboutWindowCreatedBy">Created By</system:String>
+    <system:String x:Key="aboutWindowContact">Contact</system:String>
+    
+    <!--Main Window-->
+    <system:String x:Key="mainWindowMenuManager">Manager</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerEmployee">Employee</system:String>
+    <system:String x:Key="mainWindowMenuManagerAddUpdateEmployee">Add / Update Employee</system:String>
+    <system:String x:Key="mainWindowMenuManagerEmployeeList">Employee List</system:String>
+    <system:String x:Key="mainWindowMenuManagerChangeCard">Change Employee's Card</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerWorkingTime">Working Time</system:String>
+    <system:String x:Key="mainWindowMenuManagerLeaveWithSalary">Absentees Detail</system:String>
+    <system:String x:Key="mainWindowMenuManagerCheckRecordingTime">Check Record Time</system:String>
+    <system:String x:Key="mainWindowMenuManagerAddNewRecordTime">Add / Update Record Time</system:String>
+    
+    <system:String x:Key="mainWindowMenuManagerWorkingShift">Working Shift</system:String>
+    <system:String x:Key="mainWindowMenuManagerAddNewWorkingShift">Add / Update Working Shift</system:String>  
+    <system:String x:Key="mainWindowMenuManagerArrangeWorkingShift">Arrange Working Shift</system:String>
+    <system:String x:Key="mainWindowMenuManagerWorkingShiftList">Working Shift List</system:String>
+    <system:String x:Key="mainWindowMenuManagerOverTimeLimit">Over Time Limit</system:String>
+    <system:String x:Key="mainWindowMenuManagerAttendanceDetail">Attendance Detail</system:String>
+    <system:String x:Key="mainWindowMenuManagerImportRemarksWorker">Import Remarks Worker</system:String>
+    <system:String x:Key="mainWindowMenuSalary">Salary</system:String>
+    <system:String x:Key="mainWindowMenuExecuteData">Execute Data</system:String>
+    <system:String x:Key="mainWindowMenuSalaryWorkingDayDetail">Working Day Detail</system:String>
+    <system:String x:Key="mainWindowMenuSettingLanguage">Language</system:String>
+    <system:String x:Key="mainWindowMenuReport">Reports</system:String>
+    <system:String x:Key="mainWindowMenuReportDaily">Daily Attendance</system:String>
+    <system:String x:Key="mainWindowMenuWorkingDaySummary">WorkingDay Summary</system:String>
+    <system:String x:Key="mainWindowMenuMissingRecordTime">Missing RecordTime</system:String>
+    <system:String x:Key="mainWindowMenuSettings">Settings</system:String>
+    <system:String x:Key="mainWindowMenuSettingAbout">About</system:String>
+    
+    <!--Common Title-->
+    <system:String x:Key="commonEmployee">Employee</system:String>
+    <system:String x:Key="commonEmployeeCode">Employee Code</system:String>
+    <system:String x:Key="commonEmployeeID">Employee ID</system:String>
+    <system:String x:Key="commonEmployeeName">Full Name</system:String>
+    <system:String x:Key="commonEmployeeGender">Gender</system:String>
+    <system:String x:Key="commonEmployeeGenderMan">Man</system:String>
+    <system:String x:Key="commonEmployeeGenderWoman">Woman</system:String>
+    <system:String x:Key="commonEmployeeNationID">Nation ID</system:String>
+    <system:String x:Key="commonEmployeeDayOfBirth">Day Of Birth</system:String>
+    <system:String x:Key="commonEmployeeAddress">Address</system:String>
+    <system:String x:Key="commonEmployeeAddressDisplay">Address</system:String>
+    <system:String x:Key="commonEmployeeAddressCurrent">Address Current</system:String>
+    <system:String x:Key="commonEmployeePhoneNumber">Phone Number</system:String>
+    <system:String x:Key="commonEmployeeDepartment">Department (Line)</system:String>
+    <system:String x:Key="commonEmployeeReason">Reason</system:String>
+    <system:String x:Key="commonEmployeePosition">Position</system:String>
+    <system:String x:Key="commonEmployeeJoinDate">JoinDate</system:String>
+    <system:String x:Key="commonEmployeeSection">Section</system:String>
+    <system:String x:Key="commonEmployeeRemark">Remark</system:String>
+    <system:String x:Key="commonTotalEmployee">Total Employee</system:String>
+    <system:String x:Key="commonSelectWorkingShiftNo">Select Working Shift</system:String>
+    <system:String x:Key="commonEmployeeList">EMPLOYEE LIST</system:String>
+    <system:String x:Key="commonDateSearch">Date</system:String>
+    <system:String x:Key="commonWorkingShiftNo">Shift No</system:String>
+    <system:String x:Key="commonEmployeeDate">Date</system:String>
+    
+    <!--Add new Employee-->
+    <system:String x:Key="addNewSelectAddress">Select address</system:String>
+    <system:String x:Key="addNewSelectAddressTemp">Select address current</system:String>
+    <system:String x:Key="addNewSelectProvince">Province</system:String>
+    <system:String x:Key="addNewSelectDistrict">District</system:String>
+    <system:String x:Key="addNewSelectCommune">Commune</system:String>
+    <system:String x:Key="addNewAddressDetail">Detail</system:String>
+    
+    
+    <!--Datagrid Header Special EmlpyeeList-->
+    <system:String x:Key="dgHeaderEmployeeCode">Employee&#10;   Code</system:String>
+    <system:String x:Key="dgHeaderEmployeeID">Employee&#10;     ID</system:String>
+    <system:String x:Key="dgHeaderEmployeeFullName">Full Name</system:String>
+    <system:String x:Key="dgHeaderDayOfBirth">Day Of Birth</system:String>
+    <system:String x:Key="dgHeaderDepartment">Department&#10;    (Line)</system:String>
+    <system:String x:Key="dgHeaderJoinDate">Join Date</system:String>
+    <system:String x:Key="dgHeaderNationID">Nation ID</system:String>
+    
+    <!--Change Employee Code Window-->
+    <system:String x:Key="changeEmployeeCodeWindowTxtNewCardNumber">New Card Number</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowMsgConfirm">Confirm Change ?</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowTxtStatus">Status</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowRadChangeCard">Change Card</system:String>
+    <system:String x:Key="changeEmployeeCodeWindowRadResign">Resign</system:String>
+    
+    <!--Check Recording Time Window-->
+    <system:String x:Key="checkRecordingTimeExpanderSearchByDepartment">Search By Department</system:String>
+    <system:String x:Key="checkRecordingTimeExpanderSearchByWorker">Search By Worker</system:String>
+    
+    <!--Record Time Detail Window-->
+    <system:String x:Key="recordTimeDetailDataGridHeaderDate">Date</system:String>
+    <system:String x:Key="recordTimeDetailDataGridHeaderTime">Time</system:String>
+    <system:String x:Key="recordTimeDetailDataGridHeaderCardNo">Card No</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderEmployeeCode">Employee&#10;Code</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderEmployeeID">Employee&#10;     ID</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDate">Date</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderShiftNo">Shift No</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn1">In 1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn1">Date In 1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut1">Out 1</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut1">Date Out 1</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn2">In 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn2">Date In 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut2">Out 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut2">Date Out 2</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceIn3">In 3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateIn3">Date In 3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceOut3">Out 3</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDateOut3">Date Out 3</system:String>
+    
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingDay">Working&#10;    Day</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingTime">Working&#10;   Time</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingOverTime">Over&#10;Time</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingTimeLate">Late</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingOverTime2"> Over&#10;Time 2</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceWorkingAbsent">Absent</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceRemark">Remark</system:String>
+    <system:String x:Key="checkRecordingTimeGridHeaderAttendanceDayOfWeek">Day of&#10; Week</system:String>
+    
+    
+    <system:String x:Key="checkRecordingTimeMiSetOverTimeLimit">1. Set OverTime Limit</system:String>
+    <system:String x:Key="checkRecordingTimeMiSetTimeInTimeOut">2. Set Time In Time Out</system:String>
+    <system:String x:Key="checkRecordingTimeMiSetLeaveDay">3. Set Leave Day</system:String>
+    
+    <!--Working Shift Window-->
+    <system:String x:Key="addUpdateWorkingShiftTxtWorkingShiftID">Working Shift ID</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtID">ID</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtName">Name</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtDay">Day</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtHour">Hour</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtTotalMinutes">Total Minutes</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStatus">Status</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStatusEnable">Enable</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtStautsDisable">Disable</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn1">In 1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut1">Out 1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn2">In 2</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut2">Out 2</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtIn3">In 3</system:String>
+    <system:String x:Key="addUpdateWorkingShiftTxtOut3">Out 3</system:String>
+    <system:String x:Key="addUpdateWorkingShiftOthers">Others</system:String>
+    <system:String x:Key="addUpdateWorkingShiftInOutManyTimes">In, Out Many Times</system:String>
+    <system:String x:Key="addUpdateWorkingShiftNotInOutManyTimes">Not</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_JB30BZ_0">0</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_JB30BZ_1">1</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_XXFZ1_0">0</system:String>
+    <system:String x:Key="addUpdateWorkingShiftWRK_XXFZ1_1">1</system:String>
+    
+    <!--Missing RecordTimeReport Window-->
+    <system:String x:Key="missingRecordTimeCardId">CardID</system:String>
+    <system:String x:Key="missingRecordTimeWorkerId">WorkerID</system:String>
+    <system:String x:Key="missingRecordTimeWorkerName">Name</system:String>
+    <system:String x:Key="missingRecordTimeDepartment">Department</system:String>
+    <system:String x:Key="missingRecordTimeDate">Date</system:String>
+    <system:String x:Key="missingRecordTimeJoinDate">Join Date</system:String>
+    <system:String x:Key="missingRecordTimeNoOfScan">No of Scan</system:String>
+    <system:String x:Key="missingRecordTimeRecordTime">RecordTime</system:String>
+    <system:String x:Key="missingRecordTimeFrom">From</system:String>
+    <system:String x:Key="missingRecordTimeTo">To</system:String>
+    <system:String x:Key="missingRecordBtnExcute">Excute</system:String>
+    <system:String x:Key="missingRecordRemarks">* Ignore Night Shift and RESIGNATION Department</system:String>
+    
+    
+    <system:String x:Key="workingShiftHeaderMinutesInOut1">Minutes&#10;In-Out 1</system:String>
+    <system:String x:Key="workingShiftHeaderMinutesInOut2">Minutes&#10;In-Out 2</system:String>
+    <system:String x:Key="workingShiftHeaderMinutesInOut3">Minutes&#10;In-Out 3</system:String>
+    <system:String x:Key="workingShiftHeaderTotalMinutes">Total&#10;Minutes</system:String>
+    
+    <system:String x:Key="workingShiftMinutesInOut1">Minutes In-Out 1</system:String>
+    <system:String x:Key="workingShiftMinutesInOut2">Minutes In-Out 2</system:String>
+    <system:String x:Key="workingShiftMinutesInOut3">Minutes In-Out 3</system:String>
+    <system:String x:Key="workingShiftTilte">WORKING SHIFT LIST</system:String>
+    
+    <system:String x:Key="workingShiftWRK_JBFZ">WRK_JBFZ (Minutes)</system:String>
+    
+    <!--Arrange Working Shift Window-->
+    <system:String x:Key="arrangeWorkingShiftListOfDepartment">List of Department</system:String>
+    <system:String x:Key="arrangeWorkingShiftListOfStaff">List of Employee</system:String>
+    <system:String x:Key="arrangeWorkingShiftListOfWorkingShift">List of Working Shift</system:String>
+    <system:String x:Key="arrangeWorkingShiftSelectWorkingShift">Select</system:String>
+    <system:String x:Key="arrangeWorkingShiftArrange">Arrange</system:String>
+    <system:String x:Key="arrangeWorkingShiftDelete">Remove</system:String>
+    <system:String x:Key="arrangeWorkingShiftViewDetail">View Detail</system:String>
+    <system:String x:Key="arrangeWorkingShiftInputEmployeeID">Input Employee ID</system:String>
+    
+    <!--Execute Salary Data Window-->
+    <system:String x:Key="executeSalaryDataProcessForEmployee">Processing Employee</system:String>
+    <system:String x:Key="executeSalaryDataProcessForDepartment">Processing Department</system:String>
+    <system:String x:Key="executeSalaryDataProcessCompleted">Completed !</system:String>
+    <system:String x:Key="executeSalaryDataPerSection">for Section</system:String>
+    <system:String x:Key="executeSalaryDataPerDepartment">for Department (Line)</system:String>
+    <system:String x:Key="executeSalaryDataPerEmployee">for Employee</system:String>
+    <system:String x:Key="executeSalaryAll">All</system:String>
+    
+    
+    <!--Daily Attendance Window-->
+    <system:String x:Key="dailyAttendanceSummary">Summary</system:String>
+    <system:String x:Key="dailyAttendanceQuantity">Quantity</system:String>
+    <system:String x:Key="dailyAttendanceAttendance">Attendance</system:String>
+    <system:String x:Key="dailyAttendanceAbsent">Absent</system:String>
+    <system:String x:Key="dailyAttendanceChart">   Chart   </system:String>
+    <system:String x:Key="dailyAttendanceCheckDisplayChart">Display Chart</system:String>
+    
+    
+    <!--Leave Day Window-->
+    <system:String x:Key="leaveDayTotalDay">Total Day</system:String>
+    <system:String x:Key="leaveDayRemark">Remark</system:String>
+    <system:String x:Key="leaveDayDate">Date</system:String>
+    <system:String x:Key="leaveDayPaidLeave">Paid Leave</system:String>
+    
+    <!--Filter Data-->
+    <system:String x:Key="expanderFilter">   Filter   </system:String>
+    <system:String x:Key="filterWorkingDay">from Working Day to</system:String>
+    <system:String x:Key="filterOverTime">from Over Time to</system:String>
+    <system:String x:Key="filterAbsent">Absent >= </system:String>
+    <system:String x:Key="filterLate">Late >= </system:String>
+    <system:String x:Key="filterRemark">Remark =</system:String>
+    
+    <!--Common Button-->
+    <system:String x:Key="commonButtonAdd">Add</system:String>
+    <system:String x:Key="commonButtonSave">Save</system:String>
+    <system:String x:Key="commonButtonUpdate">Update</system:String>
+    <system:String x:Key="commonButtonDelete">Delete</system:String>
+    <system:String x:Key="commonButtonSearch">Search</system:String>
+    <system:String x:Key="commonButtonExecute">Execute</system:String>
+    <system:String x:Key="commonButtonReport">Report</system:String>
+    <system:String x:Key="commonButtonAddNew">Add New</system:String>
+    <system:String x:Key="commonButtonChartDisplay">Chart</system:String>
+    <system:String x:Key="commonButtonPreview">  Preview  </system:String>
+    <system:String x:Key="commonButtonFilter">Filter</system:String>
+    <system:String x:Key="commonButtonRemove">Remove</system:String>
+    <system:String x:Key="commonButtonPrint">Print</system:String>
+    
+    <!--CommonGroupBox-->
+    <system:String x:Key="commonGroupBoxSearchingInformation">Searching Information</system:String>
+    <system:String x:Key="commonGroupBoxEmployeeInformation">Employee Information</system:String>
+    <system:String x:Key="commonGroupBoxLine">Department (Line)</system:String>
+    <system:String x:Key="commonGroupBoxCardSectionLineInformation">Card, Section, Line ...</system:String>
+    <system:String x:Key="commonGroupBoxWorkerInformation">Worker Information</system:String>
+    <system:String x:Key="commonGroupBoxCardInformation">Card Information</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftInfor">Working Shift Infor</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftTimeInTimeOut">Time In ... Time Out</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftWorkingDayHoursMinutes">Working Day, Hour, Minute ...</system:String>
+    <system:String x:Key="commonGroupBoxWorkingShiftAbnormalSetting">Abnormal Shift Settings</system:String>
+    <system:String x:Key="commonGroupBoxOption">Option</system:String>
+    <system:String x:Key="commonGroupBoxDateRange">Date Range</system:String>
+    <system:String x:Key="commonGroupBoxTimeRange">Time Range</system:String>
+    <system:String x:Key="commonGroupBoxOverTimeInformation">Over Time Information</system:String>
+    <system:String x:Key="commonGroupBoxLeaveWithSalaryInformation">Absentees Reason Information</system:String>
+    <system:String x:Key="commonGroupBoxLeaveDayInformation">Leave Day Information</system:String>
+    <system:String x:Key="commonGroupBoxAddRecordTime">Add Record Time</system:String>
+    <system:String x:Key="commonGroupBoxFilter">   Filter   </system:String>
+    <system:String x:Key="commonGroupBoxOther">   Other ...   </system:String>
+    <system:String x:Key="commonGroupBoxImage">      Image      </system:String>
+    <system:String x:Key="commonGroupEmployeeStatistics">Detail Statistics</system:String>
+    <system:String x:Key="commonGroupEmployeeStatisticsChkDisplay">Display</system:String>
+    
+    <!--Common DatePicker-->
+    <system:String x:Key="commonDatePickerFrom">From</system:String>
+    <system:String x:Key="commonDatePickerTo">To</system:String>
+    <system:String x:Key="commonDatePickerYear">Year</system:String>
+    <system:String x:Key="commonDatePickerMonth">Month</system:String>
+    <system:String x:Key="commonDatePickerDate">Date</system:String>
+    <system:String x:Key="commonDatePickerDateBegin">Begin Date</system:String>
+    <system:String x:Key="commonDatePickerDateEnd">End Date</system:String>
+    <system:String x:Key="commonDatePickerDateIn">Date In</system:String>
+    <system:String x:Key="commonDatePickerDateOut">Date Out</system:String>
+    <system:String x:Key="commonDatePickerTime">Time</system:String>
+    <system:String x:Key="commonDatePickerTimeIn">Time In</system:String>
+    <system:String x:Key="commonDatePickerTimeOut">Time Out</system:String>
+    <system:String x:Key="commonDatePickerOverTime">Over Time</system:String>
+    <system:String x:Key="commonDatePickerTimeOutLimit">Timeout Limit</system:String>
+    <system:String x:Key="commonTime">Record Time</system:String>
+    <system:String x:Key="commonCheckType">Check Type</system:String>
+    <system:String x:Key="commonDatePickerRemarks">Remarks</system:String>
+    
+    <!--Common TextBlock-->
+    <system:String x:Key="commonTextBlockFrom">Total</system:String>
+    <system:String x:Key="commonTextBlockSalaryRate">Salary Rate (%)</system:String>
+    
+    <!--Common MenuItem-->
+    <system:String x:Key="commonMenuItemRemove">Remove</system:String>
+    
+    <!--Common Radio Button-->
+    <system:String x:Key="commonRadioButtonExecutePerSection">Execute Per Section</system:String>
+    <system:String x:Key="commonRadioButtonExecutePerDepartment">Execute Per Department</system:String>
+    <system:String x:Key="commonRadioButtonExecutePerEmployee">Execute Per Employee</system:String>
+    <system:String x:Key="commonRadioButtonExecuteAll">All</system:String>
+    <system:String x:Key="commonRadioButtonAttendance">Attendance</system:String>
+    <system:String x:Key="commonRadioButtonAbsent">Absent</system:String>
+    <system:String x:Key="commonRadioAll">All</system:String>
+    <system:String x:Key="commonRadioPaid">Paid</system:String>
+    <system:String x:Key="commonRadioNotPaid">Not</system:String>
+    
+    
+    <!--Common CheckBox-->
+    <system:String x:Key="commonCheckboxSunday">Sunday</system:String>
+    
+    <!--SettingLanguage Window-->
+    <system:String x:Key="settingLanguageTxtChooseLanguage">Please choose a language:</system:String>
+    <system:String x:Key="settingLanguageRadEnglish">English</system:String>
+    <system:String x:Key="settingLanguageRadVietnamese">Vietnamese</system:String>
+    
+    <!--System Messages-->
+    <system:String x:Key="messageNotFound">Not Found !</system:String>
+    <system:String x:Key="messageDataEmpty">Empty !</system:String>
+    <system:String x:Key="messageDataExist">Exist !</system:String>
+    <system:String x:Key="messageDataIncorrect">Incorrect !</system:String>
+    <system:String x:Key="messageDataDuplicate">Duplicate !</system:String>
+    <system:String x:Key="messageDataIrRegular">Irregular !</system:String>
+    
+    
+    <system:String x:Key="messageAddDataSucessful">Excute Successful !</system:String>
+    <system:String x:Key="messageAddDataError">Excute Error, please try again !</system:String>
+    <system:String x:Key="messageDeleteDataSucessful">Deleted !</system:String>
+    
+    <system:String x:Key="messageConfirmClosing">Confirm Close ?</system:String>
+    <system:String x:Key="messageConfirmDelete">Confirm Delete ?</system:String>
+    <system:String x:Key="messageConfirmRemove">Confirm Remove ?</system:String>
+    <system:String x:Key="messageConfirmExecute">Confirm Execute</system:String>
+    
+    <!--System Title-->
+    <system:String x:Key="titleMainWindow">TL Covid Test</system:String>
+    <system:String x:Key="titleCreateUpdateEmployeeWindow">TL -Create / Update Employee</system:String>
+    <system:String x:Key="titleSettingLanguageWindow">TL -Setting Language</system:String>
+    <system:String x:Key="titleChangeEmployeeList">TL -Employee List</system:String>
+    <system:String x:Key="titleChangeEmployeeCodeWindow">TL -Change Employee's Card Number</system:String>
+    <system:String x:Key="titleCheckingRecordingTimeWindow">TL -Checking Record Time</system:String>
+    <system:String x:Key="titleCheckingRecordTimeDetail">TL -Record Time Detail</system:String>
+    <system:String x:Key="titleAddRecordTimeWindow">TL -Add / Update Record Time</system:String>
+    <system:String x:Key="titleAddWorkingShiftWindow">TL -Add / Update Working Shift</system:String>
+    <system:String x:Key="titleArrangeWorkingShiftWindow">TL -Arrange Working Shift</system:String>
+    <system:String x:Key="titleWorkingShiftDetailWindow">TL -Working Shift Detail</system:String>
+    <system:String x:Key="titleExecuteDataSalaryWindow">TL -Execute Salary Data</system:String>
+    <system:String x:Key="titleWorkingShiftWindow">TL -Working Shift</system:String>
+    <system:String x:Key="titleOverTimeLimitWindow">TL -Over Time Limit</system:String>
+    <system:String x:Key="titleLeaveWithSalaryWindow">TL -Absentees Detail</system:String>
+    <system:String x:Key="titleAttendanceDetailWindow">TL -Attendance Detail</system:String>
+    <system:String x:Key="titleAttendanceDetaiReportlWindow">TL -Print Attendance Detail</system:String>
+    <system:String x:Key="titleAttendanceSummaryReportlWindow">TL -Attendance Summmary Report</system:String>
+    <system:String x:Key="titleWorkingShiftListWindow">TL -Working Shift List</system:String>
+    <system:String x:Key="titleWorkingDailyReportWindow">TL -Daily Attendance Report</system:String>
+    <system:String x:Key="titleWorkingDailyReportPrintWindow">TL -Print Daily Attendance Report</system:String>
+    <system:String x:Key="titleAddUpdateLeaveDayWindow">TL -Leave Day</system:String>
+    <system:String x:Key="titleWorkingDaySummaryWindow">TL -WorkingDay Summary</system:String>
+    <system:String x:Key="titleMissingRecordTime">TL -Missing RecordTime Report</system:String>
+    <system:String x:Key="titleEmployeeChartWindow">TL -Employee Chart</system:String>
+    <system:String x:Key="titleImportRemarksWorker">TL -Import Remarks Worker</system:String>
+    
+    <!-- Statistics -->
+    <system:String x:Key="statisticsTotal">Total</system:String>
+    <system:String x:Key="statisticsNewWorkerInMonth">New worker</system:String>
+    <system:String x:Key="statisticsResign">Resignation</system:String>
+    <system:String x:Key="statisticsRateSexual">Man / Woman</system:String>
+    <system:String x:Key="statisticsMonth"> / month</system:String>
+    
+    <!-- Day Of Week -->
+    <system:String x:Key="dayOfWeekMonday">Monday</system:String>
+    <system:String x:Key="dayOfWeekTuesday">Tuesday</system:String>
+    <system:String x:Key="dayOfWeekWednesday">Wednesday</system:String>
+    <system:String x:Key="dayOfWeekThursday">Thursday</system:String>
+    <system:String x:Key="dayOfWeekFriday">Friday</system:String>
+    <system:String x:Key="dayOfWeekSaturday">Saturday</system:String>
+    <system:String x:Key="dayOfWeekSunday">Sunday</system:String>
+    
+    <!--Worker Check In Window-->
+    <system:String x:Key="workerCheckInWindowTitle">SV-HRS Worker Check In</system:String>
+    <system:String x:Key="workerCheckOutWindowTitle">SV-HRS Worker Check Out</system:String>
+    <system:String x:Key="workerCheckInTitle">CHECK IN</system:String>
+    <system:String x:Key="workerCheckOutTitle">CHECK OUT</system:String>
+    <system:String x:Key="workerCheckInScanCardId">Scan CardID</system:String>
+    <system:String x:Key="workerCheckInLblNotYetCheckOut">Did not complete the Covid test</system:String>
+    <system:String x:Key="menuWorkerCheckIn">Worker Check In</system:String>
+    <system:String x:Key="menuWorkerCheckOut">Worker Check Out</system:String>
+    <system:String x:Key="menuReportCheckInOut">Report Scan Time In,Out</system:String>
+    <system:String x:Key="reportCheckInOutWindowTitle">SV-HRS Report Scan Time In,Out</system:String>
+    
+    <system:String x:Key="workerCheckInStatistics">Statistics</system:String>
+    <system:String x:Key="workerCheckInStatisticsTestDate">Date</system:String>
+    <system:String x:Key="workerCheckInStatisticsTotalWorkList">Total WorkList</system:String>
+    <system:String x:Key="workerCheckInStatisticsCurrentScan">Scanned</system:String>
+    <system:String x:Key="workerCheckInStatisticsRatio">Ratio</system:String>
+    
+    <system:String x:Key="workerCheckOutStatisticsCheckOutDate">Date</system:String>
+    <system:String x:Key="workerCheckOutStatisticsCheckIn">Check In</system:String>
+    <system:String x:Key="workerCheckOutStatisticsCheckOut">Check Out</system:String>    
+    
+    <system:String x:Key="workerCheckInMessageNotPriority">Không có trong danh sách đi làm</system:String>
+    <system:String x:Key="workerCheckInMessageExistInF0List">Exist in F0 List</system:String>
+    <system:String x:Key="workerCheckInMessageDoTheCovidTest">Do The Covid Test</system:String>
+    <system:String x:Key="workerCheckInMessageNotAllowed">Not Allowed</system:String>
+    <system:String x:Key="workerCheckInMessageNotExistInTestList">Không có trong danh sách test</system:String>
+    
+    <system:String x:Key="workerCheckOutMessageDoNotCheckIn">Chưa CheckIn</system:String>
+    <system:String x:Key="workerCheckOutMessageDoNotScan">Chưa Scan</system:String>     
+    
+    <system:String x:Key="workerCheckInLblNextTestDate">Xét nghiệm vào ngày</system:String>     
+    <system:String x:Key="workerCheckInLblTestTime">Giờ xét nghiệm</system:String>     
+    <system:String x:Key="workerCheckInLblWorkTime">Giờ làm</system:String>     
+    <system:String x:Key="workerCheckInLblGetInQueue">Mời xếp hàng lấy mẫu</system:String>     
+    
+    
+    
+    <system:String x:Key="reportCheckInOutOption">Option</system:String>
+    <system:String x:Key="reportRadCheckIn">Check In</system:String>
+    <system:String x:Key="reportRadCheckOut">Check Out</system:String>
+    <system:String x:Key="reportRadAll">All</system:String>
+    <system:String x:Key="reportGridTimeIn">Time In</system:String>
+    <system:String x:Key="reportGridTimeOut">Time Out</system:String>
+    <system:String x:Key="reportGridStatus">Status</system:String>
+    
+    
+    <system:String x:Key="reportExportExcel">Export Excel</system:String>    
+    
+    <!--Test Random Feature-->
+    <system:String x:Key="testRandomWindowTitle">SV-HRS Covid Quick Test Random</system:String>
+    <system:String x:Key="testRandomLblTime">Time</system:String>
+    <system:String x:Key="testRandomHeader">COVID QUICK TEST RANDOM</system:String>
+    <system:String x:Key="testRandomGroupTestInfo">Test Info</system:String>
+    <system:String x:Key="testRandomLblVaccine">Vaccine</system:String>
+    <system:String x:Key="testRandomLblVaccineNull">Null</system:String>
+    <system:String x:Key="testRandomLblRequireTest">DO THE COVID TEST</system:String>
+    <system:String x:Key="testRandomLblWelcome">WELCOME</system:String>
+    <system:String x:Key="testRandomLinkButtonViewData">Display Datalist</system:String>
+    <system:String x:Key="testRandomInfoTestDate">Check Date</system:String>
+    <system:String x:Key="testRandomInfoTerm">Term</system:String>
+    <system:String x:Key="testRandomInfoRound">Round</system:String>
+    <system:String x:Key="testRandomInfoTotalWorker">Total Worker</system:String>
+    <system:String x:Key="testRandomInfoCurrent">Current</system:String>
+    <system:String x:Key="testRandomInfoRandomRatio">Ratio</system:String>
+    
+    <system:String x:Key="testRequestListWindowTitle">SV-HRS Test Request List</system:String>
+    <system:String x:Key="testRequestListHeader">QUICK TEST REQUEST LIST</system:String>
+    <system:String x:Key="testRequestListVaccince1st">Vaccince 1</system:String>
+    <system:String x:Key="testRequestListVaccince2nd">Vaccince 2</system:String>
+    <system:String x:Key="testRequestListRecordTime">TimeIn</system:String>
+    
+    
+    
+    <!--ThienLoc Test Random-->
+    <system:String x:Key="tlTestRandomWindowTitle">ThienLoc Covid Quick Test Random</system:String>
+    <system:String x:Key="tlTestRandomMsgGetInQueue">Mời xếp hàng lấy mẫu</system:String>
+    <system:String x:Key="tlTestRandomMsgDoNotConfirmTestResult">Chưa xác nhận kết quả Test</system:String>
+    <system:String x:Key="tlTestRandomMsgNotAllowed">Not Allowed</system:String>
+    <system:String x:Key="tlTestRandomMsgWelcome">Welcome !</system:String>
+    <system:String x:Key="tlTestRandomNextTestDate">Lịch Test Ngày</system:String>
+    <system:String x:Key="tlTestRandomTestDate">Ngày Test</system:String>
+    <system:String x:Key="tlTestRandomTotalWorkerTest">Danh Sách Test</system:String>
+    <system:String x:Key="tlTestRandomNextCurrentTimeIn">Đã CheckIn</system:String>
+    <system:String x:Key="tlTestRandomTestRate">Tỷ lệ</system:String>
+    
+    
+    <!--Create New Test Term Feature-->
+    <system:String x:Key="createTestTermWindowTitle">SV-HRS Create New Test Term</system:String>   
+    <system:String x:Key="createTestTermGroupHeader">Quick Covid Test Info</system:String>   
+    <system:String x:Key="createTestTestDate">Test Date</system:String>
+    <system:String x:Key="createTestLblTestRate">Test Rate</system:String>
+    <system:String x:Key="createTestBtnCreate">Create Random</system:String>
+    <system:String x:Key="createTestViewWorkerList">Worker List</system:String>
+    <system:String x:Key="createTestViewTestPlanList">Covid Test Plan</system:String>
+    <system:String x:Key="createTestTerm">Term</system:String>
+    <system:String x:Key="createTestRound">Round</system:String>
+    
+    <system:String x:Key="CovidTestPlanWindowTitle">Covid Test Plan</system:String>
+    <system:String x:Key="CovidTestPlanSelectDate">Select Date</system:String>
+    
+    
+    <!--Confirm Test Result Feature-->
+    <system:String x:Key="confirmTestResultWindowTitle">SV-HRS Confirm Covid Test Result</system:String>
+    <system:String x:Key="confirmTestResultHeader">CONFIRM COVID TEST RESULT</system:String>
+    <system:String x:Key="confirmTestResultFullName">FullName</system:String>
+    <system:String x:Key="confirmTestResultEmployeeCode">Employee Code</system:String>
+    <system:String x:Key="confirmTestResultEmployeeId">Employee ID</system:String>
+    <system:String x:Key="confirmTestResultDepartmentName">Department (Line)</system:String>
+    <system:String x:Key="confirmTestResultTestDate">Test Date</system:String>
+    <system:String x:Key="confirmTestResultTimeIn">CheckIn</system:String>
+    <system:String x:Key="confirmTestResultConfirmedTime">Confirmed Time</system:String>
+    <system:String x:Key="confirmTestResultTestResult">Test Result</system:String>
+    <system:String x:Key="confirmTestResultConfirmedBy">Confirmed By</system:String>
+    <system:String x:Key="confirmTestResultRemark">Remark</system:String>
+    
+    <system:String x:Key="confirmTestResultMsgDoNotCheckIn">Chưa Hoàn Thành Test</system:String>
+    
+    <system:String x:Key="menuCreateNewTestTerm">Create New Test Term</system:String>
+    <system:String x:Key="menuConfirmTestResult">Confirm Covid Test Result</system:String>
+    
+    
+    
+</ResourceDictionary>

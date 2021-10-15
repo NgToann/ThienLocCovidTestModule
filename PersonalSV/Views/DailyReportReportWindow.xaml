@@ -1,0 +1,11 @@
+﻿<Window xmlns:rpv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.Reportviewer.WinForms" 
+        x:Class="TLCovidTest.Views.DailyReportReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource ResourceKey=titleWorkingDailyReportPrintWindow}" Height="300" Width="300" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded">
+    <Grid>
+        <WindowsFormsHost>
+            <rpv:ReportViewer x:Name="reportViewer" ShowFindControls="False"/>
+        </WindowsFormsHost>
+    </Grid>
+</Window>

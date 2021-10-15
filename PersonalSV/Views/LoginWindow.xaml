@@ -1,0 +1,70 @@
+﻿<Window x:Class="TLCovidTest.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TLCovidTest.Views"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="{DynamicResource logInWindowTitle}" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" Closed="Window_Closed">
+    <Grid>
+        <Border Width="265" Height="297">
+            <Image Source="/Images/login-tl.png"/>
+        </Border>
+        <TextBox x:Name="txtUserName" BorderBrush="Transparent" Width="165" Background="Transparent" FontSize="16" Margin="30,132,70,134" VerticalContentAlignment="Center" Padding="4,0,0,0">
+            <TextBox.Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Style.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <PasswordBox x:Name="txtPassword" BorderBrush="Transparent" Background="Transparent" Width="165" FontSize="16" Margin="30,183,70,82" VerticalContentAlignment="Center" Padding="4,0,0,0">
+            <PasswordBox.Style>
+                <Style TargetType="{x:Type PasswordBox}">
+                    <Style.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </PasswordBox.Style>
+        </PasswordBox>
+        <Button x:Name="btnLogin" Margin="29,234,29,29" Background="Transparent" BorderBrush="Transparent" BorderThickness="0,0,0,0" Click="btnLogin_Click" IsDefault="True">
+            <Button.Content>
+                <Image Width="210" Height="34" Source="/Images/btnlogin.png" Stretch="Fill"/>
+            </Button.Content>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="BorderBrush" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

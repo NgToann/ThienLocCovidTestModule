@@ -1,0 +1,92 @@
+﻿<Window x:Class="TLCovidTest.Views.ExecuteDataSalaryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="13" ResizeMode="CanMinimize"
+        Title="{DynamicResource ResourceKey=titleExecuteDataSalaryWindow}" Width="580" SizeToContent="Height" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Margin="2">
+        <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxOption}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}" VerticalAlignment="Bottom"/>
+                <DatePicker Grid.Row="1" x:Name="dpFrom"/>
+
+                <TextBlock Grid.Row="1"  Grid.Column="1" Text="->" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Column="2" Text="{DynamicResource ResourceKey=commonDatePickerTo}" VerticalAlignment="Bottom"/>
+                <DatePicker Grid.Row="1"  Grid.Column="2" x:Name="dpTo" />
+
+                <Grid Grid.Row="2" Grid.ColumnSpan="3" Margin="0,10,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="7"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <RadioButton x:Name="radExecutePerSection" Content="{DynamicResource ResourceKey=commonRadioButtonExecutePerSection}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" VerticalAlignment="Center" GroupName="ExecuteMode" IsChecked="True" Checked="radExecutePerSection_Checked"/>
+                    <ComboBox Grid.Column="2" x:Name="cboSection" Height="{Binding ElementName=dpFrom, Path=ActualHeight}" DisplayMemberPath="DepartmentFullName" IsEnabled="{Binding IsChecked, ElementName=radExecutePerSection}" SelectionChanged="cboSection_SelectionChanged" VerticalContentAlignment="Center"/>
+
+                    <RadioButton Grid.Row="2" x:Name="radExcuteByDeparment" Content="{DynamicResource ResourceKey=commonRadioButtonExecutePerDepartment}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" VerticalAlignment="Center" GroupName="ExecuteMode" Checked="radExcuteByDeparment_Checked"/>
+                    <ComboBox Grid.Row="2" Grid.Column="2" Height="{Binding ElementName=dpFrom, Path=ActualHeight}" x:Name="cboDepartment" IsEnabled="{Binding IsChecked, ElementName=radExcuteByDeparment}" VerticalContentAlignment="Center"/>
+
+                    <RadioButton Grid.Row="4" x:Name="radExcuteByEmployee" Content="{DynamicResource ResourceKey=commonRadioButtonExecutePerEmployee}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" VerticalAlignment="Center" GroupName="ExecuteMode" Checked="radExcuteByEmployee_Checked"/>
+                    <TextBox Grid.Row="4" Grid.Column="2" Height="{Binding ElementName=dpFrom, Path=ActualHeight}" x:Name="txtEmployeeID" FontSize="15" BorderBrush="Black" IsEnabled="{Binding IsChecked, ElementName=radExcuteByEmployee}" VerticalContentAlignment="Center"/>
+                    
+                    <RadioButton Grid.Row="6" x:Name="radExcuteAll" Content="{DynamicResource ResourceKey=commonRadioButtonExecuteAll}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" VerticalAlignment="Center" GroupName="ExecuteMode" Checked="radExcuteAll_Checked"/>
+                </Grid>
+
+                <Grid Grid.Row="3" Grid.ColumnSpan="3" Margin="0,10,0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="1" x:Name="btnExecute" Height="38" Template="{DynamicResource ResourceKey=ButtonTemplate}" IsEnabled="False" Click="btnExecute_Click">
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Image Width="16" Height="16" Source="/Images/arrow_switch.png"/>
+                                <TextBlock Margin="2,0,0,0" Grid.Column="1" Text="{DynamicResource ResourceKey=commonButtonExecute}"/>
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                </Grid>
+
+                <Grid Grid.Row="4" Grid.ColumnSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <ProgressBar x:Name="prgProcessing" Height="18"/>
+                    <TextBlock x:Name="txtProcessing" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Italic" Foreground="Blue" FontSize="11"/>
+                    <TextBlock Grid.Row="1" x:Name="txtStatus" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Blue" FontStyle="Italic" TextWrapping="Wrap"/>
+                </Grid>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

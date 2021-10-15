@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SalarySummaryDataSet" targetNamespace="http://tempuri.org/SalarySummaryDataSet.xsd" xmlns:mstns="http://tempuri.org/SalarySummaryDataSet.xsd" xmlns="http://tempuri.org/SalarySummaryDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SalarySummaryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SalarySummaryDataSet" msprop:Generator_UserDSName="SalarySummaryDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalarySummaryTable" msprop:Generator_TableClassName="SalarySummaryTableDataTable" msprop:Generator_TableVarName="tableSalarySummaryTable" msprop:Generator_RowChangedName="SalarySummaryTableRowChanged" msprop:Generator_TablePropName="SalarySummaryTable" msprop:Generator_RowDeletingName="SalarySummaryTableRowDeleting" msprop:Generator_RowChangingName="SalarySummaryTableRowChanging" msprop:Generator_RowEvHandlerName="SalarySummaryTableRowChangeEventHandler" msprop:Generator_RowDeletedName="SalarySummaryTableRowDeleted" msprop:Generator_RowClassName="SalarySummaryTableRow" msprop:Generator_UserTableName="SalarySummaryTable" msprop:Generator_RowEvArgName="SalarySummaryTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeCode" msprop:Generator_ColumnVarNameInTable="columnEmployeeCode" msprop:Generator_ColumnPropNameInRow="EmployeeCode" msprop:Generator_ColumnPropNameInTable="EmployeeCodeColumn" msprop:Generator_UserColumnName="EmployeeCode" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeID" msprop:Generator_ColumnVarNameInTable="columnEmployeeID" msprop:Generator_ColumnPropNameInRow="EmployeeID" msprop:Generator_ColumnPropNameInTable="EmployeeIDColumn" msprop:Generator_UserColumnName="EmployeeID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName" msprop:Generator_ColumnVarNameInTable="columnEmployeeName" msprop:Generator_ColumnPropNameInRow="EmployeeName" msprop:Generator_ColumnPropNameInTable="EmployeeNameColumn" msprop:Generator_UserColumnName="EmployeeName" type="xs:string" minOccurs="0" />
+              <xs:element name="DepartmentName" msprop:Generator_ColumnVarNameInTable="columnDepartmentName" msprop:Generator_ColumnPropNameInRow="DepartmentName" msprop:Generator_ColumnPropNameInTable="DepartmentNameColumn" msprop:Generator_UserColumnName="DepartmentName" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalWorkingDay" msprop:Generator_ColumnVarNameInTable="columnTotalWorkingDay" msprop:Generator_ColumnPropNameInRow="TotalWorkingDay" msprop:Generator_ColumnPropNameInTable="TotalWorkingDayColumn" msprop:Generator_UserColumnName="TotalWorkingDay" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalWorkingTime" msprop:Generator_ColumnVarNameInTable="columnTotalWorkingTime" msprop:Generator_ColumnPropNameInRow="TotalWorkingTime" msprop:Generator_ColumnPropNameInTable="TotalWorkingTimeColumn" msprop:Generator_UserColumnName="TotalWorkingTime" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalOverTime" msprop:Generator_ColumnVarNameInTable="columnTotalOverTime" msprop:Generator_ColumnPropNameInRow="TotalOverTime" msprop:Generator_ColumnPropNameInTable="TotalOverTimeColumn" msprop:Generator_UserColumnName="TotalOverTime" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalLate" msprop:Generator_ColumnVarNameInTable="columnTotalLate" msprop:Generator_ColumnPropNameInRow="TotalLate" msprop:Generator_ColumnPropNameInTable="TotalLateColumn" msprop:Generator_UserColumnName="TotalLate" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalOverTime2" msprop:Generator_ColumnVarNameInTable="columnTotalOverTime2" msprop:Generator_ColumnPropNameInRow="TotalOverTime2" msprop:Generator_ColumnPropNameInTable="TotalOverTime2Column" msprop:Generator_UserColumnName="TotalOverTime2" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalAbsent" msprop:Generator_ColumnVarNameInTable="columnTotalAbsent" msprop:Generator_ColumnPropNameInRow="TotalAbsent" msprop:Generator_ColumnPropNameInTable="TotalAbsentColumn" msprop:Generator_UserColumnName="TotalAbsent" type="xs:string" minOccurs="0" />
+              <xs:element name="No" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

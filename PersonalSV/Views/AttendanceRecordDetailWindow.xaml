@@ -1,0 +1,432 @@
+﻿<Window x:Class="TLCovidTest.Views.AttendanceRecordDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="13" Loaded="Window_Loaded" WindowState="Maximized"
+        Title="{DynamicResource ResourceKey=titleAttendanceDetailWindow}" MinHeight="500" MinWidth="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxSearchingInformation}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}"/>
+                <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerTo}" Grid.Column="2"/>
+                <DatePicker x:Name="dpFrom" Grid.Row="1" Margin="0,2,0,0"/>
+                <DatePicker x:Name="dpTo" Grid.Row="1" Grid.Column="2" Margin="0,2,0,0"/>
+
+                <TextBlock Grid.Row="2" Text="{DynamicResource ResourceKey=commonEmployee}" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="3" x:Name="txtEmployeeIDSearch" BorderBrush="Black" PreviewKeyUp="TxtEmployeeIDSearch_PreviewKeyUp" FontSize="15" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="TxtEmployeeIDSearch_PreviewGotKeyboardFocus"/>
+
+                <Grid Grid.Row="3" Grid.Column="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnSearch" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnSearch_Click" Cursor="Hand">
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Image Width="16" Height="16" Source="/Images/search.png"/>
+                                <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonSearch}"/>
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    <Button Grid.Column="1" Margin="5,0,0,0" x:Name="btnAddSearch" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnAddSearch_Click" Cursor="Hand">
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Image Width="16" Height="16" Source="/Images/mini_add.png"/>
+                                <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonAdd}"/>
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    
+                </Grid>
+            </Grid>
+        </GroupBox>
+        
+        <TreeView x:Name="treeDepartments" Grid.Row="1" BorderBrush="Transparent">
+        </TreeView>
+
+        <Expander Grid.Row="2">
+            <Expander.Header>
+                <TextBlock Text="{DynamicResource ResourceKey=expanderFilter}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Foreground="Blue"/>
+            </Expander.Header>
+            <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+                <!--<GroupBox.Header>
+                    --><!--<Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                        <TextBlock Text="{DynamicResource ResourceKey=commonGroupBoxFilter}"/>
+                    </Border>--><!--
+                </GroupBox.Header>-->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox MinWidth="50" MaxWidth="50" TextAlignment="Center"  x:Name="txtFilterWorkingDay" BorderBrush="Black" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+                        <TextBlock Grid.Column="1" Margin="2,0,2,0" Text="{DynamicResource ResourceKey=filterWorkingDay}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBox MinWidth="50" MaxWidth="50" TextAlignment="Center"  Grid.Column="2" x:Name="txtFilterWorkingDayTo" BorderBrush="Black" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+                        
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="0,2,0,0" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="txtFilterOverTime" MinWidth="50" MaxWidth="50" TextAlignment="Center" Foreground="Blue" FontWeight="Bold" BorderBrush="Black" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+                        <TextBlock Grid.Column="1" Margin="2,0,2,0" HorizontalAlignment="Center" Text="{DynamicResource ResourceKey=filterOverTime}" VerticalAlignment="Center"/>
+                        <TextBox Grid.Column="2" x:Name="txtFilterOverTimeTo" MinWidth="50" TextAlignment="Center" MaxWidth="50" Foreground="Blue" FontWeight="Bold" BorderBrush="Black" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+                    </Grid>
+
+                    <TextBlock Grid.Row="2" Text="{DynamicResource ResourceKey=filterAbsent}" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtFilterAbsent" Grid.Row="2" Grid.Column="1" BorderBrush="Black" VerticalContentAlignment="Center" Margin="0,2,0,0" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+
+                    <TextBlock Grid.Row="3" Text="{DynamicResource ResourceKey=filterLate}" VerticalAlignment="Center"/>
+                    <TextBox x:Name="txtFilterLate" Grid.Row="3" Grid.Column="1" BorderBrush="Black" VerticalContentAlignment="Center" Margin="0,2,0,0" PreviewGotKeyboardFocus="txtFilterWorkingDay_PreviewGotKeyboardFocus" Padding="3"/>
+
+                    <TextBlock Grid.Row="4" Text="{DynamicResource ResourceKey=filterRemark}" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="cboRemark" Grid.Row="4" Grid.Column="1" VerticalContentAlignment="Center" Margin="0,2,0,0"/>
+
+                    <Grid Grid.Row="5" Grid.ColumnSpan="2" Margin="0,5,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnRemove" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnRemove_Click">
+                            <Button.Content>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Width="16" Height="16" Source="/Images/mini_delete.png"/>
+                                    <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonRemove}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+                        <Button Grid.Column="2" x:Name="btnFilter" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnFilter_Click">
+                            <Button.Content>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Width="16" Height="16" Source="/Images/filter.png"/>
+                                    <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonFilter}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+            </GroupBox>
+        </Expander>
+        
+        <Grid Grid.Column="2" Grid.RowSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="txtTitle" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Times New Roman" Foreground="Blue" FontWeight="Bold" Padding="10"/>
+            <DataGrid Grid.Row="1" x:Name="dgAttendanceRecordResult" AutoGenerateColumns="False" BorderBrush="Black" RowHeaderWidth="2" CanUserSortColumns="False"
+                      CanUserAddRows="False" SelectionUnit="FullRow" HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" ClipboardCopyMode="IncludeHeader"
+                      FrozenColumnCount="4" IsReadOnly="True" FontFamily="Times New Roman" FontSize="14" MouseLeftButtonDown="dgAttendanceResult_MouseLeftButtonDown">
+                <DataGrid.Resources>
+                    <Style TargetType="{x:Type DataGridRow}">
+                        <Setter Property="Foreground" Value="{Binding RowForeground, UpdateSourceTrigger=PropertyChanged}"/>
+                    </Style>
+                </DataGrid.Resources>
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        <Setter Property="FontSize" Value="15"/>
+                        <Setter Property="Background" Value="{DynamicResource ResourceKey=DataGridRowHeaderBG}"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Setter Property="BorderThickness" Value="0.5,0.5,0.5,0"/>
+                        <Setter Property="Padding" Value="5"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+                <DataGrid.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Foreground" Value="Blue"/>
+                                <Setter Property="Background" Value="{DynamicResource ResourceKey=GridRowBackground}"/>
+                                <Setter Property="FontWeight" Value="Semibold"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,0"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.CellStyle>
+                <!--<DataGrid.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="miSetOverTimeLimit" FontSize="14" Header="{DynamicResource ResourceKey=checkRecordingTimeMiSetOverTimeLimit}" Click="miSetOverTimeLimit_Click"/>
+                    </ContextMenu>
+                </DataGrid.ContextMenu>-->
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn x:Name="col0" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDayOfWeek}" ClipboardContentBinding="{Binding DayOfWeekFull}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding DayOfWeekFull}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn x:Name="col1" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderEmployeeID}" ClipboardContentBinding="{Binding EmployeeID}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding EmployeeID}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn x:Name="col2" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDate}" ClipboardContentBinding="{Binding AttendanceDate, StringFormat=dd/MM/yyyy}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceDate, StringFormat=dd/MM/yyyy}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn x:Name="colShiftNo" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderShiftNo}" ClipboardContentBinding="{Binding ShiftNo}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ShiftNo, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="colTime1" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceIn1}" ClipboardContentBinding="{Binding AttendanceIn1}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceIn1, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="colTime2" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceOut1}" ClipboardContentBinding="{Binding AttendanceOut1}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceOut1, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="col6" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceIn2}" ClipboardContentBinding="{Binding AttendanceIn2}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceIn2, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--<DataGridTextColumn Binding="{Binding AttendanceDateIn2, StringFormat=dd/MM/yyyy}" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDateIn2}"/>-->
+
+                    <DataGridTemplateColumn x:Name="col7" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceOut2}" ClipboardContentBinding="{Binding AttendanceOut2}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceOut2, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--<DataGridTextColumn Binding="{Binding AttendanceDateOut2, StringFormat=dd/MM/yyyy}" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDateOut2}"/>-->
+
+                    <DataGridTemplateColumn x:Name="col8" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceIn3}" ClipboardContentBinding="{Binding AttendanceIn3}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceIn3, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--<DataGridTextColumn Binding="{Binding AttendanceDateIn3, StringFormat=dd/MM/yyyy}" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDateIn3}"/>-->
+
+                    <DataGridTemplateColumn x:Name="col9" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceOut3}" ClipboardContentBinding="{Binding AttendanceOut3}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding AttendanceOut3, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--<DataGridTextColumn Binding="{Binding AttendanceDateOut3, StringFormat=dd/MM/yyyy}" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceDateOut3}"/>-->
+
+                    <DataGridTemplateColumn x:Name="col10" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingDay}" ClipboardContentBinding="{Binding WorkingDay}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding WorkingDay, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn x:Name="col11" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingTime}" ClipboardContentBinding="{Binding WorkingTime}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding WorkingTime, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="colOverTime" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingOverTime}" ClipboardContentBinding="{Binding WorkingOverTime}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding WorkingOverTime, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="col13" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingTimeLate}" ClipboardContentBinding="{Binding TimeLate}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeLate, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn x:Name="col14" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingOverTime2}" ClipboardContentBinding="{Binding OverTime2}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding OverTime2, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="col15" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceWorkingAbsent}" ClipboardContentBinding="{Binding Absent}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Absent, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn x:Name="col16" Header="{DynamicResource ResourceKey=checkRecordingTimeGridHeaderAttendanceRemark}" ClipboardContentBinding="{Binding Remarks}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Remarks, UpdateSourceTrigger=PropertyChanged}" Margin="3,1,3,1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Border Grid.Row="2" x:Name="brTotal" Height="28" BorderBrush="Black" BorderThickness="1,0,1,1" Visibility="Collapsed">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding ElementName=dgAttendanceRecordResult, Path=RowHeaderWidth}" />
+                        <ColumnDefinition Width="{Binding ElementName=col0, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col1, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col2, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=colShiftNo, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=colTime1, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=colTime2, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col6, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col7, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col8, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col9, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col10, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col11, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=colOverTime, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col13, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col14, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col15, Path=ActualWidth}"/>
+                        <ColumnDefinition Width="{Binding ElementName=col16, Path=ActualWidth}"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="1" Grid.ColumnSpan="10" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock Text="Total" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="11" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalWorkingDay" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="12" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalWorkingTime" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="13" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalWorkingOverTime" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="14" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalLate" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="15" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalOverTime2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Column="16" BorderBrush="Black" BorderThickness="0,0,1,0">
+                        <TextBlock x:Name="txtTotalAbsent" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" FontFamily="Times New Roman" FontWeight="Bold"/>
+                    </Border>
+                </Grid>
+            </Border>
+            <Grid Grid.Row="3" Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="txtGriNumber" Grid.ColumnSpan="2" VerticalAlignment="Top" FontStyle="Italic" Foreground="Blue"/>
+                <Button x:Name="btnReportSummary" Margin="5,5,0,0" Grid.Column="3" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnReportSummary_Click" Cursor="Hand">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/large_chart.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonReport}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="btnReport" Margin="5,5,0,0" Grid.Column="4" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnReport_Click" Cursor="Hand">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/print.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonPrint}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>

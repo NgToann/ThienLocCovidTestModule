@@ -1,0 +1,1887 @@
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.g.cs
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\PersonalSV\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\PersonalSV\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\Desktop\PersonalSV\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CreateUppdateEmployeeWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\ToanNg\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\CheckingRecordTimeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\RecordTimeDetailWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddLeaveDayWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddLeaveDayWindow.g.cs
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\IT02\Desktop\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csprojResolveAssemblyReference.cache
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\RdlCompile.cache
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.csprojResolveAssemblyReference.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\RdlCompile.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_1\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csprojResolveAssemblyReference.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.Cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\RdlCompile.cache
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\MainWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\App.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\App.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.exe.config
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\PersonalSV.exe.config
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\MainWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\App.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\App.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_2 CDing\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\App.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\App.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_3 Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\App.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\App.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_4 Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\RadioTemplate.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\App.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\App.g.cs
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+D:\Users\IT02\OneDrive\SVProject\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\BackgroundBorder.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\ButtonTemplate.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\Binding.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\GroupboxTemplate.baml
+F:\SV PROJECT\HRS\Original_5 Cding\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_6\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_6\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_7\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_7\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_7Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_8Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_9 Cding\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_10 Revise AbnormalShift\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\WPFToolkit.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.Wpf.dll
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.pdb
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.xml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.Wpf.pdb
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\bin\Debug\LiveCharts.Wpf.xml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.baml
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.g.cs
+F:\SV PROJECT\HRS\Original_11 Add Missing RecordTime\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\PersonalSV.exe.config
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\PersonalSV.exe
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\PersonalSV.pdb
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.dll
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.pdb
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.xml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.AssemblyReference.cache
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\MainWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\App.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\App.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.exe
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\PersonalSV.exe.config
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\WPFToolkit.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\LiveCharts.Wpf.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.g.resources
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.exe
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\SVHRS\PersonalSV\obj\x86\Debug\PersonalSV.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.exe.config
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.exe
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\WPFToolkit.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.pdb
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\PersonalSV.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\MainWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\LanguageVietnamese.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\ControlStyle.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LineListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\App.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\MainWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AboutMeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportSummaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\DailyReportReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditLeaveDayWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LineListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LoginWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\Report2020Window.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\App.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest_MarkupCompile.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest_MarkupCompile.lref
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow_1.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow_1.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\CheckOutWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EmployeeChartWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\ImportRemarksWorkerWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LeaveWithSalaryWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\LoginWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\MissingRecordTimeWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\Report2020Window.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.g.resources
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.Properties.Resources.resources
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\PersonalSV.csproj.GenerateResource.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\RdlCompile.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\RdlCompile.compiled
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CoreCompileInputs.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\PersonalSV.csproj.CopyComplete
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.exe
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.pdb

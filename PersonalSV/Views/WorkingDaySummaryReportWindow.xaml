@@ -1,0 +1,76 @@
+﻿<Window xmlns:rpv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.Reportviewer.WinForms" 
+        x:Class="TLCovidTest.Views.WorkingDaySummaryReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="13" Loaded="Window_Loaded" WindowState="Maximized"
+        Title="{DynamicResource ResourceKey=titleWorkingDaySummaryWindow}" MinHeight="400" MinWidth="700" WindowStartupLocation="CenterScreen">
+    <Grid Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
+            <GroupBox.Header>
+                <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                    <TextBlock Padding="4,0,4,0" Text="{DynamicResource ResourceKey=commonGroupBoxSearchingInformation}"/>
+                </Border>
+            </GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.ColumnSpan="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="0,0,5,0" Text="{DynamicResource ResourceKey=commonEmployee}" VerticalAlignment="Center"/>
+                    <TextBox Grid.Column="1" x:Name="txtEmployeeSearch" BorderBrush="Black" PreviewKeyUp="txtEmployeeSearch_PreviewKeyUp" FontSize="18" Padding="3,0,0,0" Foreground="Blue" VerticalContentAlignment="Center" PreviewGotKeyboardFocus="txtEmployeeSearch_PreviewGotKeyboardFocus"/>
+                </Grid>
+                <Grid Grid.Row="1" Margin="0,5,0,5" Grid.ColumnSpan="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cboSection" DisplayMemberPath="DepartmentName" SelectionChanged="cboSection_SelectionChanged" VerticalContentAlignment="Center"></ComboBox>
+                    <ComboBox Grid.Column="2" x:Name="cboDepartment" DisplayMemberPath="DepartmentFullName" VerticalContentAlignment="Center"/>
+                </Grid>
+                
+                <TextBlock Grid.Row="4" Text="{DynamicResource ResourceKey=commonDatePickerFrom}" VerticalAlignment="Bottom"/>
+                <DatePicker Grid.Row="5" x:Name="dpDateFrom"/>
+                <TextBlock Grid.Row="4" Grid.Column="2" Text="{DynamicResource ResourceKey=commonDatePickerTo}" Margin="0,5,0,0"/>
+                <DatePicker Grid.Row="5" Grid.Column="2" x:Name="dpDateTo"/>
+                <Button Grid.Column="3" Grid.Row="4" Grid.RowSpan="3" Margin="5,0,0,0" MinWidth="78" x:Name="btnPreview" Template="{DynamicResource ResourceKey=ButtonTemplate}" Click="btnPreview_Click">
+                    <Button.Content>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Width="16" Height="16" Source="/Images/update.png"/>
+                            <TextBlock Margin="2,0,0,0" Grid.Row="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=commonButtonPreview}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </GroupBox>
+        <WindowsFormsHost Grid.Row="1" Grid.ColumnSpan="2" Margin="0,2,0,0">
+            <rpv:ReportViewer x:Name="reportViewer" ShowFindControls="False"/>
+        </WindowsFormsHost>
+    </Grid>
+</Window>

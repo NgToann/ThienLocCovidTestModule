@@ -1,0 +1,21 @@
+﻿<Window x:Class="TLCovidTest.Views.SettingLanguageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource ResourceKey=titleSettingLanguageWindow}" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="ToolWindow" BorderBrush="Black"
+        Height="100" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="{DynamicResource ResourceKey=settingLanguageTxtChooseLanguage}" Margin="5,0,0,0" FontSize="15" Foreground="Blue" FontStyle="Italic"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <RadioButton FontSize="15" GroupName="Language" x:Name="radEnglish" Content="{DynamicResource ResourceKey=settingLanguageRadEnglish}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Click="radEnglish_Click" VerticalContentAlignment="Center"/>
+            <RadioButton FontSize="15" GroupName="Language" Grid.Column="1" x:Name="radVietnamese" Content="{DynamicResource ResourceKey=settingLanguageRadVietnamese}" HorizontalAlignment="Center" Style="{DynamicResource ResourceKey=RadioBlueStyle}" VerticalAlignment="Center" Click="radVietnamese_Click" VerticalContentAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Window>

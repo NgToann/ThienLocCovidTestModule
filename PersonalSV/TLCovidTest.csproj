@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69F4D1F9-8119-479E-9414-79B88EAD8EB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TLCovidTest</RootNamespace>
+    <AssemblyName>TLCovidTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net40\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net40\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\PhucNguyen\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit">
+      <HintPath>C:\Users\PhucNguyen\Desktop\dll-helpers\System.Windows.Controls.DataVisualization.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit">
+      <HintPath>C:\Users\PhucNguyen\Desktop\dll-helpers\WPFToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddressController.cs" />
+    <Compile Include="Controllers\AttendanceInforController.cs" />
+    <Compile Include="Controllers\AttendanceRecordController.cs" />
+    <Compile Include="Controllers\CommonController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\EmployeeFaceController.cs" />
+    <Compile Include="Controllers\LeaveDayTotalController.cs" />
+    <Compile Include="Controllers\LeaveDayDetailController.cs" />
+    <Compile Include="Controllers\LeaveWithSalaryController.cs" />
+    <Compile Include="Controllers\OverTimeLimitController.cs" />
+    <Compile Include="Controllers\PositionController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\SourceController.cs" />
+    <Compile Include="Controllers\TestRandomController.cs" />
+    <Compile Include="Controllers\WorkerCheckInController.cs" />
+    <Compile Include="Controllers\WorkerLeaveDetailController.cs" />
+    <Compile Include="Controllers\WorkerRemarksController.cs" />
+    <Compile Include="Controllers\WorkingShiftController.cs" />
+    <Compile Include="Controllers\WorkListController.cs" />
+    <Compile Include="DataSets\AttendanceRecordDataSet.cs">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AttendanceRecordDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DailyReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\EmployeeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\SalarySummaryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalarySummaryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\PersonalSVModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalSVModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LanguageHelper.cs" />
+    <Compile Include="Models\AccountModel.cs" />
+    <Compile Include="Models\AddressModel.cs" />
+    <Compile Include="Models\AttendanceInforModel.cs" />
+    <Compile Include="Models\AttendanceRecordModel.cs" />
+    <Compile Include="Models\DailyReportModel.cs" />
+    <Compile Include="Models\DayOfWeekList.cs" />
+    <Compile Include="Models\DepartmentModel.cs" />
+    <Compile Include="Models\EmployeeFaceModel.cs" />
+    <Compile Include="Models\EnumGender.cs" />
+    <Compile Include="Models\LeaveDayDetailModel.cs" />
+    <Compile Include="Models\LeaveDayTotalModel.cs" />
+    <Compile Include="Models\LeaveWithReasonModel.cs" />
+    <Compile Include="Models\MissingRecordTimeModel.cs" />
+    <Compile Include="Models\PrivateDefineModel.cs" />
+    <Compile Include="Models\TestRandomModel.cs" />
+    <Compile Include="Models\WorkerCheckInModel.cs" />
+    <Compile Include="Models\WorkerF0Model.cs" />
+    <Compile Include="Models\WorkerLeaveDetailModel.cs" />
+    <Compile Include="Models\WorkerPriorityModel.cs" />
+    <Compile Include="Models\WorkerRemarkModel.cs" />
+    <Compile Include="Models\WorkListModel.cs" />
+    <Compile Include="ViewModels\EmployeeViewModel.cs" />
+    <Compile Include="Models\EnumIsEditable.cs" />
+    <Compile Include="Models\OverTimeLimitModel.cs" />
+    <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\ShiftTempModel.cs" />
+    <Compile Include="Models\SourceModel.cs" />
+    <Compile Include="Models\AttendanceDailyModel.cs" />
+    <Compile Include="Models\WorkingShiftModel.cs" />
+    <Compile Include="ViewModels\WorkingShiftViewModel.cs" />
+    <Compile Include="ViewModels\AddRecordTimeViewModel.cs" />
+    <Compile Include="ViewModels\AttendanceRecordViewModel.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\DepartmentViewModel.cs" />
+    <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="Views\AboutMeWindow.xaml.cs">
+      <DependentUpon>AboutMeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddRecordTimeWindow.xaml.cs">
+      <DependentUpon>AddRecordTimeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddUpdateEmployeeWindow_1.xaml.cs">
+      <DependentUpon>AddUpdateEmployeeWindow_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddUpdateWorkingShiftWindow.xaml.cs">
+      <DependentUpon>AddUpdateWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ArrangeWorkingShiftWindow.xaml.cs">
+      <DependentUpon>ArrangeWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceRecordDetailReportSummaryWindow.xaml.cs">
+      <DependentUpon>AttendanceRecordDetailReportSummaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceRecordDetailReportWindow.xaml.cs">
+      <DependentUpon>AttendanceRecordDetailReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeEmployeeCodeWindow.xaml.cs">
+      <DependentUpon>ChangeEmployeeCodeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceRecordDetailWindow.xaml.cs">
+      <DependentUpon>AttendanceRecordDetailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddUpdateEmployeeWindow.xaml.cs">
+      <DependentUpon>AddUpdateEmployeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeEmployeeCodeWindow_1.xaml.cs">
+      <DependentUpon>ChangeEmployeeCodeWindow_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CheckOutWindow.xaml.cs">
+      <DependentUpon>CheckOutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DailyReportReportWindow.xaml.cs">
+      <DependentUpon>DailyReportReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DailyReportWindow.xaml.cs">
+      <DependentUpon>DailyReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditLeaveDayWindow.xaml.cs">
+      <DependentUpon>EditLeaveDayWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditOverTimeLimitWindow.xaml.cs">
+      <DependentUpon>EditOverTimeLimitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeChartWindow.xaml.cs">
+      <DependentUpon>EmployeeChartWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeListWindow.xaml.cs">
+      <DependentUpon>EmployeeListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExecuteDataSalaryWindow.xaml.cs">
+      <DependentUpon>ExecuteDataSalaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImportRemarksWorkerWindow.xaml.cs">
+      <DependentUpon>ImportRemarksWorkerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LeaveWithSalaryWindow.xaml.cs">
+      <DependentUpon>LeaveWithSalaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LineListWindow.xaml.cs">
+      <DependentUpon>LineListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MissingRecordTimeWindow.xaml.cs">
+      <DependentUpon>MissingRecordTimeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OverTimeLimitWindow.xaml.cs">
+      <DependentUpon>OverTimeLimitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditRecordTimeWindow.xaml.cs">
+      <DependentUpon>EditRecordTimeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Report2020Window.xaml.cs">
+      <DependentUpon>Report2020Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestCovidConfirmResultWindow.xaml.cs">
+      <DependentUpon>TestCovidConfirmResultWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestCovidCovidTestPlanWindow.xaml.cs">
+      <DependentUpon>TestCovidCovidTestPlanWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestCovidCreateTestTermWindow.xaml.cs">
+      <DependentUpon>TestCovidCreateTestTermWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestRandomThienLocWindow.xaml.cs">
+      <DependentUpon>TestRandomThienLocWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestRandomViewEmployeeListWindow.xaml.cs">
+      <DependentUpon>TestRandomViewEmployeeListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestRandomWindow.xaml.cs">
+      <DependentUpon>TestRandomWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestRequestListWindow.xaml.cs">
+      <DependentUpon>TestRequestListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerCheckInReportWindow.xaml.cs">
+      <DependentUpon>WorkerCheckInReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerCheckInWindow.xaml.cs">
+      <DependentUpon>WorkerCheckInWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerCheckOutWindow.xaml.cs">
+      <DependentUpon>WorkerCheckOutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkingDaySummaryReportWindow.xaml.cs">
+      <DependentUpon>WorkingDaySummaryReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingLanguageWindow.xaml.cs">
+      <DependentUpon>SettingLanguageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkingShiftDetailWindow.xaml.cs">
+      <DependentUpon>WorkingShiftDetailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditWorkingShiftWindow.xaml.cs">
+      <DependentUpon>EditWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkingShiftListWindow.xaml.cs">
+      <DependentUpon>WorkingShiftListWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Resources\ControlTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\LanguageEnglish.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\LanguageVietnamese.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ControlStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AboutMeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddRecordTimeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddUpdateEmployeeWindow_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddUpdateWorkingShiftWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ArrangeWorkingShiftWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AttendanceRecordDetailReportSummaryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AttendanceRecordDetailReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChangeEmployeeCodeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AttendanceRecordDetailWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddUpdateEmployeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChangeEmployeeCodeWindow_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CheckOutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DailyReportReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DailyReportWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EditLeaveDayWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditOverTimeLimitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeChartWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExecuteDataSalaryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImportRemarksWorkerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LeaveWithSalaryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LineListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MissingRecordTimeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OverTimeLimitWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditRecordTimeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Report2020Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestCovidConfirmResultWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestCovidCovidTestPlanWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestCovidCreateTestTermWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestRandomThienLocWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestRandomViewEmployeeListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestRandomWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestRequestListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerCheckInReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerCheckInWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerCheckOutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkingDaySummaryReportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingLanguageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkingShiftDetailWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditWorkingShiftWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkingShiftListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\EnumLanguage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceRecordSummaryReport.rdlc" />
+    <EmbeddedResource Include="Reports\DailyReport.rdlc" />
+    <EmbeddedResource Include="Reports\AttendanceRecordDetailReport.rdlc" />
+    <EmbeddedResource Include="Reports\SalarySummaryReport.rdlc" />
+    <EntityDeploy Include="Entities\PersonalSVModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PersonalSVModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="DataSets\AttendanceRecordDataSet.xsc">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AttendanceRecordDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendanceRecordDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AttendanceRecordDataSet.xss">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DailyReportDataSet.xsc">
+      <DependentUpon>DailyReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DailyReportDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DailyReportDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DailyReportDataSet.xss">
+      <DependentUpon>DailyReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xsc">
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmployeeDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xss">
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalarySummaryDataSet.xsc">
+      <DependentUpon>SalarySummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\SalarySummaryDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalarySummaryDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\SalarySummaryDataSet.xss">
+      <DependentUpon>SalarySummaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\App.datasource" />
+    <None Include="Properties\DataSources\MainWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.AttendanceInforController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.AttendanceRecordController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.DepartmentController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.EmployeeController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.OverTimeLimitController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.PositionController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.SourceController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.WorkingShiftController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceDailyDataSet+DailyReportTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceDailyDataSet+DailyReportTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceDailyDataSet+DailyReportTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceDailyDataSet+DailyReportTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceDailyDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.DailyReportDataSet+DailyReportTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.DailyReportDataSet+DailyReportTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.DailyReportDataSet+DailyReportTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.DailyReportDataSet+DailyReportTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.DailyReportDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.Department.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.Employee.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.PersonalDataEntities.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Helpers.Cons.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Helpers.LanguageHelper.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.AttendanceInforModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.AttendanceRecordModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.DayOfWeekList.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.DepartmentModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.EmployeeModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.LeaveDayDetailModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.LeaveDayTotalModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.OverTimeLimitModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.PositionModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.SourceModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.WorkingShiftModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.AddRecordTimeViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.AttendanceRecordViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.BaseViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.DepartmentViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.EmployeeViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddLeaveDayWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddRecordTimeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddUpdateEmployeeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddUpdateWorkingShiftWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ArrangeWorkingShiftWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AttendanceRecordDetailReportWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AttendanceRecordDetailWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ChangeEmployeeCodeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ExecuteDataSalaryWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.OverTimeLimitWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.RecordTimeDetailWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.SettingLanguageWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.WorkingShiftDetailWindow.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow_refresh.png" />
+    <Resource Include="Images\arrow_rotate_anticlockwise.png" />
+    <Resource Include="Images\arrow_rotate_clockwise.png" />
+    <Resource Include="Images\arrow_switch.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\blank.gif" />
+    <Resource Include="Images\cancel.png" />
+    <Resource Include="Images\clear.png" />
+    <Resource Include="Images\cog.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\edit_add.png" />
+    <Resource Include="Images\edit_remove.png" />
+    <Resource Include="Images\filesave.png" />
+    <Resource Include="Images\filter.png" />
+    <Resource Include="Images\folder_search.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\information.png" />
+    <Resource Include="Images\large_chart.png" />
+    <Resource Include="Images\large_clipart.png" />
+    <Resource Include="Images\large_picture.png" />
+    <Resource Include="Images\large_shapes.png" />
+    <Resource Include="Images\large_smartart.png" />
+    <Resource Include="Images\lock.png" />
+    <Resource Include="Images\lock_go.png" />
+    <Resource Include="Images\lock_password.png" />
+    <Resource Include="Images\man.png" />
+    <Resource Include="Images\mini-append.png" />
+    <Resource Include="Images\mini-cancel.png" />
+    <Resource Include="Images\mini-delete.png" />
+    <Resource Include="Images\mini-ok.png" />
+    <Resource Include="Images\mini-pencil.png" />
+    <Resource Include="Images\mini-reload.png" />
+    <Resource Include="Images\mini_add.png" />
+    <Resource Include="Images\mini_cross.png" />
+    <Resource Include="Images\mini_delete.png" />
+    <Resource Include="Images\mini_edit.png" />
+    <Resource Include="Images\mini_minus.png" />
+    <Resource Include="Images\mini_refresh.png" />
+    <Resource Include="Images\mini_set.png" />
+    <Resource Include="Images\mini_tick.png" />
+    <Resource Include="Images\more.png" />
+    <Resource Include="Images\no.png" />
+    <Resource Include="Images\ok.png" />
+    <Resource Include="Images\pencil.png" />
+    <Resource Include="Images\print.png" />
+    <Resource Include="Images\recover_deleted_items.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\reload.png" />
+    <Resource Include="Images\search.png" />
+    <Resource Include="Images\set.png" />
+    <Resource Include="Images\sort_number.png" />
+    <Resource Include="Images\sum.png" />
+    <Resource Include="Images\tip.png" />
+    <Resource Include="Images\undo.png" />
+    <Resource Include="Images\update.png" />
+    <Resource Include="Images\user_config.png" />
+    <Resource Include="Images\wrench.png" />
+    <Resource Include="Images\wrench_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn_back.png" />
+    <Resource Include="Images\btn_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\noimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btnlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pointer.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

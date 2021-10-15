@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69F4D1F9-8119-479E-9414-79B88EAD8EB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PersonalSV</RootNamespace>
+    <AssemblyName>PersonalSV</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AttendanceInforController.cs" />
+    <Compile Include="Controllers\AttendanceRecordController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\OverTimeLimitController.cs" />
+    <Compile Include="Controllers\PositionController.cs" />
+    <Compile Include="Controllers\SourceController.cs" />
+    <Compile Include="Controllers\WorkingShiftController.cs" />
+    <Compile Include="DataSets\AttendanceRecordDataSet.cs">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\AttendanceRecordDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\EmployeeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\PersonalSVModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonalSVModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LanguageHelper.cs" />
+    <Compile Include="Models\AttendanceInforModel.cs" />
+    <Compile Include="Models\AttendanceRecordModel.cs" />
+    <Compile Include="Models\DailyReportModel.cs" />
+    <Compile Include="Models\DayOfWeekList.cs" />
+    <Compile Include="Models\DepartmentModel.cs" />
+    <Compile Include="Models\EmployeeModel.cs" />
+    <Compile Include="Models\LeaveDayDetailModel.cs" />
+    <Compile Include="Models\LeaveDayTotalModel.cs" />
+    <Compile Include="Models\OverTimeLimitModel.cs" />
+    <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\ShiftTempModel.cs" />
+    <Compile Include="Models\SourceModel.cs" />
+    <Compile Include="Models\AttendanceDailyModel.cs" />
+    <Compile Include="Models\WorkingShiftModel.cs" />
+    <Compile Include="ViewModels\AddRecordTimeViewModel.cs" />
+    <Compile Include="ViewModels\AttendanceRecordViewModel.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\DepartmentViewModel.cs" />
+    <Compile Include="ViewModels\EmployeeViewModel.cs" />
+    <Compile Include="Views\AddRecordTimeWindow.xaml.cs">
+      <DependentUpon>AddRecordTimeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddLeaveDayWindow.xaml.cs">
+      <DependentUpon>AddLeaveDayWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddUpdateWorkingShiftWindow.xaml.cs">
+      <DependentUpon>AddUpdateWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ArrangeWorkingShiftWindow.xaml.cs">
+      <DependentUpon>ArrangeWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceRecordDetailReportWindow.xaml.cs">
+      <DependentUpon>AttendanceRecordDetailReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeEmployeeCodeWindow.xaml.cs">
+      <DependentUpon>ChangeEmployeeCodeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AttendanceRecordDetailWindow.xaml.cs">
+      <DependentUpon>AttendanceRecordDetailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddUpdateEmployeeWindow.xaml.cs">
+      <DependentUpon>AddUpdateEmployeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DailyReportWindow.xaml.cs">
+      <DependentUpon>DailyReportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditOverTimeLimitWindow.xaml.cs">
+      <DependentUpon>EditOverTimeLimitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeListWindow.xaml.cs">
+      <DependentUpon>EmployeeListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExecuteDataSalaryWindow.xaml.cs">
+      <DependentUpon>ExecuteDataSalaryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OverTimeLimitWindow.xaml.cs">
+      <DependentUpon>OverTimeLimitWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditRecordTimeWindow.xaml.cs">
+      <DependentUpon>EditRecordTimeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingLanguageWindow.xaml.cs">
+      <DependentUpon>SettingLanguageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkingShiftDetailWindow.xaml.cs">
+      <DependentUpon>WorkingShiftDetailWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditWorkingShiftWindow.xaml.cs">
+      <DependentUpon>EditWorkingShiftWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkingShiftListWindow.xaml.cs">
+      <DependentUpon>WorkingShiftListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ELanguage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceRecordDetailReport.rdlc" />
+    <EntityDeploy Include="Entities\PersonalSVModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PersonalSVModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="DataSets\AttendanceRecordDataSet.xsc">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\AttendanceRecordDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendanceRecordDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\AttendanceRecordDataSet.xss">
+      <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xsc">
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmployeeDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\EmployeeDataSet.xss">
+      <DependentUpon>EmployeeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\App.datasource" />
+    <None Include="Properties\DataSources\MainWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.AttendanceInforController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.AttendanceRecordController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.DepartmentController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.EmployeeController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.OverTimeLimitController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.PositionController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.SourceController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Controllers.WorkingShiftController.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet+AttendanceRecordTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.AttendanceRecordDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableDataTable.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet+EmployeeTableRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.DataSets.EmployeeDataSet.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.Department.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.Employee.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Entities.PersonalDataEntities.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Helpers.Cons.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Helpers.LanguageHelper.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.AttendanceInforModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.AttendanceRecordModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.DayOfWeekList.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.DepartmentModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.EmployeeModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.LeaveDayDetailModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.LeaveDayTotalModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.OverTimeLimitModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.PositionModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.SourceModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Models.WorkingShiftModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.AddRecordTimeViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.AttendanceRecordViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.BaseViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.DepartmentViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.ViewModels.EmployeeViewModel.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddLeaveDayWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddRecordTimeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddUpdateEmployeeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AddUpdateWorkingShiftWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ArrangeWorkingShiftWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AttendanceRecordDetailReportWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.AttendanceRecordDetailWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ChangeEmployeeCodeWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.ExecuteDataSalaryWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.OverTimeLimitWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.RecordTimeDetailWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.SettingLanguageWindow.datasource" />
+    <None Include="Properties\DataSources\PersonalSV.Views.WorkingShiftDetailWindow.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.Entity.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Runtime.Serialization.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Security.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Windows.Forms.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\WindowsBase.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\WindowsFormsIntegration.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\MainWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddRecordTimeWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddLeaveDayWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateWorkingShiftWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ArrangeWorkingShiftWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailReportWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ChangeEmployeeCodeWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AttendanceRecordDetailWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\AddUpdateEmployeeWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\DailyReportWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditOverTimeLimitWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EmployeeListWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\ExecuteDataSalaryWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\OverTimeLimitWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditRecordTimeWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\Views\WorkingShiftListWindow.g.cs" />
+    <Compile Include="C:\Users\ToanNg\OneDrive\SVProject\1001\SaoVietPersonal\SaoVietPersonal\PersonalSV\obj\x86\Debug\App.g.cs" />
+  </ItemGroup>
+</Project>
