@@ -26,7 +26,7 @@ namespace TLCovidTest
         [STAThread]
         protected override void OnStartup(StartupEventArgs e)
         {
-            const string appName = "PersonalSV";
+            const string appName = "TLCovidTest";
             bool createdNew;
             _mutex = new Mutex(true, appName, out createdNew);
             if (!createdNew)

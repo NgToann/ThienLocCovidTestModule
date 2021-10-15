@@ -334,31 +334,31 @@
     
     <!--System Title-->
     <system:String x:Key="titleMainWindow">TL - Covid Test</system:String>
-    <system:String x:Key="titleCreateUpdateEmployeeWindow">TL NS - Thêm / Cập Nhật Nhân Viên</system:String>
-    <system:String x:Key="titleSettingLanguageWindow">TL NS - Cài Đặt Ngôn Ngữ</system:String>
-    <system:String x:Key="titleChangeEmployeeList">TL - NS Danh Sách Nhân Viên</system:String>
-    <system:String x:Key="titleChangeEmployeeCodeWindow">TL NS - Đổi Thẻ Từ</system:String>
-    <system:String x:Key="titleCheckingRecordingTimeWindow">TL NS - Kiểm Tra Dữ Liệu Quẹt Thẻ</system:String>
-    <system:String x:Key="titleCheckingRecordTimeDetail">TL NS - Chi Tiết Giờ Quẹt Thẻ</system:String>
-    <system:String x:Key="titleAddRecordTimeWindow">TL NS - Thêm / Cập Nhật Giờ Làm Việc</system:String>
-    <system:String x:Key="titleAddWorkingShiftWindow">TL NS - Thêm / Cập Nhật Ca Làm Việc</system:String>
-    <system:String x:Key="titleArrangeWorkingShiftWindow">TL NS - Sắp Xếp Ca Làm Việc</system:String>
-    <system:String x:Key="titleWorkingShiftDetailWindow">TL NS - Chi Tiết Ca Làm Việc</system:String>
-    <system:String x:Key="titleExecuteDataSalaryWindow">TL NS - Xử Lý Dữ Liệu Lương</system:String>
-    <system:String x:Key="titleWorkingShiftWindow">TL NS - Ca Làm Việc</system:String>
-    <system:String x:Key="titleOverTimeLimitWindow">TL NS - Giới Hạn Tăng Ca</system:String>
+    <system:String x:Key="titleCreateUpdateEmployeeWindow">ThienLoc - Thêm / Cập Nhật Nhân Viên</system:String>
+    <system:String x:Key="titleSettingLanguageWindow">ThienLoc - Cài Đặt Ngôn Ngữ</system:String>
+    <system:String x:Key="titleChangeEmployeeList">ThienLoc Danh Sách Nhân Viên</system:String>
+    <system:String x:Key="titleChangeEmployeeCodeWindow">ThienLoc - Đổi Thẻ Từ</system:String>
+    <system:String x:Key="titleCheckingRecordingTimeWindow">ThienLoc - Kiểm Tra Dữ Liệu Quẹt Thẻ</system:String>
+    <system:String x:Key="titleCheckingRecordTimeDetail">ThienLoc - Chi Tiết Giờ Quẹt Thẻ</system:String>
+    <system:String x:Key="titleAddRecordTimeWindow">ThienLoc - Thêm / Cập Nhật Giờ Làm Việc</system:String>
+    <system:String x:Key="titleAddWorkingShiftWindow">ThienLoc - Thêm / Cập Nhật Ca Làm Việc</system:String>
+    <system:String x:Key="titleArrangeWorkingShiftWindow">ThienLoc - Sắp Xếp Ca Làm Việc</system:String>
+    <system:String x:Key="titleWorkingShiftDetailWindow">ThienLoc - Chi Tiết Ca Làm Việc</system:String>
+    <system:String x:Key="titleExecuteDataSalaryWindow">ThienLoc - Xử Lý Dữ Liệu Lương</system:String>
+    <system:String x:Key="titleWorkingShiftWindow">ThienLoc - Ca Làm Việc</system:String>
+    <system:String x:Key="titleOverTimeLimitWindow">ThienLoc - Giới Hạn Tăng Ca</system:String>
     <system:String x:Key="titleLeaveWithSalaryWindow">TL - Lý Do Vắng Chi Tiết</system:String>
-    <system:String x:Key="titleAttendanceDetailWindow">TL NS - Chi Tiết Ngày Công</system:String>
-    <system:String x:Key="titleAttendanceDetaiReportlWindow">TL NS - In Chi Tiết Ngày Công</system:String>
-    <system:String x:Key="titleAttendanceSummaryReportlWindow">TL - NS Báo Cáo Chi Tiết Ngày Công</system:String>
-    <system:String x:Key="titleWorkingShiftListWindow">TL NS - Danh Sách Ca Làm Việc</system:String>
-    <system:String x:Key="titleWorkingDailyReportWindow">TL NS - Báo Cáo Hàng Ngày</system:String>
-    <system:String x:Key="titleWorkingDailyReportPrintWindow">TL NS - In Báo Cáo Hàng Ngày</system:String>
-    <system:String x:Key="titleAddUpdateLeaveDayWindow">TL NS - Ngày Phép</system:String>
-    <system:String x:Key="titleWorkingDaySummaryWindow">TL NS - Ngày Công Tổng Quát</system:String>
-    <system:String x:Key="titleMissingRecordTime">TL NS - Thiếu Giờ (Ra, Vào)</system:String>
-    <system:String x:Key="titleEmployeeChartWindow">TL NS - Biểu Đồ</system:String>
-    <system:String x:Key="titleImportRemarksWorker">TL NS - Thêm Ghi Chú Công Nhân (Covid)</system:String>
+    <system:String x:Key="titleAttendanceDetailWindow">ThienLoc - Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleAttendanceDetaiReportlWindow">ThienLoc - In Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleAttendanceSummaryReportlWindow">ThienLoc Báo Cáo Chi Tiết Ngày Công</system:String>
+    <system:String x:Key="titleWorkingShiftListWindow">ThienLoc - Danh Sách Ca Làm Việc</system:String>
+    <system:String x:Key="titleWorkingDailyReportWindow">ThienLoc - Báo Cáo Hàng Ngày</system:String>
+    <system:String x:Key="titleWorkingDailyReportPrintWindow">ThienLoc - In Báo Cáo Hàng Ngày</system:String>
+    <system:String x:Key="titleAddUpdateLeaveDayWindow">ThienLoc - Ngày Phép</system:String>
+    <system:String x:Key="titleWorkingDaySummaryWindow">ThienLoc - Ngày Công Tổng Quát</system:String>
+    <system:String x:Key="titleMissingRecordTime">ThienLoc - Thiếu Giờ (Ra, Vào)</system:String>
+    <system:String x:Key="titleEmployeeChartWindow">ThienLoc - Biểu Đồ</system:String>
+    <system:String x:Key="titleImportRemarksWorker">ThienLoc - Thêm Ghi Chú Công Nhân (Covid)</system:String>
     
     
     <!-- Statistics -->
@@ -378,8 +378,8 @@
     <system:String x:Key="dayOfWeekSunday">Chủ Nhật</system:String>
     
     <!--Worker Check In, Out Window-->
-    <system:String x:Key="workerCheckInWindowTitle">TL-HRS Scan giờ vào</system:String>
-    <system:String x:Key="workerCheckOutWindowTitle">TL-HRS Scan giờ ra</system:String>
+    <system:String x:Key="workerCheckInWindowTitle">ThienLoc Scan giờ vào</system:String>
+    <system:String x:Key="workerCheckOutWindowTitle">ThienLoc Scan giờ ra</system:String>
     <system:String x:Key="workerCheckInTitle">SCAN GIỜ VÀO</system:String>
     <system:String x:Key="workerCheckOutTitle">SCAN GIỜ RA</system:String>
     <system:String x:Key="workerCheckInScanCardId">Xin Mời Quẹt Thẻ</system:String>
@@ -387,7 +387,7 @@
     <system:String x:Key="menuWorkerCheckIn">Scan Giờ Vào</system:String>
     <system:String x:Key="menuWorkerCheckOut">Scan Giờ Ra</system:String>
     <system:String x:Key="menuReportCheckInOut">Báo Cáo Giờ Ra, Vào (Scan Thẻ)</system:String>
-    <system:String x:Key="reportCheckInOutWindowTitle">TL-HRS  Báo Cáo Giờ Ra, Vào (Scan Thẻ)</system:String>    
+    <system:String x:Key="reportCheckInOutWindowTitle">ThienLoc  Báo Cáo Giờ Ra, Vào (Scan Thẻ)</system:String>    
     
     <system:String x:Key="workerCheckInStatistics">Thống kê</system:String>
     <system:String x:Key="workerCheckInStatisticsTestDate">Ngày</system:String>
@@ -435,7 +435,7 @@
     <system:String x:Key="tlTestRandomTestRate">Tỷ lệ</system:String>
     
     <!--Create New Test Term Feature-->
-    <system:String x:Key="createTestTermWindowTitle">TL-HRS Tạo kỳ Test mới</system:String>   
+    <system:String x:Key="createTestTermWindowTitle">ThienLoc Tạo kỳ Test mới</system:String>   
     <system:String x:Key="createTestTermGroupHeader">Thông tin kỳ Test Nhanh</system:String>   
     <system:String x:Key="createTestTestDate">Ngày Test</system:String>
     <system:String x:Key="createTestLblTestRate">Tỷ Lệ</system:String>
@@ -447,7 +447,7 @@
     
     
     <!--Test Random Feature-->
-    <system:String x:Key="testRandomWindowTitle">TL-HRS Test Nhanh Covid Ngẫu Nhiên</system:String>
+    <system:String x:Key="testRandomWindowTitle">ThienLoc Test Nhanh Covid Ngẫu Nhiên</system:String>
     <system:String x:Key="testRandomLblTime">Thời gian</system:String>
     <system:String x:Key="testRandomHeader">TEST NHANH COVID RANDOM</system:String>
     <system:String x:Key="testRandomGroupTestInfo">Thông tin Test</system:String>
@@ -464,7 +464,7 @@
     <system:String x:Key="testRandomInfoCurrent">Hiện tại</system:String>
     <system:String x:Key="testRandomInfoRandomRatio">Tỷ Lệ</system:String>    
     
-    <system:String x:Key="testRequestListWindowTitle">TL-HRS Danh Sách Test</system:String>
+    <system:String x:Key="testRequestListWindowTitle">ThienLoc Danh Sách Test</system:String>
     <system:String x:Key="testRequestListHeader">DANH SÁCH CẦN TEST NHANH</system:String>
     <system:String x:Key="testRequestListVaccince1st">Vắc Xin Mũi 1</system:String>
     <system:String x:Key="testRequestListVaccince2nd">Vắc Xin Mũi 2</system:String>
@@ -475,7 +475,7 @@
     
     
     <!--Confirm Test Result Feature-->
-    <system:String x:Key="confirmTestResultWindowTitle">TL-HRS Xác Nhận Kết Quả Test</system:String>
+    <system:String x:Key="confirmTestResultWindowTitle">ThienLoc Xác Nhận Kết Quả Test</system:String>
     <system:String x:Key="confirmTestResultHeader">XÁC NHẬN KẾT QUẢ TEST COVID</system:String>
     <system:String x:Key="confirmTestResultFullName">Họ Tên</system:String>
     <system:String x:Key="confirmTestResultEmployeeCode">Số Thẻ</system:String>
@@ -492,6 +492,10 @@
     <system:String x:Key="confirmTestResultMsgDoNotCheckIn">Chưa Hoàn Thành Test</system:String>
     
     <system:String x:Key="menuCreateNewTestTerm">Tạo Kỳ Test Covid Mới</system:String>
+    <system:String x:Key="menuCreateNewInputWorkerId">Nhập Mã Worker</system:String>
+    <system:String x:Key="menuCreateNewAdd"> Thêm </system:String>
+    <system:String x:Key="menuCreateNewMiRemove"> X </system:String>
+    
     <system:String x:Key="menuConfirmTestResult">Xác Nhận Kết Quả Test Covid</system:String>
     
 </ResourceDictionary>

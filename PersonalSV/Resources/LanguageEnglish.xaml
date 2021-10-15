@@ -382,8 +382,8 @@
     <system:String x:Key="dayOfWeekSunday">Sunday</system:String>
     
     <!--Worker Check In Window-->
-    <system:String x:Key="workerCheckInWindowTitle">SV-HRS Worker Check In</system:String>
-    <system:String x:Key="workerCheckOutWindowTitle">SV-HRS Worker Check Out</system:String>
+    <system:String x:Key="workerCheckInWindowTitle">ThienLoc Worker Check In</system:String>
+    <system:String x:Key="workerCheckOutWindowTitle">ThienLoc Worker Check Out</system:String>
     <system:String x:Key="workerCheckInTitle">CHECK IN</system:String>
     <system:String x:Key="workerCheckOutTitle">CHECK OUT</system:String>
     <system:String x:Key="workerCheckInScanCardId">Scan CardID</system:String>
@@ -391,7 +391,7 @@
     <system:String x:Key="menuWorkerCheckIn">Worker Check In</system:String>
     <system:String x:Key="menuWorkerCheckOut">Worker Check Out</system:String>
     <system:String x:Key="menuReportCheckInOut">Report Scan Time In,Out</system:String>
-    <system:String x:Key="reportCheckInOutWindowTitle">SV-HRS Report Scan Time In,Out</system:String>
+    <system:String x:Key="reportCheckInOutWindowTitle">ThienLoc Report Scan Time In,Out</system:String>
     
     <system:String x:Key="workerCheckInStatistics">Statistics</system:String>
     <system:String x:Key="workerCheckInStatisticsTestDate">Date</system:String>
@@ -431,7 +431,7 @@
     <system:String x:Key="reportExportExcel">Export Excel</system:String>    
     
     <!--Test Random Feature-->
-    <system:String x:Key="testRandomWindowTitle">SV-HRS Covid Quick Test Random</system:String>
+    <system:String x:Key="testRandomWindowTitle">ThienLoc Covid Quick Test Random</system:String>
     <system:String x:Key="testRandomLblTime">Time</system:String>
     <system:String x:Key="testRandomHeader">COVID QUICK TEST RANDOM</system:String>
     <system:String x:Key="testRandomGroupTestInfo">Test Info</system:String>
@@ -447,7 +447,7 @@
     <system:String x:Key="testRandomInfoCurrent">Current</system:String>
     <system:String x:Key="testRandomInfoRandomRatio">Ratio</system:String>
     
-    <system:String x:Key="testRequestListWindowTitle">SV-HRS Test Request List</system:String>
+    <system:String x:Key="testRequestListWindowTitle">ThienLoc Test Request List</system:String>
     <system:String x:Key="testRequestListHeader">QUICK TEST REQUEST LIST</system:String>
     <system:String x:Key="testRequestListVaccince1st">Vaccince 1</system:String>
     <system:String x:Key="testRequestListVaccince2nd">Vaccince 2</system:String>
@@ -469,7 +469,7 @@
     
     
     <!--Create New Test Term Feature-->
-    <system:String x:Key="createTestTermWindowTitle">SV-HRS Create New Test Term</system:String>   
+    <system:String x:Key="createTestTermWindowTitle">ThienLoc Create New Test Term</system:String>   
     <system:String x:Key="createTestTermGroupHeader">Quick Covid Test Info</system:String>   
     <system:String x:Key="createTestTestDate">Test Date</system:String>
     <system:String x:Key="createTestLblTestRate">Test Rate</system:String>
@@ -484,7 +484,7 @@
     
     
     <!--Confirm Test Result Feature-->
-    <system:String x:Key="confirmTestResultWindowTitle">SV-HRS Confirm Covid Test Result</system:String>
+    <system:String x:Key="confirmTestResultWindowTitle">ThienLoc Confirm Covid Test Result</system:String>
     <system:String x:Key="confirmTestResultHeader">CONFIRM COVID TEST RESULT</system:String>
     <system:String x:Key="confirmTestResultFullName">FullName</system:String>
     <system:String x:Key="confirmTestResultEmployeeCode">Employee Code</system:String>
@@ -500,6 +500,12 @@
     <system:String x:Key="confirmTestResultMsgDoNotCheckIn">Chưa Hoàn Thành Test</system:String>
     
     <system:String x:Key="menuCreateNewTestTerm">Create New Test Term</system:String>
+    <system:String x:Key="menuCreateNewInputWorkerId">Input WorkerId</system:String>
+    <system:String x:Key="menuCreateNewAdd"> Add </system:String>
+    
+    <system:String x:Key="menuCreateNewImportExcel">Import Excel File</system:String>
+    
+    
     <system:String x:Key="menuConfirmTestResult">Confirm Covid Test Result</system:String>
     
     

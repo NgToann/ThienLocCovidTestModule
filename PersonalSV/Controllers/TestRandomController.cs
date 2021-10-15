@@ -48,12 +48,13 @@ namespace TLCovidTest.Controllers
             var @TimeIn = new SqlParameter("@TimeIn", model.TimeIn);
             var @TimeOut = new SqlParameter("@TimeOut", model.TimeOut);
             var @Status = new SqlParameter("@Status", model.Status);
+            var @AddByManual = new SqlParameter("@AddByManual", model.AddByManual);
 
             using (var db = new PersonalDataEntities())
             {
                 db.CommandTimeout = 45;
-                if (db.ExecuteStoreCommand("EXEC spm_InsertTestRandom @Id, @EmployeeCode, @TestDate, @Term, @Round, @Result, @PersonConfirm, @Remark, @TimeIn, @TimeOut, @Status",
-                                                                      @Id, @EmployeeCode, @TestDate, @Term, @Round, @Result, @PersonConfirm, @Remark, @TimeIn, @TimeOut, @Status) >= 1)
+                if (db.ExecuteStoreCommand("EXEC spm_InsertTestRandom_1 @Id, @EmployeeCode, @TestDate, @Term, @Round, @Result, @PersonConfirm, @Remark, @TimeIn, @TimeOut, @Status, @AddByManual",
+                                                                        @Id, @EmployeeCode, @TestDate, @Term, @Round, @Result, @PersonConfirm, @Remark, @TimeIn, @TimeOut, @Status, @AddByManual) >= 1)
                     return true;
                 return false;
             }
@@ -113,7 +114,21 @@ namespace TLCovidTest.Controllers
                 return false;
             }
         }
-        
+        //
+        public static bool DeleteByEmpCodeByDate(TestRandomModel model)
+        {
+            var @EmployeeCode = new SqlParameter("@EmployeeCode", model.EmployeeCode);
+            var @TestDate = new SqlParameter("@TestDate", model.TestDate);
+            using (var db = new PersonalDataEntities())
+            {
+                db.CommandTimeout = 45;
+
+                if (db.ExecuteStoreCommand("EXEC spm_DeleteTestRandomByEmpCodeByDate @EmployeeCode, @TestDate",
+                                                                                     @EmployeeCode, @TestDate) >= 1)
+                    return true;
+                return false;
+            }
+        }
         public static bool DeleteByDate(DateTime dateDelete)
         {
             var @TestDate = new SqlParameter("@TestDate", dateDelete);

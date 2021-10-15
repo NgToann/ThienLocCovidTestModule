@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TLCovidTest.Views" Loaded="Window_Loaded"
         mc:Ignorable="d" FontSize="16" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
-        Title="{DynamicResource ResourceKey=confirmTestResultWindowTitle}" Height="750" Width="1000">
+        Title="{DynamicResource ResourceKey=confirmTestResultWindowTitle}" Height="700" Width="1000">
     <Grid Margin="2">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
