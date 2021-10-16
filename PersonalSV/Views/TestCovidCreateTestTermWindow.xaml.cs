@@ -61,7 +61,6 @@ namespace TLCovidTest.Views
         private void BwLoad_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             this.Cursor = null;
-            lblTestRate.Text = string.Format("{0} %", defModel.TestRandomRatio);
             btnCreate.IsEnabled = true;
         }
 
@@ -88,116 +87,65 @@ namespace TLCovidTest.Views
             List<TestRandomModel> testRandomCreateList = new List<TestRandomModel>();
             var createdDate = dpTestDate.SelectedDate.Value.Date;
 
-            int randomPercent = defModel.TestRandomRatio != 0 ? defModel.TestRandomRatio : 20;
             var totalEmp = employeeList.Count();
-            var requestNumber = (int)(randomPercent * totalEmp / 100);
-
-            // For the first time
-            if (testRandomList.Count() == 0)
+            var randomRate = 0;
+            Int32.TryParse(txtRandomRate.Text.Trim().ToString(), out randomRate);
+            if (randomRate == 0)
             {
-                var randomWorkerList = employeeList.OrderBy(o => Guid.NewGuid()).Take(requestNumber).ToList();
-                foreach (var emp in randomWorkerList)
-                {
-                    var randomInsert = new TestRandomModel
-                    {
-                        Id = Guid.NewGuid().ToString(),
-                        EmployeeCode = emp.EmployeeCode,
-                        TestDate = createdDate,
-                        Term = 1,
-                        Round = 1,
-                        Result = "",
-                        PersonConfirm = "",
-                        Remark = "",
-                        TimeIn = "",
-                        TimeOut = "",
-                        Status = "Plan",
-                        EmployeeID = emp.EmployeeID,
-                        EmployeeName = emp.EmployeeName,
-                        DepartmentName = emp.DepartmentName,
-                        AddByManual = false
-                    };
-                    testRandomCreateList.Add(randomInsert);
-                }
+                MessageBox.Show(string.Format("Random Rate is invalid !"), this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
+                txtRandomRate.Focus();
+                txtRandomRate.SelectAll();
+                return;
             }
-            // Next time
+
+            var requestNumber = (int)(randomRate * totalEmp / 100);
+
+            var dateListInTestProcess = testRandomList.Where(w => !w.Status.Equals("Plan")).Select(s => s.TestDate).Distinct().ToList();
+            var dateListTotal = testRandomList.Select(s => s.TestDate).Distinct().ToList();
+            dateListTotal.RemoveAll(r => dateListInTestProcess.Contains(r));
+
+            var empListInPlanNow = testRandomList.Where(w => dateListTotal.Contains(w.TestDate)).Select(s => s.EmployeeCode).Distinct().ToList();
+            var empsListReadyToPlan = employeeList.Where(w => !empListInPlanNow.Contains(w.EmployeeCode)).ToList();
+
+            List<EmployeeModel> employeeCreatePlanList = new List<EmployeeModel>();
+
+            if (empsListReadyToPlan.Count() >= requestNumber)
+            {
+                employeeCreatePlanList = empsListReadyToPlan.OrderBy(o => Guid.NewGuid()).Take(requestNumber).ToList();
+            }
             else
             {
-                // Remove Plan Created By Manual
-                var employeeListCreatedByManual = testRandomList.Where(w => w.AddByManual && w.Status.Equals("Plan")).Select(s => s.EmployeeCode).ToList();
-                var employeeListToCreateRandom = employeeList.Where(w => !employeeListCreatedByManual.Contains(w.EmployeeCode)).ToList();
-                var testRandomListAuto = testRandomList.Where(w => !w.AddByManual).ToList();
+                employeeCreatePlanList.AddRange(empsListReadyToPlan);
+                var empListCreatedPlanList = employeeCreatePlanList.Select(s => s.EmployeeCode).Distinct().ToList();
+                var empListReadyToPlan = employeeList.Where(w => !empListCreatedPlanList.Contains(w.EmployeeCode)).ToList();
 
-                // check in process
-                var inProcessList = testRandomListAuto.Where(w => w.TestDate == createdDate && !w.Status.Equals("Plan")).ToList();
-                if (inProcessList.Count() > 0)
-                {
-                    MessageBox.Show(string.Format("Test plan on: {0:dd/MM/yyyy} already started !\nCan not create new plan !", createdDate), this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
-                    return;
-                }
-
-                var currentTerm = testRandomListAuto.Count() > 0 ? testRandomListAuto.Max(m => m.Term) : 1;
-                var currentRound = testRandomListAuto.Count() > 0 ? testRandomListAuto.Max(m => m.Round) + 1 : 1;
-
-                // check already created
-                var testRandomListByDate = testRandomListAuto.Where(w => w.TestDate == createdDate && !w.AddByManual).ToList();
-                if (testRandomListByDate.Count() > 0)
-                {
-                    if (MessageBox.Show(string.Format("Test plan on: {0:dd/MM/yyyy} already created !\nDo you want to delete old data ?", createdDate),
-                                    this.Title, MessageBoxButton.OKCancel, MessageBoxImage.Question) != MessageBoxResult.OK)
-                    {
-                        return;
-                    }
-                    currentTerm = testRandomListByDate.Max(m => m.Term);
-                    currentRound = testRandomListByDate.Max(m => m.Round);
-
-                    // Remove old data
-                    TestRandomController.DeleteByDate(createdDate);
-                    testRandomList.RemoveAll(r => r.TestDate == createdDate);
-                }
-
-                var workerInCurrentTermList = testRandomListAuto.Where(w => w.Term == currentTerm && !w.AddByManual).Select(s => s.EmployeeCode).Distinct().ToList();
-                if (workerInCurrentTermList.Count() >= totalEmp)
-                {
-                    currentTerm = currentTerm + 1;
-                    currentRound = 1;
-                }
-
-                var workerOutOfCurrentTermList = employeeListToCreateRandom.Where(w => !workerInCurrentTermList.Contains(w.EmployeeCode)).ToList();
-                var randomWorkerList = workerOutOfCurrentTermList.OrderBy(o => Guid.NewGuid()).Take(requestNumber).ToList();
-
-                // If not enoudh reuquest number
-                var additionList = new List<EmployeeModel>();
-                if (randomWorkerList.Count() < requestNumber)
-                {
-                    var idCurrentList = randomWorkerList.Select(s => s.EmployeeCode).Distinct().ToList();
-                    var remain = requestNumber - randomWorkerList.Count();
-                    additionList = employeeListToCreateRandom.Where(w => !idCurrentList.Contains(w.EmployeeCode)).OrderBy(o => Guid.NewGuid()).Take(remain).ToList();
-                }
-                randomWorkerList.AddRange(additionList);
-
-                foreach (var emp in randomWorkerList)
-                {
-                    var randomInsert = new TestRandomModel
-                    {
-                        Id = Guid.NewGuid().ToString(),
-                        EmployeeCode = emp.EmployeeCode,
-                        TestDate = createdDate,
-                        Term = currentTerm,
-                        Round = currentRound,
-                        Result = "",
-                        PersonConfirm = "",
-                        Remark = "",
-                        TimeIn = "",
-                        TimeOut = "",
-                        Status = "Plan",
-                        EmployeeID = emp.EmployeeID,
-                        EmployeeName = emp.EmployeeName,
-                        DepartmentName = emp.DepartmentName,
-                        AddByManual = false,
-                    };
-                    testRandomCreateList.Add(randomInsert);
-                }
+                var requestRemain = requestNumber - employeeCreatePlanList.Count();
+                employeeCreatePlanList.AddRange(empListReadyToPlan.OrderBy(o => Guid.NewGuid()).Take(requestRemain).ToList());
             }
+
+            foreach (var emp in employeeCreatePlanList)
+            {
+                var randomInsert = new TestRandomModel
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    EmployeeCode = emp.EmployeeCode,
+                    TestDate = createdDate,
+                    Term = 1,
+                    Round = 1,
+                    Result = "",
+                    PersonConfirm = "",
+                    Remark = "",
+                    TimeIn = "",
+                    TimeOut = "",
+                    Status = "Plan",
+                    EmployeeID = emp.EmployeeID,
+                    EmployeeName = emp.EmployeeName,
+                    DepartmentName = emp.DepartmentName,
+                    AddByManual = false
+                };
+                testRandomCreateList.Add(randomInsert);
+            }
+
             dgRandomList.ItemsSource = testRandomCreateList;
             dgRandomList.Items.Refresh();
         }
@@ -312,7 +260,6 @@ namespace TLCovidTest.Views
                 TxtWorkerIdDefault();
                 return;
             }
-
             
             var newTestAddByManual = new TestRandomModel
             {
@@ -420,9 +367,13 @@ namespace TLCovidTest.Views
                     }
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                testRandomFromExcelList.Clear();
+                Dispatcher.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(ex.InnerException.Message).ToString();
+                    testRandomFromExcelList.Clear();
+                }));
             }
             finally
             {
@@ -460,10 +411,9 @@ namespace TLCovidTest.Views
                 {
                     TestRandomController.DeleteByEmpCodeByDate(item);
                     testRandomList.RemoveAll(r => r.EmployeeCode == item.EmployeeCode && r.TestDate == item.TestDate);
-
-                    dgRandomList.ItemsSource = null;
-                    MessageBox.Show(string.Format("Deleted {0} Records !", deleteItems.Count()), this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
                 }
+                dgRandomList.ItemsSource = null;
+                MessageBox.Show(string.Format("Deleted {0} Records !", deleteItems.Count()), this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {

@@ -52,9 +52,9 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="{Binding TestDate}" FontSize="17" Foreground="DarkBlue" FontWeight="SemiBold"/>
-                    <TextBlock Grid.Column="1" Text="{Binding RandomRatio}" FontSize="17" Foreground="DarkBlue" FontWeight="SemiBold"/>
-                    <TextBlock Grid.Column="2" Text="{Binding TotalRequestWorker}" FontSize="17" Foreground="DarkBlue" FontWeight="SemiBold"/>
-                    <TextBlock Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"  Text="{Binding CurrentTimeIn}" FontSize="17" Foreground="Green" FontWeight="SemiBold"/>
+                    <TextBlock Grid.Column="1" Text="{Binding RandomRatio}" FontSize="17" Foreground="DarkBlue" FontWeight="SemiBold" Visibility="Collapsed"/>
+                    <TextBlock Grid.Column="1" Text="{Binding TotalRequestWorker}" FontSize="17" Foreground="DarkBlue" FontWeight="SemiBold"/>
+                    <TextBlock Grid.Column="2" Text="{Binding CurrentTimeIn}" FontSize="17" Foreground="Green" FontWeight="SemiBold"/>
                 </Grid>
             </Grid>
         </Border>

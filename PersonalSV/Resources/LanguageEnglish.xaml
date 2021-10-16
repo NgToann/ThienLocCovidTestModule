@@ -457,7 +457,7 @@
     
     <!--ThienLoc Test Random-->
     <system:String x:Key="tlTestRandomWindowTitle">ThienLoc Covid Quick Test Random</system:String>
-    <system:String x:Key="tlTestRandomMsgGetInQueue">Mời xếp hàng lấy mẫu</system:String>
+    <system:String x:Key="tlTestRandomMsgGetInQueue">KHÔNG ĐƯỢC VÀO CÔNG TY, VUI LÒNG VỀ KHU VỰC TEST</system:String>
     <system:String x:Key="tlTestRandomMsgDoNotConfirmTestResult">Chưa xác nhận kết quả Test</system:String>
     <system:String x:Key="tlTestRandomMsgNotAllowed">Not Allowed</system:String>
     <system:String x:Key="tlTestRandomMsgWelcome">Welcome !</system:String>

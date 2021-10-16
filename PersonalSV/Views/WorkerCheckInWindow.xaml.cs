@@ -212,62 +212,6 @@ namespace TLCovidTest.Views
                                 }
                             }
                         }
-                        #region None
-                        //var workListToday = workList.Where(w => w.TestDate == toDay).ToList();
-                        //// Check Worker in worklist today
-                        //if (workListToday.Count() > 0)
-                        //{
-                        //    // Check Status
-                        //    var workerWithStatusToDay = workListToday.FirstOrDefault();
-                        //    if (workerWithStatusToDay != null)
-                        //    {
-                        //        if (workerWithStatusToDay.TestStatus == 2)
-                        //        {
-                        //            AlertScan(lblNotAllowed, Brushes.Red, empById);
-                        //        }
-                        //        else if (workerWithStatusToDay.TestStatus == 1)
-                        //        {
-                        //            brDisplay.Background = Brushes.Green;
-                        //            AddRecord(empById, workerWithStatusToDay);
-                        //        }
-                        //        else if (workerWithStatusToDay.TestStatus == 0)
-                        //        {
-                        //            brDisplay.Background = Brushes.Yellow;
-                        //            AddRecord(empById, workerWithStatusToDay);
-                        //        }
-                        //    }
-                        //}
-                        //// Check History Nearest
-                        //else
-                        //{
-                        //    // Check Status
-                        //    var workerWithStatusHistory = workList.Where(w => w.TestDate < toDay).OrderBy(o => o.TestDate).LastOrDefault();
-                        //    if (workerWithStatusHistory != null)
-                        //    {
-                        //        if (workerWithStatusHistory.TestStatus == 2)
-                        //        {
-                        //            AlertScan(lblNotAllowed, Brushes.Red, empById);
-                        //        }
-                        //        else if (workerWithStatusHistory.TestStatus == 1)
-                        //        {
-                        //            brDisplay.Background = Brushes.Green;
-                        //            AddRecord(empById, null);
-                        //        }
-                        //        else if (workerWithStatusHistory.TestStatus == 0)
-                        //        {
-                        //            string msgNotExistInWorkListToday = string.Format("{0} - {1:dd/MM/yyyy}", lblNotExistInTestList, toDay);
-                        //            AlertScan(msgNotExistInWorkListToday, Brushes.Red, empById);
-                        //        }
-                        //    }
-                        //    else
-                        //    {
-                        //        string msgNotExistInWorkListToday = string.Format("{0} - {1:dd/MM/yyyy}", lblNotExistInTestList, toDay);
-                        //        AlertScan(msgNotExistInWorkListToday, Brushes.Red, empById);
-                        //    }
-                        //}
-
-                        #endregion
-
                         DoStatistics(workListAll, workerCheckInList);
                     }
                     else
@@ -288,6 +232,11 @@ namespace TLCovidTest.Views
                 
                 // Refresh Counter
             }
+        }
+
+        private void checkTestToday()
+        {
+
         }
 
         private void DoStatistics(List<WorkListModel> workListAll, List<WorkerCheckInModel> workerCheckInList)
@@ -343,11 +292,9 @@ namespace TLCovidTest.Views
 
             try
             {
-                
                 string workTime = WorkListNextTestById != null ? String.Format("{0}: {1}", lblWorkTime ,WorkListNextTestById.WorkTime) : "";
                 string testTime = WorkListNextTestById != null ? String.Format("{0}: {1}", lblTestTime ,WorkListNextTestById.TestTime) : "";
                 string nextTestDate = WorkListNextTestById != null ? String.Format("{0}: {1:dd/MM/yyyy}", lblNextTestDate, WorkListNextTestById.TestDate) : "";
-                
 
                 if (WorkListNextTestById != null && string.IsNullOrEmpty(WorkListNextTestById.WorkTime))
                 {

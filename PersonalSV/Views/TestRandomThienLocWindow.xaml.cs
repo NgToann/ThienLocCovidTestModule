@@ -131,7 +131,7 @@ namespace TLCovidTest.Views
                         string timeScanCompare = string.Format("{0:HH:mm}", DateTime.Now.AddMinutes(-defModel.WaitingMinutes));
                         if (string.IsNullOrEmpty(testRdToday.TimeIn) || string.Compare(testRdToday.TimeIn, timeScanCompare) >= 1)
                         {
-                            UpdateTimeIn(testRdToday, empByCode, Brushes.Yellow, lblGetInQueue);
+                            UpdateTimeIn(testRdToday, empByCode, Brushes.Red, lblGetInQueue);
                             SetTxtDefault();
                         }
                         else
