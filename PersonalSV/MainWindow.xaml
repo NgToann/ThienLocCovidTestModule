@@ -104,6 +104,7 @@
                 <MenuItem x:Name="miReport2020" Header="Report2020" Click="miReport2020_Click" Visibility="Collapsed"/>
                 <MenuItem x:Name="miReportMissingRecordTime" Header="{DynamicResource ResourceKey=mainWindowMenuMissingRecordTime}" Click="miReportMissingRecordTime_Click"/>
                 <MenuItem x:Name="miReportScanTimeInOut" Header="{DynamicResource  ResourceKey=menuReportCheckInOut}" Click="miReportScanTimeInOut_Click"/>
+                <MenuItem x:Name="miReportCovidTest" Header="{DynamicResource ResourceKey=menuReportCovidTestResult}" Click="miReportCovidTest_Click"/>
             </MenuItem>
             <MenuItem x:Name="miCovidTest">
                 <MenuItem.Header>
@@ -113,7 +114,7 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Image Width="16" Height="16" Source="./Images/ok.png" Margin="2,0,0,0"/>
-                        <TextBlock Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="Test Covid"/>
+                        <TextBlock Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="Covid Test"/>
                     </Grid>
                 </MenuItem.Header>
                 <MenuItem x:Name="miWorkerCheckIn" Header="{DynamicResource ResourceKey=menuWorkerCheckIn}" Click="miWorkerCheckIn_Click"/>

@@ -84,11 +84,13 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
                         <TextBlock Text="{Binding EmployeeName}" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Row="1" Text="{Binding DepartmentName}" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Row="2" Text="{Binding TimeIn}" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Row="3" Text="{Binding Message}" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="4" Text="{Binding Message1}" HorizontalAlignment="Center"/>
                     </Grid>
                 </Viewbox>
                 <TextBlock Text="{Binding IdDisplay}" VerticalAlignment="Bottom" FontSize="12"/>

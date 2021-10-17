@@ -260,6 +260,12 @@ namespace TLCovidTest
             window.ShowDialog();
         }
 
+        private void miReportCovidTest_Click(object sender, RoutedEventArgs e)
+        {
+            TestRandomReportResultWindow window = new TestRandomReportResultWindow();
+            window.Show();
+        }
+
         //private void miLeaveWithReason_Click(object sender, RoutedEventArgs e)
         //{
         //    //AbsenteesReasonWindow window = new AbsenteesReasonWindow();

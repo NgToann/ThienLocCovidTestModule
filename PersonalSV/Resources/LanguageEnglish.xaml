@@ -457,7 +457,8 @@
     
     <!--ThienLoc Test Random-->
     <system:String x:Key="tlTestRandomWindowTitle">ThienLoc Covid Quick Test Random</system:String>
-    <system:String x:Key="tlTestRandomMsgGetInQueue">KHÔNG ĐƯỢC VÀO CÔNG TY, VUI LÒNG VỀ KHU VỰC TEST</system:String>
+    <system:String x:Key="tlTestRandomMsgGetInQueue">KHÔNG ĐƯỢC VÀO CÔNG TY</system:String>
+    <system:String x:Key="tlTestRandomMsgGetInQueue1">VUI LÒNG VỀ KHU VỰC TEST</system:String>
     <system:String x:Key="tlTestRandomMsgDoNotConfirmTestResult">Chưa xác nhận kết quả Test</system:String>
     <system:String x:Key="tlTestRandomMsgNotAllowed">Not Allowed</system:String>
     <system:String x:Key="tlTestRandomMsgWelcome">Welcome !</system:String>
@@ -496,6 +497,7 @@
     <system:String x:Key="confirmTestResultTestResult">Test Result</system:String>
     <system:String x:Key="confirmTestResultConfirmedBy">Confirmed By</system:String>
     <system:String x:Key="confirmTestResultRemark">Remark</system:String>
+    <system:String x:Key="confirmTestResultChangeConfirmDate">Change Confirm Date</system:String>
     
     <system:String x:Key="confirmTestResultMsgDoNotCheckIn">Chưa Hoàn Thành Test</system:String>
     
@@ -508,6 +510,8 @@
     
     <system:String x:Key="menuConfirmTestResult">Confirm Covid Test Result</system:String>
     
+    <system:String x:Key="menuReportCovidTestResult">Covid Test Report</system:String>
+    <system:String x:Key="testCovidReportResultWindowTitle">ThienLoc Covid Test Report Result</system:String>
     
     
 </ResourceDictionary>

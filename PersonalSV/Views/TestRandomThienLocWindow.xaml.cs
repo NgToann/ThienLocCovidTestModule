@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Windows.Threading;
 
 using TLCovidTest.Controllers;
@@ -33,6 +27,7 @@ namespace TLCovidTest.Views
         List<EmployeeModel> employeeList;
         private string lblResourceHeader = "", lblResourceNotFound = "", lblGetInQueue = "", lblDoNotConfirmTestResult = "", lblNotAllowed = "", lblWelcome="", lblNextTestDate = "", lblDoNotCheckIn = "";
         private string lblTestDate = "", lblTotalWorker = "", lblCurrentTimeIn = "", lblTestRate = "";
+        private string lblGetInQueue1 = "";
         private DateTime toDay = DateTime.Now.Date;
         public TestRandomThienLocWindow()
         {
@@ -46,7 +41,8 @@ namespace TLCovidTest.Views
 
             lblResourceHeader = LanguageHelper.GetStringFromResource("testRandomHeader");
             lblResourceNotFound = LanguageHelper.GetStringFromResource("messageNotFound");
-            lblGetInQueue = LanguageHelper.GetStringFromResource("tlTestRandomMsgGetInQueue");            
+            lblGetInQueue = LanguageHelper.GetStringFromResource("tlTestRandomMsgGetInQueue");      
+            lblGetInQueue1 = LanguageHelper.GetStringFromResource("tlTestRandomMsgGetInQueue1");      
             lblDoNotConfirmTestResult = LanguageHelper.GetStringFromResource("tlTestRandomMsgDoNotConfirmTestResult");
             lblNotAllowed = LanguageHelper.GetStringFromResource("tlTestRandomMsgNotAllowed");
             lblWelcome = LanguageHelper.GetStringFromResource("tlTestRandomMsgWelcome");
@@ -109,7 +105,6 @@ namespace TLCovidTest.Views
                 var empByCode = employeeList.FirstOrDefault(f => f.EmployeeCode == findWhat);
                 if (empByCode != null)
                 {
-
                     try
                     {
                         testRandomListByEmpCode = TestRandomController.GetByEmpCode(empByCode.EmployeeCode);
@@ -126,26 +121,26 @@ namespace TLCovidTest.Views
 
                     if (testRandomListToday.Count() > 0)
                     {
-                        var testRdToday = testRandomListToday.FirstOrDefault();
-                        // if not yet check in => welcome
+                        var workerTestToday = testRandomListToday.FirstOrDefault();
                         string timeScanCompare = string.Format("{0:HH:mm}", DateTime.Now.AddMinutes(-defModel.WaitingMinutes));
-                        if (string.IsNullOrEmpty(testRdToday.TimeIn) || string.Compare(testRdToday.TimeIn, timeScanCompare) >= 1)
+                        //if (string.IsNullOrEmpty(workerTestToday.TimeIn) || string.Compare(workerTestToday.TimeIn, timeScanCompare) >= 1)
+                        if (string.IsNullOrEmpty(workerTestToday.Result))
                         {
-                            UpdateTimeIn(testRdToday, empByCode, Brushes.Red, lblGetInQueue);
+                            UpdateTimeIn(workerTestToday, empByCode, Brushes.Red, lblGetInQueue);
                             SetTxtDefault();
                         }
                         else
                         {
-                            if (string.IsNullOrEmpty(testRdToday.Result))
+                            if (string.IsNullOrEmpty(workerTestToday.Result))
                             {
-                                Alert(empByCode, Brushes.Red, lblDoNotConfirmTestResult, testRdToday.Id);
+                                Alert(empByCode, Brushes.Red, lblDoNotConfirmTestResult, workerTestToday.Id);
                             }
                             // Not Allowed Positive
-                            else if (testRdToday.Result.Equals("Positive"))
+                            else if (workerTestToday.Result.Equals("Positive"))
                             {
-                                Alert(empByCode, Brushes.Red, lblNotAllowed, testRdToday.Id);
+                                Alert(empByCode, Brushes.Red, lblNotAllowed, workerTestToday.Id);
                             }
-                            else if (testRdToday.Result.Equals("Negative"))
+                            else if (workerTestToday.Result.Equals("Negative"))
                             {
                                 // Check Worker has next schedule test
                                 if (testRandomNextListToday.Count() > 0)
@@ -154,43 +149,35 @@ namespace TLCovidTest.Views
                                 }
                                 else
                                 {
-                                    Alert(empByCode, Brushes.Green, lblWelcome, testRdToday.Id);
+                                    Alert(empByCode, Brushes.Green, lblWelcome, workerTestToday.Id);
                                 }
                             }
+                        }
+                    }
+                    else if (testRandomNextListToday.Count() > 0)
+                    {
+                        CheckNextTestDate(testRandomNextListToday, empByCode);
+                    }
+                    else if (testRandomBeforeListToday.Count() > 0)
+                    {
+                        var workerTestLatest = testRandomBeforeListToday.OrderBy(o => o.TestDate).LastOrDefault();
+                        if (workerTestLatest.Result.Equals("Positive"))
+                        {
+                            Alert(empByCode, Brushes.Red, lblNotAllowed, workerTestLatest.Id);
+                        }
+                        else if (workerTestLatest.Result.Equals("Negative"))
+                        { 
+                            Alert(empByCode, Brushes.Green, lblWelcome, workerTestLatest.Id);
+                        }
+                        else
+                        {
+                            Alert(empByCode, Brushes.Yellow, string.Format("{0}: {1:dd/MM/yyyy}", lblDoNotCheckIn, workerTestLatest.TestDate), workerTestLatest.Id);
                         }
                     }
                     else
                     {
-                        // Check Result Latest
-                        if (testRandomBeforeListToday.Count() > 0)
-                        {
-                            var workerTestLatest = testRandomBeforeListToday.OrderBy(o => o.TestDate).LastOrDefault();
-                            if (workerTestLatest.Result.Equals("Positive"))
-                            {
-                                Alert(empByCode, Brushes.Red, lblNotAllowed, workerTestLatest.Id);
-                            }
-                            else if (workerTestLatest.Result.Equals("Negative"))
-                            {
-                                // Check Next Schedule
-                                if (testRandomNextListToday.Count() > 0)
-                                {
-                                    CheckNextTestDate(testRandomNextListToday, empByCode);
-                                }
-                                else
-                                {
-                                    Alert(empByCode, Brushes.Green, lblWelcome, workerTestLatest.Id);
-                                }
-                            }
-                            else
-                            {
-                                Alert(empByCode, Brushes.Yellow, string.Format("{0}: {1:dd/MM/yyyy}", lblDoNotCheckIn, workerTestLatest.TestDate), workerTestLatest.Id);
-                            }
-                        }
-                        else if (testRandomNextListToday.Count() > 0)
-                        {
-                            CheckNextTestDate(testRandomNextListToday, empByCode);
-                        }
-                    }
+                        Alert(empByCode, Brushes.Green, lblWelcome, null);
+                    }    
                 }
 
                 else
@@ -203,7 +190,6 @@ namespace TLCovidTest.Views
                     brDisplay.DataContext = empNotFound;
                     SetTxtDefault();
                 }
-
             }
         }
 
@@ -236,6 +222,7 @@ namespace TLCovidTest.Views
                     DepartmentName = empByCode.DepartmentName,
                     TimeIn = testRandomUpdateTimeIn.TimeIn,
                     Message = lblGetInQueue,
+                    Message1 = lblGetInQueue1,
                     IdDisplay = string.Format("testid: {0}", testRandomUpdateTimeIn.Id)
                 };
                 brDisplay.DataContext = displayInfo;
@@ -305,6 +292,7 @@ namespace TLCovidTest.Views
             public string DepartmentName { get; set; }
             public string TimeIn { get; set; }
             public string Message { get; set; }
+            public string Message1 { get; set; }
         }
         
         private class CounterInfo

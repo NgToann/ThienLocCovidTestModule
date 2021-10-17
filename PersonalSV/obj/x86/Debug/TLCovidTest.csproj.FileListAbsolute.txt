@@ -229,3 +229,5 @@ C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.csproj.CopyComplete
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.exe
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.pdb
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.baml

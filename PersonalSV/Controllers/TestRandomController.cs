@@ -92,8 +92,8 @@ namespace TLCovidTest.Controllers
                 }
                 else if (option == 3)
                 {
-                    if (db.ExecuteStoreCommand("EXEC spm_UpdateTestRandomResultById @Id, @Result, @PersonConfirm, @Remark, @Status, @UpdateResultTime",
-                                                                                    @Id, @Result, @PersonConfirm, @Remark, @Status, @UpdateResultTime) >= 1)
+                    if (db.ExecuteStoreCommand("EXEC spm_UpdateTestRandomResultById_1   @Id, @Result, @PersonConfirm, @Remark, @Status, @UpdateResultTime, @TimeIn",
+                                                                                        @Id, @Result, @PersonConfirm, @Remark, @Status, @UpdateResultTime, @TimeIn) >= 1)
                         return true;
                 }
                 return false;
