@@ -44,9 +44,20 @@ namespace TLCovidTest.Views
                     var workerPrizeByCardId = WorkerPrizeController.GetByCardId(findWhat).FirstOrDefault();
                     if(workerPrizeByCardId != null)
                     {
-                        brDisplay.Background = Brushes.Green;
-                        displayInfo = workerPrizeByCardId;
-                        displayInfo.Message = "MỜI LÊN NHẬN QUÀ !";
+                        if (string.IsNullOrEmpty(workerPrizeByCardId.TimeScan))
+                        {
+                            brDisplay.Background = Brushes.Green;
+                            displayInfo = workerPrizeByCardId;
+                            displayInfo.Message = "MỜI LÊN NHẬN QUÀ !";
+                            displayInfo.TimeScan = string.Format("{0:HH:mm}", DateTime.Now);
+                            WorkerPrizeController.UpdateTimeScan(displayInfo);
+                        }
+                        else
+                        {
+                            brDisplay.Background = Brushes.Yellow;
+                            displayInfo = workerPrizeByCardId;
+                            displayInfo.Message = string.Format("ĐÃ NHẬN QUÀ LÚC: {0} !", displayInfo.TimeScan);
+                        }
                     }
                     else
                     {

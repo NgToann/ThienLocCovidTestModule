@@ -45,5 +45,18 @@ namespace TLCovidTest.Controllers
                 return false;
             }
         }
+        //
+        public static bool UpdateTimeScan(WorkerPrizeModel model)
+        {
+            using (var db = new PersonalDataEntities())
+            {
+                var @CardId = new SqlParameter("@CardId", model.CardId);
+                var @TimeScan = new SqlParameter("@TimeScan", model.TimeScan);
+                db.CommandTimeout = 45;
+                if (db.ExecuteStoreCommand("EXEC spm_UpdateWorkerPrizeTimeScan @CardId, @TimeScan", @CardId, @TimeScan) >= 1)
+                    return true;
+                return false;
+            }
+        }
     }
 }

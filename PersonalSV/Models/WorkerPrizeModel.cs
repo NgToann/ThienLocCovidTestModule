@@ -12,5 +12,6 @@ namespace TLCovidTest.Models
         public string FullName { get; set; }
         public string DepartmentName { get; set; }
         public string Message { get; set; }
+        public string TimeScan { get; set; }
     }
 }
