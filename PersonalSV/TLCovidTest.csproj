@@ -118,6 +118,7 @@
     <Compile Include="Controllers\WorkerRemarksController.cs" />
     <Compile Include="Controllers\WorkingShiftController.cs" />
     <Compile Include="Controllers\WorkListController.cs" />
+    <Compile Include="Controllers\WorkerPrizeController.cs" />
     <Compile Include="DataSets\AttendanceRecordDataSet.cs">
       <DependentUpon>AttendanceRecordDataSet.xsd</DependentUpon>
     </Compile>
@@ -166,6 +167,7 @@
     <Compile Include="Models\WorkerF0Model.cs" />
     <Compile Include="Models\WorkerLeaveDetailModel.cs" />
     <Compile Include="Models\WorkerPriorityModel.cs" />
+    <Compile Include="Models\WorkerPrizeModel.cs" />
     <Compile Include="Models\WorkerRemarkModel.cs" />
     <Compile Include="Models\WorkListModel.cs" />
     <Compile Include="ViewModels\EmployeeViewModel.cs" />
@@ -295,6 +297,12 @@
     </Compile>
     <Compile Include="Views\WorkerCheckOutWindow.xaml.cs">
       <DependentUpon>WorkerCheckOutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerPrizeImportListWindow.xaml.cs">
+      <DependentUpon>WorkerPrizeImportListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkerPrizeScanWindow.xaml.cs">
+      <DependentUpon>WorkerPrizeScanWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\WorkingDaySummaryReportWindow.xaml.cs">
       <DependentUpon>WorkingDaySummaryReportWindow.xaml</DependentUpon>
@@ -488,6 +496,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\WorkerCheckOutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerPrizeImportListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkerPrizeScanWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

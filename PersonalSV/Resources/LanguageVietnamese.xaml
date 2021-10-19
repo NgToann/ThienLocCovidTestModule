@@ -501,4 +501,8 @@
     <system:String x:Key="menuReportCovidTestResult">Báo Cáo Kết Quả Test</system:String>
     <system:String x:Key="testCovidReportResultWindowTitle">ThienLoc Báo cáo kết quả Covid Test</system:String>
     
+    <!--Worker Prize Feature-->
+    <system:String x:Key="workerPrizeImportListWindowTitle">ThienLoc Thêm danh sách nhân viên nhận quà</system:String>
+    <system:String x:Key="workerPrizeImportListMenu">Thêm danh sách nhân viên nhận quà</system:String>
+    
 </ResourceDictionary>

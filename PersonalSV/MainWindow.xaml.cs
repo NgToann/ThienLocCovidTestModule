@@ -210,6 +210,8 @@ namespace TLCovidTest
                 //reports
                 miReportScanTimeInOut.Visibility = Visibility.Collapsed;
                 miTestCovidRandom.Visibility = Visibility.Collapsed;
+                miReports.Visibility = Visibility.Collapsed;
+                miCovidTest.Visibility = Visibility.Collapsed;
             }
             else if(account.Branch.Equals("SAOVIET") || account.Branch.Equals("DAILOC"))
             {
@@ -264,6 +266,18 @@ namespace TLCovidTest
         {
             TestRandomReportResultWindow window = new TestRandomReportResultWindow();
             window.Show();
+        }
+
+        private void miScan_Click(object sender, RoutedEventArgs e)
+        {
+            WorkerPrizeScanWindow window = new WorkerPrizeScanWindow();
+            window.ShowDialog();
+        }
+
+        private void miImportList_Click(object sender, RoutedEventArgs e)
+        {
+            WorkerPrizeImportListWindow window = new WorkerPrizeImportListWindow();
+            window.ShowDialog();
         }
 
         //private void miLeaveWithReason_Click(object sender, RoutedEventArgs e)

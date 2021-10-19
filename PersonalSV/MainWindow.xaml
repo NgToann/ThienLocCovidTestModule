@@ -124,6 +124,20 @@
                 <MenuItem x:Name="miCreateTestTerm" Header="{DynamicResource ResourceKey=menuCreateNewTestTerm}" Click="miCreateTestTerm_Click"/>
                 <MenuItem x:Name="miConfirmTestResult" Header="{DynamicResource ResourceKey=menuConfirmTestResult}" Click="miConfirmTestResult_Click"/>
             </MenuItem>
+            <MenuItem x:Name="miGift">
+                <MenuItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="16" Height="16" Source="./Images/recover_deleted_items.png" Margin="2,0,0,0"/>
+                        <TextBlock Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="Gift"/>
+                    </Grid>
+                </MenuItem.Header>
+                <MenuItem x:Name="miScan" Header="Scan" Click="miScan_Click"></MenuItem>
+                <MenuItem x:Name="miImportList" Header="{DynamicResource ResourceKey=workerPrizeImportListMenu}" Click="miImportList_Click"></MenuItem>
+            </MenuItem>
             <MenuItem Padding="0,2,10,2">
                 <MenuItem.Header>
                     <Grid>

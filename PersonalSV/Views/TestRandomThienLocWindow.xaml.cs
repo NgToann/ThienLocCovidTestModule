@@ -131,12 +131,14 @@ namespace TLCovidTest.Views
                         }
                         else
                         {
-                            if (string.IsNullOrEmpty(workerTestToday.Result))
-                            {
-                                Alert(empByCode, Brushes.Red, lblDoNotConfirmTestResult, workerTestToday.Id);
-                            }
+                            //if (string.IsNullOrEmpty(workerTestToday.Result))
+                            //{
+                            //    Alert(empByCode, Brushes.Red, lblDoNotConfirmTestResult, workerTestToday.Id);
+                            //}
                             // Not Allowed Positive
-                            else if (workerTestToday.Result.Equals("Positive"))
+                            //else if (workerTestToday.Result.Equals("Positive"))
+
+                            if (workerTestToday.Result.Equals("Positive"))
                             {
                                 Alert(empByCode, Brushes.Red, lblNotAllowed, workerTestToday.Id);
                             }

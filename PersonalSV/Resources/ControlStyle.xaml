@@ -37,6 +37,14 @@
             </GradientStopCollection>
         </GradientBrush.GradientStops>
     </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BackGroundGreenYellow">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="Green" Offset="1"/>
+                <GradientStop Color="Yellow" Offset="5"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
     <LinearGradientBrush x:Key="Background1">
         <GradientBrush.GradientStops>
             <GradientStopCollection>

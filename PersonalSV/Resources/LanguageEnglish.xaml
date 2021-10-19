@@ -513,5 +513,8 @@
     <system:String x:Key="menuReportCovidTestResult">Covid Test Report</system:String>
     <system:String x:Key="testCovidReportResultWindowTitle">ThienLoc Covid Test Report Result</system:String>
     
+    <!--Worker Prize Feature-->
+    <system:String x:Key="workerPrizeImportListWindowTitle">ThienLoc Import Worker Gift List </system:String>
+    <system:String x:Key="workerPrizeImportListMenu">Import WorkerGift List </system:String>
     
 </ResourceDictionary>
