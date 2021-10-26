@@ -280,6 +280,12 @@ namespace TLCovidTest
             window.ShowDialog();
         }
 
+        private void miUpdatePatientState_Click(object sender, RoutedEventArgs e)
+        {
+            TLClinicWindow window = new TLClinicWindow();
+            window.ShowDialog();
+        }
+
         //private void miLeaveWithReason_Click(object sender, RoutedEventArgs e)
         //{
         //    //AbsenteesReasonWindow window = new AbsenteesReasonWindow();

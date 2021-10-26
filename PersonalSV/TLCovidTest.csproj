@@ -289,6 +289,9 @@
     <Compile Include="Views\TestRequestListWindow.xaml.cs">
       <DependentUpon>TestRequestListWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TLClinicWindow.xaml.cs">
+      <DependentUpon>TLClinicWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\WorkerCheckInReportWindow.xaml.cs">
       <DependentUpon>WorkerCheckInReportWindow.xaml</DependentUpon>
     </Compile>
@@ -484,6 +487,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\TestRequestListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TLClinicWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -764,6 +771,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\login-tl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clinic4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

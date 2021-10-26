@@ -237,3 +237,9 @@ F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalS
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.baml

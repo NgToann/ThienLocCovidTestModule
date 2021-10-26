@@ -505,4 +505,16 @@
     <system:String x:Key="workerPrizeImportListWindowTitle">ThienLoc Thêm danh sách nhân viên nhận quà</system:String>
     <system:String x:Key="workerPrizeImportListMenu">Thêm danh sách nhân viên nhận quà</system:String>
     
+    
+    
+    <!--Clinic Feature-->
+    <system:String x:Key="clinicWindowTitle">TL Y Tế</system:String>
+    <system:String x:Key="clinicMenu">Y Tế</system:String>
+    <system:String x:Key="clinicMainHeader">CẬP NHẬT SỨC KHỎE NHÂN VIÊN</system:String>
+    <system:String x:Key="clinicScanCardIdOrWorkerId">Quẹt Thẻ Từ (Nhập Mã Nhân Viên)</system:String>
+    <system:String x:Key="clinicRadNormal">Bình thường</system:String>
+    <system:String x:Key="clinicRadInfectedCovid">Nhiễm Covid</system:String>
+    <system:String x:Key="clinicRadSuspectedCovid">Nghi Nhiễm Covid</system:String>
+    <system:String x:Key="clinicRadOthers">Bệnh khác</system:String>
+    
 </ResourceDictionary>

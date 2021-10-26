@@ -517,4 +517,16 @@
     <system:String x:Key="workerPrizeImportListWindowTitle">ThienLoc Import Worker Gift List </system:String>
     <system:String x:Key="workerPrizeImportListMenu">Import WorkerGift List </system:String>
     
+    
+    <!--Clinic Feature-->
+    <system:String x:Key="clinicWindowTitle">TL Clinic</system:String>
+    <system:String x:Key="clinicMenu">Clinic</system:String>
+    <system:String x:Key="clinicMainHeader">UPDATE PATIENT STATE</system:String>
+    <system:String x:Key="clinicScanCardIdOrWorkerId">Scan CardId or WorkerId</system:String>
+    <system:String x:Key="clinicRadNormal">Normal</system:String>
+    <system:String x:Key="clinicRadInfectedCovid">Infected Covid</system:String>
+    <system:String x:Key="clinicRadSuspectedCovid">Suspected Covid</system:String>
+    <system:String x:Key="clinicRadOthers">Others</system:String>
+    
+    
 </ResourceDictionary>
