@@ -109,6 +109,7 @@
     <Compile Include="Controllers\LeaveDayDetailController.cs" />
     <Compile Include="Controllers\LeaveWithSalaryController.cs" />
     <Compile Include="Controllers\OverTimeLimitController.cs" />
+    <Compile Include="Controllers\PatientController.cs" />
     <Compile Include="Controllers\PositionController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
     <Compile Include="Controllers\SourceController.cs" />
@@ -161,6 +162,7 @@
     <Compile Include="Models\LeaveDayTotalModel.cs" />
     <Compile Include="Models\LeaveWithReasonModel.cs" />
     <Compile Include="Models\MissingRecordTimeModel.cs" />
+    <Compile Include="Models\PatientModel.cs" />
     <Compile Include="Models\PrivateDefineModel.cs" />
     <Compile Include="Models\TestRandomModel.cs" />
     <Compile Include="Models\WorkerCheckInModel.cs" />

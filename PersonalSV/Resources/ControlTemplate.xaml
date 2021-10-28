@@ -50,4 +50,36 @@
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
+    <ControlTemplate x:Key="ButtonCornerTemplate" TargetType="{x:Type Button}">
+        <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5"
+                    Background="#E7EBF7" TextBlock.Foreground="Black" TextBlock.FontSize="14" Name="Border">
+            <Grid>
+                <Rectangle Name="FocusCue" Visibility="Hidden" Stroke="Black"
+                       StrokeThickness="1" StrokeDashArray="1 2"
+                       SnapsToDevicePixels="True" >
+                </Rectangle>
+                <ContentPresenter RecognizesAccessKey="True"
+                                      Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+                </ContentPresenter>
+            </Grid>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="Border" Property="Background" Value="DeepSkyBlue"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter TargetName="Border" Property="Background" Value="LightGray"/>
+                <Setter TargetName="Border" Property="BorderBrush" Value="WhiteSmoke" />
+                <Setter TargetName="Border" Property="TextBlock.Foreground" Value="Blue"/>
+                <Setter TargetName="Border" Property="TextBlock.FontWeight" Value="Bold"/>
+            </Trigger>
+            <Trigger Property="IsKeyboardFocused" Value="True">
+                <Setter TargetName="FocusCue" Property="Visibility" Value="Visible" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="Border" Property="TextBlock.Foreground" Value="Gray" />
+                <Setter TargetName="Border" Property="Background" Value="MistyRose" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
 </ResourceDictionary>

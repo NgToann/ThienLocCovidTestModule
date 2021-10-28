@@ -517,4 +517,12 @@
     <system:String x:Key="clinicRadSuspectedCovid">Nghi Nhiễm Covid</system:String>
     <system:String x:Key="clinicRadOthers">Bệnh khác</system:String>
     
+    <system:String x:Key="clinicGroupEmpInfo">THÔNG TIN NHÂN VIÊN</system:String>
+    <system:String x:Key="clinicGroupPatientState">TÌNH TRẠNG SỨC KHỎE</system:String>
+    
+    <system:String x:Key="clinicConfirmDate">Ngày ghi nhận </system:String>
+    <system:String x:Key="clinicState">Tình trạng</system:String>
+    <system:String x:Key="clinicRemarks">Ghi chú</system:String>
+    <system:String x:Key="clinicConfirmBy">Xác nhận</system:String>
+    
 </ResourceDictionary>
