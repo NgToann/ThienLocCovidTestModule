@@ -36,14 +36,14 @@
                      TextAlignment="Center" PreviewKeyUp="txtCardId_PreviewKeyUp"/>
         </Grid>
         
-        <Border x:Name="brDisplay" Grid.Row="2" Grid.ColumnSpan="2" Margin="2" BorderBrush="Gray" BorderThickness="1,1,1,1" CornerRadius="5" Padding="0">
+        <Border x:Name="brDisplay" Grid.Row="2" Grid.ColumnSpan="2" Margin="2" BorderBrush="LightGray" BorderThickness="1,1,1,1" CornerRadius="5" Padding="0">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
                     <RowDefinition/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <Border Padding="15" BorderBrush="Gray" BorderThickness="0.5,0,0.5,0.5" CornerRadius="5">
+                <Border x:Name="brState" Padding="15" BorderBrush="Gray" BorderThickness="0.5,0,0.5,0.5" CornerRadius="5">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
@@ -57,39 +57,39 @@
                         <RadioButton Grid.Column="3" x:Name="radOthers" Content="{DynamicResource ResourceKey=clinicRadOthers}" Style="{DynamicResource ResourceKey=RadioBlueStyle}" GroupName="patientstate" VerticalContentAlignment="Center" FontSize="20" Cursor="Hand" Checked="radOthers_Checked" HorizontalAlignment="Center"/>
                     </Grid>
                 </Border>                
-                <Grid Grid.Row="1" Margin="0,20,0,0">
+                <Grid Grid.Row="1" Margin="5,20,5,5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="396"/>
                         <ColumnDefinition Width="3*"/>
                     </Grid.ColumnDefinitions>
                     <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
                         <GroupBox.Header>
-                            <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
-                                <TextBlock Text="{DynamicResource ResourceKey=clinicGroupEmpInfo}"/>
+                            <Border Background="{Binding Background}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                                <TextBlock Text="{DynamicResource ResourceKey=clinicGroupEmpInfo}" Padding="10,0,10,0" Foreground="Black"/>
                             </Border>
                         </GroupBox.Header>
                         <Viewbox Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <Grid x:Name="grDisplay">
+                            <Grid x:Name="grWorkerInfo">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
                                     <RowDefinition Height="auto"/>
                                 </Grid.RowDefinitions>
-                                <TextBlock Text="NGUYEN VAN FULL NAME" HorizontalAlignment="Center" FontWeight="SemiBold"/>
-                                <TextBlock Grid.Row="1" Text="A130" HorizontalAlignment="Center" FontWeight="SemiBold"/>
-                                <TextBlock Grid.Row="2" Text="OFFINCE MAID" HorizontalAlignment="Center" FontWeight="SemiBold"/>
-                                <TextBlock Grid.Row="3" Text="{Binding Message}" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                                <TextBlock Text="{Binding EmployeeName}" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                                <TextBlock Grid.Row="1" Text="{Binding EmployeeID}" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                                <TextBlock Grid.Row="2" Text="{Binding DepartmentName}" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                                <TextBlock Grid.Row="3" Text="{Binding Message}" HorizontalAlignment="Center" FontWeight="SemiBold" />
                             </Grid>
                         </Viewbox>
                     </GroupBox>
                     <GroupBox Margin="10,0,0,0" Grid.Column="1" Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
                         <GroupBox.Header>
-                            <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
-                                <TextBlock Text="{DynamicResource ResourceKey=clinicGroupPatientState}"/>
+                            <Border Background="{Binding Background}" Style="{DynamicResource ResourceKey=BorderStyle}">
+                                <TextBlock Text="{DynamicResource ResourceKey=clinicGroupPatientState}" Padding="10,0,10,0" Foreground="Black"/>
                             </Border>
                         </GroupBox.Header>
-                        <Grid>
+                        <Grid x:Name="grPatientInfo">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>
                                 <ColumnDefinition Width="3*"/>
@@ -102,17 +102,17 @@
                                 <RowDefinition Height="*"/>
                                 <RowDefinition Height="auto"/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="{DynamicResource ResourceKey=clinicConfirmDate}"/>
-                            <TextBlock Grid.Column="1" Text="28/10/2021"/>
+                            <TextBlock Text="{DynamicResource ResourceKey=clinicConfirmDate}" Foreground="Black"/>
+                            <TextBlock Grid.Column="1" Text="{Binding ConfirmDate, StringFormat=dd/MM/yyyy}" Foreground="Black"/>
 
-                            <TextBlock Grid.Row="1" Margin="0,10,0,0" Text="{DynamicResource ResourceKey=clinicState}"/>
-                            <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,10,0,0" Text="Infected Covid"/>
+                            <TextBlock Grid.Row="1" Margin="0,10,0,0" Text="{DynamicResource ResourceKey=clinicState}" Foreground="Black"/>
+                            <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,10,0,0" Text="{Binding StateDisplay}" Foreground="Black"/>
 
-                            <TextBlock Grid.Row="2" Margin="0,10,0,0" Text="Ghi Chu"/>
-                            <TextBox Grid.Row="2" Grid.Column="1" Margin="0,10,0,0" BorderBrush="Gray" x:Name="txtRemarks" Height="90" Padding="3" TextWrapping="Wrap"/>
+                            <TextBlock Grid.Row="2" Margin="0,10,0,0" Text="{DynamicResource ResourceKey=clinicRemarks}" Foreground="Black"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Margin="0,10,0,0" BorderBrush="LightGray" Text="{Binding Remarks}" Height="90" Padding="3" TextWrapping="Wrap" Foreground="Black"/>
 
-                            <TextBlock Grid.Row="3" Margin="0,10,0,0" Text="{DynamicResource ResourceKey=clinicConfirmBy}"/>
-                            <TextBox Grid.Row="3" Grid.Column="1" Margin="0,10,0,0" BorderBrush="Gray" x:Name="txtConfirmBy" Height="50" Padding="3" TextWrapping="Wrap"/>
+                            <TextBlock Grid.Row="3" Margin="0,10,0,0" Text="{DynamicResource ResourceKey=clinicConfirmBy}" Foreground="Black"/>
+                            <TextBox Grid.Row="3" Grid.Column="1" Margin="0,10,0,0" BorderBrush="LightGray" Text="{Binding ConfirmBy}" Height="50" Padding="3" TextWrapping="Wrap" Foreground="Black"/>
                             
                             <Button Grid.Row="6"  x:Name="btnDelete" Template="{DynamicResource ResourceKey=ButtonCornerTemplate}" Click="btnDelete_Click" Cursor="Hand">
                                 <Button.Content>

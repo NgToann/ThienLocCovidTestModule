@@ -26,8 +26,8 @@ namespace TLCovidTest.Views
     public partial class TLClinicWindow : Window
     {
         private int stateIndex = 0;
+        private string stateDisplay = "";
         BackgroundWorker bwLoad;
-
         List<EmployeeModel> employeeList;
         public TLClinicWindow()
         {
@@ -65,16 +65,24 @@ namespace TLCovidTest.Views
             {
                 Dispatcher.Invoke(new Action(() =>
                 {
-                    MessageBox.Show(ex.Message.ToString());
+                    MessageBox.Show(ex.InnerException.Message.ToString());
                 }));
             }
         }
 
-        
-
         private void txtCardId_PreviewKeyUp(object sender, KeyEventArgs e)
         {
             brDisplay.Background = Brushes.WhiteSmoke;
+            brState.Background = Brushes.WhiteSmoke;
+
+            grWorkerInfo.DataContext = null;
+            grPatientInfo.DataContext = null;
+
+            radNormal.IsChecked     = false;
+            radInfected.IsChecked   = false;
+            radSuspected.IsChecked  = false;
+            radOthers.IsChecked     = false;
+
             if (e.Key == Key.Enter)
             {
                 // get worker by cardid
@@ -84,23 +92,99 @@ namespace TLCovidTest.Views
 
                 if (empById != null)
                 {
+                    grWorkerInfo.DataContext = empById;
+                    try
+                    {
+                        var patientListByWorkerId = PatientController.GetByEmpId(empById.EmployeeID);
+                        if (patientListByWorkerId.Count() == 0)
+                        {
+                            radNormal.IsChecked = true;
+                            var patientNew = new PatientModel
+                            {
+                                EmployeeID = empById.EmployeeID,
+                                ConfirmBy = "",
+                                Remarks = "",
+                                ConfirmDate = DateTime.Now.Date,
+                                StateDisplay = stateDisplay
+                            };
+                            grPatientInfo.DataContext = patientNew;
+                        }
+                        else
+                        {
+                            var patientLatest = patientListByWorkerId.OrderBy(o => o.ConfirmDate).LastOrDefault();
 
+                            // Refresh UI
+                            if (patientLatest.StateIndex == 0)
+                                radNormal.IsChecked = true;
+                            else if (patientLatest.StateIndex == 1)
+                                radInfected.IsChecked = true;
+                            else if (patientLatest.StateIndex == 2)
+                                radSuspected.IsChecked = true;
+                            else if (patientLatest.StateIndex == 3)
+                                radOthers.IsChecked = true;
+
+                            patientLatest.StateDisplay = stateDisplay;
+                            grPatientInfo.DataContext = patientLatest;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.InnerException.Message.ToString());
+                        SetTxtDefault();
+                        return;
+                    }
                 }
                 else
                 {
-
+                    MessageBox.Show("Worker Not Found !\nKhông Tìm Thấy!", this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
+                    SetTxtDefault();
+                    return;
                 }
             }
         }
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
+            var patientSave = grPatientInfo.DataContext as PatientModel;
+            if (patientSave == null)
+                return;
 
+            try
+            {
+                if (PatientController.Insert(patientSave))
+                {
+                    MessageBox.Show("Sucessfully !\nĐã lưu dữ liệu!", this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
+                    SetTxtDefault();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.InnerException.Message.ToString());
+            }
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
+        private void ReloadState(SolidColorBrush bgColor)
+        {
+            var currentState = grPatientInfo.DataContext as PatientModel;
+            if (currentState != null)
+            {
+                currentState.StateIndex = stateIndex;
+                currentState.StateDisplay = stateDisplay;
+                currentState.Background = bgColor;
+            }
+            this.Foreground = bgColor;
+
+            grPatientInfo.DataContext = null;
+            grPatientInfo.DataContext = currentState;
+
+            brDisplay.DataContext = null;
+            brDisplay.DataContext = currentState;
+        }
+        
         private void txtCardId_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
             txtCardId.SelectAll();
@@ -108,37 +192,43 @@ namespace TLCovidTest.Views
 
         private void radNormal_Checked(object sender, RoutedEventArgs e)
         {
-            brDisplay.Background = Brushes.LimeGreen;
-            this.Foreground = Brushes.Black;
+            //brDisplay.Background = Brushes.LimeGreen;
+            brState.Background = Brushes.LimeGreen;
             stateIndex = 0;
+            stateDisplay = radNormal.Content as string;
+            ReloadState(Brushes.LimeGreen);
         }
 
         private void radInfected_Checked(object sender, RoutedEventArgs e)
         {
-            brDisplay.Background = Brushes.Red;
-            this.Foreground = Brushes.White;
+            //brDisplay.Background = Brushes.Red;
+            brState.Background = Brushes.Red;
             stateIndex = 1;
+            stateDisplay = radInfected.Content as string;
+            ReloadState(Brushes.Red);
         }
 
         private void radSuspected_Checked(object sender, RoutedEventArgs e)
         {
-            brDisplay.Background = Brushes.Orange;
-            this.Foreground = Brushes.Black;
+            //brDisplay.Background = Brushes.Orange;
+            brState.Background = Brushes.Orange;
             stateIndex = 2;
+            stateDisplay = radSuspected.Content as string;
+            ReloadState(Brushes.Orange);
         }
 
         private void radOthers_Checked(object sender, RoutedEventArgs e)
         {
-            brDisplay.Background = Brushes.Yellow;
-            this.Foreground = Brushes.Black;
+            //brDisplay.Background = Brushes.Yellow;
+            brState.Background = Brushes.Yellow;
             stateIndex = 3;
+            stateDisplay = radOthers.Content as string;
+            ReloadState(Brushes.Yellow);
         }
         private void SetTxtDefault()
         {
             txtCardId.SelectAll();
             txtCardId.Focus();
-        }
-
-        
+        }     
     }
 }

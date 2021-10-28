@@ -532,7 +532,7 @@
     <system:String x:Key="clinicGroupPatientState">HEATH STATE</system:String>
     
     <system:String x:Key="clinicConfirmDate">Confirm Date</system:String>
-    <system:String x:Key="clinicState">Patient State</system:String>
+    <system:String x:Key="clinicState">State</system:String>
     <system:String x:Key="clinicRemarks">Remarks</system:String>
     <system:String x:Key="clinicConfirmBy">Confirm By</system:String>
     
