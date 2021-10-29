@@ -521,6 +521,7 @@
     <!--Clinic Feature-->
     <system:String x:Key="clinicWindowTitle">TL Clinic</system:String>
     <system:String x:Key="clinicMenu">Clinic</system:String>
+    <system:String x:Key="clinicMenuUpdateState">Update State</system:String>
     <system:String x:Key="clinicMainHeader">UPDATE PATIENT STATE</system:String>
     <system:String x:Key="clinicScanCardIdOrWorkerId">Scan CardId or WorkerId</system:String>
     <system:String x:Key="clinicRadNormal">Normal</system:String>
@@ -532,6 +533,7 @@
     <system:String x:Key="clinicGroupPatientState">HEATH STATE</system:String>
     
     <system:String x:Key="clinicConfirmDate">Confirm Date</system:String>
+    <system:String x:Key="clinicChangeConfirmDate">Change Confirm Date</system:String>
     <system:String x:Key="clinicState">State</system:String>
     <system:String x:Key="clinicRemarks">Remarks</system:String>
     <system:String x:Key="clinicConfirmBy">Confirm By</system:String>

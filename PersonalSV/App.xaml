@@ -6,7 +6,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Resources/LanguageEnglish.xaml"/>
+                <!--<ResourceDictionary Source="/Resources/LanguageEnglish.xaml"/>-->
+                <ResourceDictionary Source="/Resources/LanguageVietnamese.xaml"/>
                 <ResourceDictionary Source="/Resources/ControlTemplate.xaml"/>
                 <ResourceDictionary Source="/Resources/ControlStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>

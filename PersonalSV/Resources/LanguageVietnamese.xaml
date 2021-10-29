@@ -505,22 +505,22 @@
     <system:String x:Key="workerPrizeImportListWindowTitle">ThienLoc Thêm danh sách nhân viên nhận quà</system:String>
     <system:String x:Key="workerPrizeImportListMenu">Thêm danh sách nhân viên nhận quà</system:String>
     
-    
-    
     <!--Clinic Feature-->
     <system:String x:Key="clinicWindowTitle">TL Y Tế</system:String>
     <system:String x:Key="clinicMenu">Y Tế</system:String>
+    <system:String x:Key="clinicMenuUpdateState">Cập Nhật Bệnh Nhân</system:String>
     <system:String x:Key="clinicMainHeader">CẬP NHẬT SỨC KHỎE NHÂN VIÊN</system:String>
     <system:String x:Key="clinicScanCardIdOrWorkerId">Quẹt Thẻ Từ (Nhập Mã Nhân Viên)</system:String>
-    <system:String x:Key="clinicRadNormal">Bình thường</system:String>
-    <system:String x:Key="clinicRadInfectedCovid">Nhiễm Covid</system:String>
-    <system:String x:Key="clinicRadSuspectedCovid">Nghi Nhiễm Covid</system:String>
-    <system:String x:Key="clinicRadOthers">Bệnh khác</system:String>
+    <system:String x:Key="clinicRadNormal">BÌNH THƯỜNG</system:String>
+    <system:String x:Key="clinicRadInfectedCovid">NHIỄM COVID</system:String>
+    <system:String x:Key="clinicRadSuspectedCovid">NGHI NHIỄM COVID</system:String>
+    <system:String x:Key="clinicRadOthers">BỆNH KHÁC</system:String>
     
     <system:String x:Key="clinicGroupEmpInfo">THÔNG TIN NHÂN VIÊN</system:String>
     <system:String x:Key="clinicGroupPatientState">TÌNH TRẠNG SỨC KHỎE</system:String>
     
     <system:String x:Key="clinicConfirmDate">Ngày ghi nhận </system:String>
+    <system:String x:Key="clinicChangeConfirmDate">Thay Đổi Ngày Xác Nhận</system:String>
     <system:String x:Key="clinicState">Tình trạng</system:String>
     <system:String x:Key="clinicRemarks">Ghi chú</system:String>
     <system:String x:Key="clinicConfirmBy">Xác nhận</system:String>

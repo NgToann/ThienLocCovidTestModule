@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\
 TLCovidTest
 none
 false
 DEBUG;TRACE
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\App.xaml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\App.xaml
 512095167172
 
 119-2134755497
-24571236713
+24-2103824765
 MainWindow.xaml;Resources\ControlTemplate.xaml;Resources\LanguageEnglish.xaml;Resources\LanguageVietnamese.xaml;Resources\ControlStyle.xaml;Views\AboutMeWindow.xaml;Views\AddRecordTimeWindow.xaml;Views\AddUpdateEmployeeWindow_1.xaml;Views\AddUpdateWorkingShiftWindow.xaml;Views\ArrangeWorkingShiftWindow.xaml;Views\AttendanceRecordDetailReportSummaryWindow.xaml;Views\AttendanceRecordDetailReportWindow.xaml;Views\ChangeEmployeeCodeWindow.xaml;Views\AttendanceRecordDetailWindow.xaml;Views\AddUpdateEmployeeWindow.xaml;Views\ChangeEmployeeCodeWindow_1.xaml;Views\CheckOutWindow.xaml;Views\DailyReportReportWindow.xaml;Views\DailyReportWindow.xaml;Views\EditLeaveDayWindow.xaml;Views\EditOverTimeLimitWindow.xaml;Views\EmployeeChartWindow.xaml;Views\EmployeeListWindow.xaml;Views\ExecuteDataSalaryWindow.xaml;Views\ImportRemarksWorkerWindow.xaml;Views\LeaveWithSalaryWindow.xaml;Views\LineListWindow.xaml;Views\LoginWindow.xaml;Views\MissingRecordTimeWindow.xaml;Views\OverTimeLimitWindow.xaml;Views\EditRecordTimeWindow.xaml;Views\Report2020Window.xaml;Views\TestCovidConfirmResultWindow.xaml;Views\TestCovidCovidTestPlanWindow.xaml;Views\TestCovidCreateTestTermWindow.xaml;Views\TestRandomReportResultWindow.xaml;Views\TestRandomThienLocWindow.xaml;Views\TestRandomViewEmployeeListWindow.xaml;Views\TestRandomWindow.xaml;Views\TestRequestListWindow.xaml;Views\TLClinicWindow.xaml;Views\WorkerCheckInReportWindow.xaml;Views\WorkerCheckInWindow.xaml;Views\WorkerCheckOutWindow.xaml;Views\WorkerPrizeImportListWindow.xaml;Views\WorkerPrizeScanWindow.xaml;Views\WorkingDaySummaryReportWindow.xaml;Views\SettingLanguageWindow.xaml;Views\WorkingShiftDetailWindow.xaml;Views\EditWorkingShiftWindow.xaml;Views\WorkingShiftListWindow.xaml;
 
 False

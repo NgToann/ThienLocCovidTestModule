@@ -146,10 +146,10 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Image Width="16" Height="16" Source="./Images/clinic4.png" Margin="2,0,0,0"/>
-                        <TextBlock Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="Clinic"/>
+                        <TextBlock Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=clinicMenu}"/>
                     </Grid>
                 </MenuItem.Header>
-                <MenuItem x:Name="miUpdatePatientState" Header="Update State" Click="miUpdatePatientState_Click"/>
+                <MenuItem x:Name="miUpdatePatientState" Header="{DynamicResource ResourceKey=clinicMenuUpdateState}" Click="miUpdatePatientState_Click"/>
             </MenuItem>
             <MenuItem Padding="0,2,10,2">
                 <MenuItem.Header>

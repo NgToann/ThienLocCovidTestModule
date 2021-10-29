@@ -26,9 +26,10 @@ namespace TLCovidTest.Views
     public partial class TLClinicWindow : Window
     {
         private int stateIndex = 0;
-        private string stateDisplay = "";
+        private string stateDisplay = "", lblMainHeader = "";
         BackgroundWorker bwLoad;
         List<EmployeeModel> employeeList;
+        private DateTime confirmDate;
         public TLClinicWindow()
         {
             bwLoad = new BackgroundWorker();
@@ -36,7 +37,9 @@ namespace TLCovidTest.Views
             bwLoad.RunWorkerCompleted += BwLoad_RunWorkerCompleted;
 
             employeeList = new List<EmployeeModel>();
+            confirmDate = DateTime.Now.Date;
 
+            lblMainHeader = LanguageHelper.GetStringFromResource("clinicMainHeader");
             InitializeComponent();
         }
 
@@ -52,6 +55,7 @@ namespace TLCovidTest.Views
         {
             this.Cursor = null;
             txtCardId.IsEnabled = true;
+            dpConfirmDate.SelectedDate = confirmDate;
             SetTxtDefault();
         }
 
@@ -104,7 +108,7 @@ namespace TLCovidTest.Views
                                 EmployeeID = empById.EmployeeID,
                                 ConfirmBy = "",
                                 Remarks = "",
-                                ConfirmDate = DateTime.Now.Date,
+                                ConfirmDate = confirmDate,
                                 StateDisplay = stateDisplay
                             };
                             grPatientInfo.DataContext = patientNew;
@@ -126,6 +130,7 @@ namespace TLCovidTest.Views
                             patientLatest.StateDisplay = stateDisplay;
                             grPatientInfo.DataContext = patientLatest;
                         }
+                        SetTxtDefault();
                     }
                     catch (Exception ex)
                     {
@@ -164,7 +169,31 @@ namespace TLCovidTest.Views
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
+            var patientDelete = grPatientInfo.DataContext as PatientModel;
+            if (patientDelete == null)
+                return;
+            if (MessageBox.Show(string.Format("Confirm Delete Patient Info ?\nXác Nhận Xóa Thông Tin {0} Ngày {1:dd/MM/yyyy} ?", patientDelete.EmployeeID, patientDelete.ConfirmDate),
+                                       this.Title, MessageBoxButton.OKCancel, MessageBoxImage.Question) != MessageBoxResult.OK)
+            {
+                return;
+            }
+            try
+            {
+                PatientController.Delete(patientDelete);
+                MessageBox.Show("Deleted !\nĐã Xoá Dữ Liệu!", this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
+                SetTxtDefault();
 
+                radNormal.IsChecked = true;
+                brDisplay.Background = Brushes.WhiteSmoke;
+                brState.Background = Brushes.WhiteSmoke;
+                grWorkerInfo.DataContext = null;
+                grPatientInfo.DataContext = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.InnerException.Message.ToString());
+                SetTxtDefault();
+            }
         }
 
         private void ReloadState(SolidColorBrush bgColor)
@@ -193,10 +222,10 @@ namespace TLCovidTest.Views
         private void radNormal_Checked(object sender, RoutedEventArgs e)
         {
             //brDisplay.Background = Brushes.LimeGreen;
-            brState.Background = Brushes.LimeGreen;
+            brState.Background = Brushes.Green;
             stateIndex = 0;
             stateDisplay = radNormal.Content as string;
-            ReloadState(Brushes.LimeGreen);
+            ReloadState(Brushes.Green);
         }
 
         private void radInfected_Checked(object sender, RoutedEventArgs e)
@@ -229,6 +258,30 @@ namespace TLCovidTest.Views
         {
             txtCardId.SelectAll();
             txtCardId.Focus();
-        }     
+        }
+
+        private void cbChangeConfirmDate_Checked(object sender, RoutedEventArgs e)
+        {
+            dpConfirmDate.Visibility = Visibility.Visible;
+        }
+
+        private void cbChangeConfirmDate_Unchecked(object sender, RoutedEventArgs e)
+        {
+            dpConfirmDate.Visibility = Visibility.Collapsed;
+        }
+
+        private void dpConfirmDate_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var dateChange = dpConfirmDate.SelectedDate.Value.Date;
+            if (dateChange > DateTime.Now.Date)
+            {
+                MessageBox.Show("Can not change date grather than today\nKhông chọn ngày lớn hơn ngày hôm nay!", this.Title, MessageBoxButton.OK, MessageBoxImage.Error);
+                dpConfirmDate.SelectedDate = DateTime.Now.Date;
+                return;
+            }
+            confirmDate = dateChange;
+            lblHeader.Text = string.Format("{0}: {1:dd/MM/yyyy}", lblMainHeader, confirmDate);
+            cbChangeConfirmDate.IsChecked = false;
+        }
     }
 }
