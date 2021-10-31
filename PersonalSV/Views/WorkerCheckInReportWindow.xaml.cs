@@ -10,6 +10,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
 using EXCEL = Microsoft.Office.Interop.Excel;
+using TLCovidTest.Helpers;
 
 namespace TLCovidTest.Views
 {
@@ -18,11 +19,17 @@ namespace TLCovidTest.Views
     /// </summary>
     public partial class WorkerCheckInReportWindow : Window
     {
-        List<WorkerCheckInModel> checkInListByDate;
+        List<WorkerCheckInModel> checkInListFromTo;
+        List<PatientModel> patientListFromTo;
         List<EmployeeModel> employeeList;
+        List<SourceModel> sourceFromTo;
+
         BackgroundWorker bwLoad;
         BackgroundWorker bwExportExcel;
-        List<WorkListModel> workListAll;
+        BackgroundWorker bwReport;
+
+        private string normal = "", infected = "", suspected = "", others = "";
+
         public WorkerCheckInReportWindow()
         {
             bwLoad = new BackgroundWorker();
@@ -33,12 +40,24 @@ namespace TLCovidTest.Views
             bwExportExcel.DoWork += BwExportExcel_DoWork;
             bwExportExcel.RunWorkerCompleted += BwExportExcel_RunWorkerCompleted;
 
-            checkInListByDate = new List<WorkerCheckInModel>();
+            bwReport = new BackgroundWorker();
+            bwReport.DoWork += BwReport_DoWork; 
+            bwReport.RunWorkerCompleted += BwReport_RunWorkerCompleted;
+
+            checkInListFromTo = new List<WorkerCheckInModel>();
             employeeList = new List<EmployeeModel>();
-            workListAll = new List<WorkListModel>();
+            patientListFromTo = new List<PatientModel>();
+            sourceFromTo = new List<SourceModel>();
+
+            normal = LanguageHelper.GetStringFromResource("clinicRadNormal");
+            infected = LanguageHelper.GetStringFromResource("clinicRadInfectedCovid");
+            suspected = LanguageHelper.GetStringFromResource("clinicRadSuspectedCovid");
+            others = LanguageHelper.GetStringFromResource("clinicRadOthers");
 
             InitializeComponent();
         }
+
+        
 
         private void BwLoad_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
@@ -68,18 +87,134 @@ namespace TLCovidTest.Views
 
         private void btnPreview_Click(object sender, RoutedEventArgs e)
         {
+            if (!bwReport.IsBusy)
+            {
+                btnPreview.IsEnabled = false;
+                dgReport.ItemsSource = null;
+                var dateFrom = dpFrom.SelectedDate.Value;
+                var dateTo = dpTo.SelectedDate.Value;
+                var findWhat = txtFindWhat.Text.Trim().ToUpper().ToString();
+                object[] par = new object[] { dateFrom, dateTo, findWhat };
+                bwReport.RunWorkerAsync(par);
+            }
+        }
+
+        private void BwReport_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            this.Cursor = null;
+            btnPreview.IsEnabled = true;
+        }
+
+        private void BwReport_DoWork(object sender, DoWorkEventArgs e)
+        {
             try
             {
-                var dateSearch = dpFilterDate.SelectedDate.Value;
-                checkInListByDate = WorkerCheckInController.GetByDate(dateSearch);
-                workListAll = WorkListController.Get();
+                var args = e.Argument as object[];
+                var dateFrom = (DateTime)args[0];
+                var dateTo = (DateTime)args[1];
+                var findWhat = args[2] as string;
 
-                FilterData(dateSearch);
+                patientListFromTo = PatientController.GetFromTo(dateFrom, dateTo);
+                checkInListFromTo = WorkerCheckInController.GetFromTo(dateFrom, dateTo);
+                sourceFromTo = SourceController.SelectSourceByDateFromTo(dateFrom, dateTo);
+
+
+                Dispatcher.Invoke(new Action(() =>
+                {
+                    List<DisplayDataModel> dataList = new List<DisplayDataModel>();
+
+                    if (string.IsNullOrEmpty(findWhat))
+                    {
+                        if (patientListFromTo.Count() > 0)
+                        {
+                            dateFrom = patientListFromTo.Min(m => m.ConfirmDate);
+                            dateTo = patientListFromTo.Max(m => m.ConfirmDate);
+                        }
+
+                        for (DateTime date = dateFrom; date <= dateTo; date = date.AddDays(1))
+                        {
+                            var empIds = patientListFromTo.Where(w => w.ConfirmDate == date).Select(s => s.EmployeeID).Distinct().ToList();
+                            foreach (var id in empIds)
+                            {
+                                var empById = employeeList.FirstOrDefault(f => f.EmployeeID == id);
+                                if (empById == null)
+                                    continue;
+
+                                var patientByIdByDate = patientListFromTo.FirstOrDefault(f => f.ConfirmDate == date && f.EmployeeID == id);
+                                var checkInByDateByEmpCode = checkInListFromTo.Where(w => w.CheckInDate == date && w.EmployeeCode == empById.EmployeeCode).ToList();
+                                var sourceByDateByEmpCode = sourceFromTo.Where(w => w.SourceDate == date && w.EmployeeCode == empById.EmployeeCode).ToList();
+
+                                var timeInScan = checkInByDateByEmpCode.Count() > 0 ? checkInByDateByEmpCode.Min(m => m.RecordTime) : "";
+                                var timeInOrigin = sourceByDateByEmpCode.Count() > 0 ? sourceByDateByEmpCode.Min(m => m.SourceTime) : "";
+
+                                var displayDataModel = new DisplayDataModel
+                                {
+                                    EmployeeCode = empById.EmployeeCode,
+                                    EmployeeID = empById.EmployeeID,
+                                    EmployeeName = empById.EmployeeName,
+                                    DepartmentName = empById.DepartmentName,
+                                    ConfirmDate = date,
+                                    Remarks = patientByIdByDate.Remarks,
+                                    StateIndexDisplay = getStateByIndex(patientByIdByDate.StateIndex),
+                                    TimeInScan = timeInScan,
+                                    TimeInOrigin = timeInOrigin
+                                };
+                                dataList.Add(displayDataModel);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        foreach (var item in checkInListFromTo)
+                        {
+                            var empByCode = employeeList.FirstOrDefault(f => f.EmployeeCode.Trim().ToUpper() == item.EmployeeCode.Trim().ToUpper());
+                            if (empByCode == null)
+                                continue;
+                            var sourceByDateByEmpCode = sourceFromTo.Where(w => w.SourceDate == item.CheckInDate && w.EmployeeCode == empByCode.EmployeeCode).ToList();
+                            var timeInOrigin = sourceByDateByEmpCode.Count() > 0 ? sourceByDateByEmpCode.Min(m => m.SourceTime) : "";
+                            var displayDataModel = new DisplayDataModel
+                            {
+                                EmployeeCode = empByCode.EmployeeCode,
+                                EmployeeID = empByCode.EmployeeID,
+                                EmployeeName = empByCode.EmployeeName,
+                                DepartmentName = empByCode.DepartmentName,
+                                ConfirmDate = item.CheckInDate,
+                                StateIndexDisplay = getStateByIndex(item.PatientIndex),
+                                TimeInScan = item.RecordTime,
+                                TimeInOrigin = timeInOrigin
+                            };
+                            dataList.Add(displayDataModel);
+                        }
+                    }
+
+                    if (dataList.Count() > 0)
+                        dataList = dataList.OrderBy(o => o.ConfirmDate).ThenBy(th => th.DepartmentName).ThenBy(th => th.EmployeeID).ThenBy(th => th.TimeInScan).ToList();
+
+                    dgReport.ItemsSource = dataList;
+                    dgReport.Items.Refresh();
+                }));
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message.ToString());
+                Dispatcher.Invoke(new Action(() =>
+                {
+                    MessageBox.Show(ex.InnerException.Message.ToString());
+                }));
             }
+        }
+
+        private string getStateByIndex(int index)
+        {
+            if (index == 0)
+                return normal;
+            else if (index == 1)
+                return infected;
+            else if (index == 2)
+                return suspected;
+            else if (index == 3)
+                return others;
+            else
+                return "";
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -89,108 +224,13 @@ namespace TLCovidTest.Views
                 this.Cursor = Cursors.Wait;
                 bwLoad.RunWorkerAsync();
             }
-            dpFilterDate.SelectedDate = DateTime.Now.Date;
-        }
-
-        private void FilterData(DateTime dateSearch)
-        {
-            var findWhat = txtFindWhat.Text.Trim().ToUpper().ToString();
-            
-            List<DisplayDataModel> dataList = new List<DisplayDataModel>();
-
-            var empCodeByCheckInListByDate = checkInListByDate.Select(s => s.EmployeeCode).Distinct().ToList();
-            var empIdsFromWorkerCheckInByDate = employeeList.Where(w => empCodeByCheckInListByDate.Contains(w.EmployeeCode)).Select(s => s.EmployeeID).Distinct().ToList();
-
-            var workListByDate = workListAll.Where(w => w.TestDate == dateSearch).ToList();
-
-            var empIdsFromWorkListByDate = workListByDate.Select(s => s.EmployeeID).Distinct().ToList();
-
-            var workerIdList = new List<string>();
-            workerIdList.AddRange(empIdsFromWorkerCheckInByDate);
-            workerIdList.AddRange(empIdsFromWorkListByDate);
-            workerIdList = workerIdList.Select(s => s).Distinct().ToList();
-
-            foreach (var workerId in workerIdList)
-            {
-                var empById = employeeList.FirstOrDefault(f => f.EmployeeID.Trim().ToLower().ToString() == workerId.Trim().ToLower().ToString());
-                if (empById != null)
-                {
-                    //var checkInByEmpCode = checkInListByDate.Where(w => w.EmployeeCode == empById.EmployeeCode).ToList();
-                    //var timeInRecords = checkInByEmpCode.Where(w => w.CheckType == 0).ToList();
-                    //var timeOutRecords = checkInByEmpCode.Where(w => w.CheckType == 1).ToList();
-                    //string timeIn = timeInRecords.Count() > 0 ? timeInRecords.Max(m => m.RecordTime) : "";
-                    //string timeOut = timeOutRecords.Count() > 0 ? timeOutRecords.Max(m => m.RecordTime) : "";
-
-                    //var workListByEmpId = workListAll.Where(w => w.EmployeeID == empId).ToList();
-                    //// if worker in worklist today
-                    //if (workListByEmpId.Count() > 0)
-                    //{
-                    //    var workerTestStatus = workListByEmpId.Where(w => w.TestDate == dateSearch).FirstOrDefault();
-                    //    // get worker in worklist latest
-                    //    var latestDate = workListByEmpId.Where(w => w.TestDate < dateSearch).Max(m => m.TestDate);
-                    //    workerTestStatus = workListByEmpId.Where(w => w.TestDate == latestDate).FirstOrDefault();
-                    //}
-
-                    var workListByWorkerIdByDateLatestList = workListAll.Where(w => w.EmployeeID == workerId && w.TestDate <= dateSearch).ToList();
-                    var workerTestStatus = new WorkListModel();
-                    if (workListByWorkerIdByDateLatestList.Count() > 0)
-                    {
-                        workerTestStatus = workListByWorkerIdByDateLatestList.OrderBy(o => o.TestDate).LastOrDefault();
-                    }
-
-                    string timeIn = "", timeOut = "";
-                    var checkInListByWorkerIdByDate = checkInListByDate.Where(w => w.EmployeeCode == empById.EmployeeCode).ToList();
-                    if (checkInListByWorkerIdByDate.Count() > 0)
-                    {
-                        timeIn = checkInListByWorkerIdByDate.Where(w => w.CheckType == 0).Max(m => m.RecordTime);
-                        timeOut = checkInListByWorkerIdByDate.Where(w => w.CheckType == 1).Max(m => m.RecordTime);
-                    }
-
-                    var displayModel = new DisplayDataModel
-                    {
-                        EmployeeID = empById.EmployeeID,
-                        EmployeeCode = empById.EmployeeCode,
-                        EmployeeName = empById.EmployeeName,
-                        DepartmentName = empById.DepartmentName,
-                        TestDate = dateSearch,
-                        TestStatus = workerTestStatus != null ? workerTestStatus.TestStatus : 0,
-                        TimeIn = timeIn,
-                        TimeOut = timeOut
-                    };
-                    dataList.Add(displayModel);
-                }
-                //else
-                //{
-                //    var workerNotInPersonal = new DisplayDataModel
-                //    {
-                //        EmployeeCode = empId,
-                //        EmployeeID = empId,
-                //        TestDate = dateSearch
-                //    };
-                //    dataList.Add(workerNotInPersonal);
-                //}
-            }
-            
-            dataList = dataList.OrderBy(o => o.TestDate).ThenBy(th => th.DepartmentName).ThenBy(th => th.EmployeeID).ToList();
-
-            
-
-            if (!string.IsNullOrEmpty(findWhat))
-            {
-                dataList = dataList.Where(w => w.EmployeeCode == findWhat || w.EmployeeID.Trim().ToUpper() == findWhat).ToList();
-                
-            }
-            dgReport.ItemsSource = dataList;
-            dgReport.Items.Refresh();
+            dpFrom.SelectedDate = DateTime.Now.Date;
+            dpTo.SelectedDate = DateTime.Now.Date;
         }
         
         private void txtFindWhat_PreviewKeyUp(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Enter)
-            {
-                var dateSearch = dpFilterDate.SelectedDate.Value;
-                FilterData(dateSearch);
-            }
+            btnPreview.IsDefault = true;
         }
         
         private class DisplayDataModel
@@ -198,11 +238,12 @@ namespace TLCovidTest.Views
             public string EmployeeCode { get; set; }
             public string EmployeeID { get; set; }
             public string EmployeeName { get; set; }
-            public DateTime TestDate { get; set; }
+            public DateTime ConfirmDate { get; set; }
             public string DepartmentName { get; set; }
-            public string TimeIn { get; set; }
-            public string TimeOut { get; set; }
-            public int TestStatus { get; set; }
+            public string TimeInScan { get; set; }
+            public string TimeInOrigin { get; set; }
+            public string StateIndexDisplay { get; set; }
+            public string Remarks { get; set; }
         }
 
         private void btnExportExcel_Click(object sender, RoutedEventArgs e)
@@ -234,7 +275,7 @@ namespace TLCovidTest.Views
                 worksheet.Cells.HorizontalAlignment = EXCEL.XlHAlign.xlHAlignCenter;
                 worksheet.Cells.Font.Name = "Arial";
                 worksheet.Cells.Font.Size = 10;
-                string reportName = String.Format("CheckInReport{0:ddMMyyyy}", DateTime.Now.Date);
+                string reportName = String.Format("PatientReport{0:ddMMyyyy}", DateTime.Now.Date);
                 worksheet.Name = reportName;
 
                 worksheet.Cells.Rows[1].Font.Size = 11;
@@ -246,9 +287,10 @@ namespace TLCovidTest.Views
                 headerList.Add("FullName");
                 headerList.Add("Department(Line)");
                 headerList.Add("Date");
-                headerList.Add("TimeIn");
-                headerList.Add("TimeOut");
+                headerList.Add("TimeIn(Scan)");
+                headerList.Add("TimeOut(Origin)");
                 headerList.Add("Status");
+                headerList.Add("Remarks");
 
                 for (int i = 0; i < headerList.Count(); i++)
                 {
@@ -261,10 +303,11 @@ namespace TLCovidTest.Views
                     worksheet.Cells[rowIndex, 2] = item.EmployeeID;
                     worksheet.Cells[rowIndex, 3] = item.EmployeeName;
                     worksheet.Cells[rowIndex, 4] = item.DepartmentName;
-                    worksheet.Cells[rowIndex, 5] = item.TestDate;
-                    worksheet.Cells[rowIndex, 6] = item.TimeIn;
-                    worksheet.Cells[rowIndex, 7] = item.TimeOut;
-                    worksheet.Cells[rowIndex, 8] = item.TestStatus;
+                    worksheet.Cells[rowIndex, 5] = item.ConfirmDate;
+                    worksheet.Cells[rowIndex, 6] = item.TimeInScan;
+                    worksheet.Cells[rowIndex, 7] = item.TimeInOrigin;
+                    worksheet.Cells[rowIndex, 8] = item.StateIndexDisplay;
+                    worksheet.Cells[rowIndex, 9] = item.Remarks;
 
                     rowIndex++;
                     Dispatcher.Invoke(new Action(() => {
@@ -279,15 +322,19 @@ namespace TLCovidTest.Views
                     if (workbook != null)
                     {
                         var sfd = new System.Windows.Forms.SaveFileDialog();
-                        sfd.Title = "SV-HRS Export Excel File";
+                        sfd.Title = "ThienLoc Export Excel File";
                         sfd.Filter = "Excel Documents (*.xls)|*.xls|Excel Documents (*.xlsx)|*.xlsx";
                         sfd.FilterIndex = 2;
                         sfd.FileName = reportName;
                         if (sfd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                         {
                             workbook.SaveAs(sfd.FileName);
-                            MessageBox.Show("Export Successful !", "SV-HRS Export Excel File", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show("Export Successful !", "ThienLoc Export Excel File", MessageBoxButton.OK, MessageBoxImage.Information);
                         }
+
+                        excel.Quit();
+                        workbook = null;
+                        excel = null;
                     }
                 }));
             }
@@ -295,8 +342,12 @@ namespace TLCovidTest.Views
             {
                 Dispatcher.Invoke(new Action(() =>
                 {
-                    MessageBox.Show(ex.Message, "SV-HRS Export Excel File", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show(ex.Message, "ThienLoc Export Excel File", MessageBoxButton.OK, MessageBoxImage.Error);
+                    excel.Quit();
+                    workbook = null;
+                    excel = null;
                 }));
+
             }
             finally
             {

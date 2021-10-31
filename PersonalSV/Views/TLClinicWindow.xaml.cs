@@ -158,7 +158,7 @@ namespace TLCovidTest.Views
                 if (PatientController.Insert(patientSave))
                 {
                     MessageBox.Show("Sucessfully !\nĐã lưu dữ liệu!", this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
-                    SetTxtDefault();
+                    ResetUI();
                 }
             }
             catch (Exception ex)
@@ -181,13 +181,7 @@ namespace TLCovidTest.Views
             {
                 PatientController.Delete(patientDelete);
                 MessageBox.Show("Deleted !\nĐã Xoá Dữ Liệu!", this.Title, MessageBoxButton.OK, MessageBoxImage.Information);
-                SetTxtDefault();
-
-                radNormal.IsChecked = true;
-                brDisplay.Background = Brushes.WhiteSmoke;
-                brState.Background = Brushes.WhiteSmoke;
-                grWorkerInfo.DataContext = null;
-                grPatientInfo.DataContext = null;
+                ResetUI();
             }
             catch (Exception ex)
             {
@@ -196,12 +190,23 @@ namespace TLCovidTest.Views
             }
         }
 
+        private void ResetUI()
+        {
+            radNormal.IsChecked = true;
+            brDisplay.Background = Brushes.WhiteSmoke;
+            brState.Background = Brushes.WhiteSmoke;
+            grWorkerInfo.DataContext = null;
+            grPatientInfo.DataContext = null;
+            SetTxtDefault();
+        }
+
         private void ReloadState(SolidColorBrush bgColor)
         {
             var currentState = grPatientInfo.DataContext as PatientModel;
             if (currentState != null)
             {
                 currentState.StateIndex = stateIndex;
+                currentState.ConfirmDate = confirmDate;
                 currentState.StateDisplay = stateDisplay;
                 currentState.Background = bgColor;
             }

@@ -378,7 +378,7 @@
     <system:String x:Key="dayOfWeekSunday">Chủ Nhật</system:String>
     
     <!--Worker Check In, Out Window-->
-    <system:String x:Key="workerCheckInWindowTitle">ThienLoc Scan giờ vào</system:String>
+    <system:String x:Key="workerCheckInWindowTitle">ThienLoc Scan giờ vào, ra</system:String>
     <system:String x:Key="workerCheckOutWindowTitle">ThienLoc Scan giờ ra</system:String>
     <system:String x:Key="workerCheckInTitle">SCAN GIỜ VÀO</system:String>
     <system:String x:Key="workerCheckOutTitle">SCAN GIỜ RA</system:String>
@@ -509,6 +509,9 @@
     <system:String x:Key="clinicWindowTitle">TL Y Tế</system:String>
     <system:String x:Key="clinicMenu">Y Tế</system:String>
     <system:String x:Key="clinicMenuUpdateState">Cập Nhật Bệnh Nhân</system:String>
+    <system:String x:Key="clinicMenuPatientReport">Báo Cáo</system:String>
+    <system:String x:Key="clinicReportWindowTitle">ThienLoc Báo cáo tình trạng bệnh nhân</system:String>
+    
     <system:String x:Key="clinicMainHeader">CẬP NHẬT SỨC KHỎE NHÂN VIÊN</system:String>
     <system:String x:Key="clinicScanCardIdOrWorkerId">Quẹt Thẻ Từ (Nhập Mã Nhân Viên)</system:String>
     <system:String x:Key="clinicRadNormal">BÌNH THƯỜNG</system:String>
@@ -524,5 +527,24 @@
     <system:String x:Key="clinicState">Tình trạng</system:String>
     <system:String x:Key="clinicRemarks">Ghi chú</system:String>
     <system:String x:Key="clinicConfirmBy">Xác nhận</system:String>
+    
+    <system:String x:Key="scanPatientMainHeader">SCAN GIỜ VÀO, RA</system:String>
+    
+    <system:String x:Key="countScanDate">Ngày Scan</system:String>
+    <system:String x:Key="countTotalPatient">Tổng Số</system:String>
+    <system:String x:Key="countScanned">Đã Scan</system:String>
+    
+    <system:String x:Key="msgPatientNotFound">KHÔNG TÌM THẤY</system:String>
+    <system:String x:Key="msgPatientWelcome">WELCOME !</system:String>
+    <system:String x:Key="msgPatientNotAllowed">KHÔNG ĐƯỢC VÀO !</system:String>
+    <system:String x:Key="msgContactClinic">VUI LÒNG LIÊN HỆ BỘ PHẬN Y TẾ</system:String>
+    
+    <system:String x:Key="clinicReportExcel">Export Excel</system:String>
+    <system:String x:Key="clinicReportTimeInScan">Giờ vào (Máy Scan)</system:String>
+    <system:String x:Key="clinicReportTimeInOrigin">Giờ vào (Máy Chấm Công)</system:String>
+    <system:String x:Key="clinicReportState">Trạng thái</system:String>
+    <system:String x:Key="clinicReportTimeInRemarks">Ghi chú</system:String>
+    
+    
     
 </ResourceDictionary>

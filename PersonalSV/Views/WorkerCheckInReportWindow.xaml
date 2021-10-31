@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TLCovidTest.Views" Loaded="Window_Loaded"
         mc:Ignorable="d" FontSize="14" WindowStartupLocation="CenterScreen" WindowState="Maximized"
-        Title="{DynamicResource ResourceKey=reportCheckInOutWindowTitle}" Height="450" Width="800">
+        Title="{DynamicResource ResourceKey=clinicReportWindowTitle}" Height="450" Width="800">
     <Grid Margin="2">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -19,7 +19,7 @@
         <GroupBox Template="{DynamicResource ResourceKey=GroupBoxTemplate}">
             <GroupBox.Header>
                 <Border Background="{DynamicResource ResourceKey=Background1}" Style="{DynamicResource ResourceKey=BorderStyle}">
-                    <TextBlock x:Name="txtGroupSummaryHeader" Text="{DynamicResource ResourceKey=reportCheckInOutOption}"/>
+                    <TextBlock Padding="10,0,10,0" x:Name="txtGroupSummaryHeader" Text="{DynamicResource ResourceKey=reportCheckInOutOption}"/>
                 </Border>
             </GroupBox.Header>
             <Grid>
@@ -33,11 +33,28 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <TextBox x:Name="txtFindWhat" FontSize="20" Padding="3" VerticalContentAlignment="Center" PreviewKeyUp="txtFindWhat_PreviewKeyUp" Width="240"/>
-                <StackPanel Grid.Row="1" Orientation="Horizontal">
-                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerDate}" VerticalAlignment="Bottom"/>
-                    <DatePicker x:Name="dpFilterDate" Margin="5,5,0,0" VerticalContentAlignment="Center" Width="150"/>
-                </StackPanel>
-                <Button x:Name="btnPreview" Margin="5,0,0,0" Template="{DynamicResource ResourceKey=ButtonTemplate}" Grid.Column="3" Grid.RowSpan="5" Click="btnPreview_Click" IsEnabled="False">
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerFrom}"/>
+                    <TextBlock Text="{DynamicResource ResourceKey=commonDatePickerTo}" Grid.Column="2"/>
+                    <DatePicker x:Name="dpFrom" Grid.Row="1" Margin="0,2,0,0" VerticalContentAlignment="Center"/>
+                    <DatePicker x:Name="dpTo" Grid.Row="1" Grid.Column="2" Margin="0,2,0,0" VerticalContentAlignment="Center"/>
+                    </Grid>
+                    <Button x:Name="btnPreview" Margin="5,0,0,0" Template="{DynamicResource ResourceKey=ButtonTemplate}" Grid.Column="3" Grid.RowSpan="5" Click="btnPreview_Click" IsEnabled="False">
                     <Button.Content>
                         <Grid>
                             <Grid.RowDefinitions>
@@ -107,28 +124,35 @@
                     <DataGridTemplateColumn Header="{DynamicResource ResourceKey=commonEmployeeDate}" SortMemberPath="TestDate" ClipboardContentBinding="{Binding TestDate}">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBlock Text="{Binding TestDate, StringFormat=dd/MM/yyyy}" Margin="3" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding ConfirmDate, StringFormat=dd/MM/yyyy}" Margin="3" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=reportGridTimeIn}" SortMemberPath="TimeIn" ClipboardContentBinding="{Binding TimeIn}">
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=clinicReportTimeInScan}" SortMemberPath="TimeInScan" ClipboardContentBinding="{Binding TimeInScan}">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBlock Text="{Binding TimeIn}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding TimeInScan}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=reportGridTimeOut}" SortMemberPath="TimeOut" ClipboardContentBinding="{Binding TimeOut}">
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=clinicReportTimeInOrigin}" SortMemberPath="TimeInOrigin" ClipboardContentBinding="{Binding TimeInOrigin}">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBlock Text="{Binding TimeOut}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding TimeInOrigin}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=reportGridStatus}" SortMemberPath="TestStatus" ClipboardContentBinding="{Binding TestStatus}">
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=clinicReportState}" SortMemberPath="StateIndexDisplay" ClipboardContentBinding="{Binding StateIndexDisplay}">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBlock Text="{Binding TestStatus}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding StateIndexDisplay}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="{DynamicResource ResourceKey=clinicReportTimeInRemarks}" SortMemberPath="Remarks" ClipboardContentBinding="{Binding Remarks}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Remarks}" Margin="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
@@ -143,7 +167,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Margin="2,0,0,0" Grid.Row="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=reportExportExcel}"/>
+                    <TextBlock Margin="2,0,0,0" Grid.Row="1" VerticalAlignment="Center" Text="{DynamicResource ResourceKey=clinicReportExcel}"/>
                 </Grid>
             </Button.Content>
         </Button>

@@ -18,5 +18,6 @@ namespace TLCovidTest.Models
         public string RecordTime { get; set; }
         public string TimeIn { get; set; }
         public string TimeOut { get; set; }
+        public int PatientIndex { get; set; }
     }
 }

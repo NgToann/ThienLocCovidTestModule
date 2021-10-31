@@ -116,18 +116,23 @@ F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalS
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.exe
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.pdb
 F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.csprojAssemblyReference.cache
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.g.cs
+F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.exe.config
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.exe
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\TLCovidTest.pdb
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.dll
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.dll
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.pdb
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.xml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\LiveCharts.Wpf.xml
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\bin\Debug\Microsoft.ReportViewer.WinForms.xml
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.csproj.AssemblyReference.cache
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\MainWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\ControlTemplate.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Resources\LanguageEnglish.baml
@@ -185,13 +190,17 @@ C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.g.cs
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingDaySummaryReportWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\SettingLanguageWindow.g.cs
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.g.cs
@@ -213,13 +222,17 @@ C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidConfirmResultWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCovidTestPlanWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestCovidCreateTestTermWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomThienLocWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomViewEmployeeListWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRequestListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInReportWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckInWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerCheckOutWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkingShiftDetailWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\EditWorkingShiftWindow.baml
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.g.resources
@@ -229,19 +242,4 @@ C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.csproj.CopyComplete
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.exe
 C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.pdb
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.g.cs
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.baml
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.g.cs
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.g.cs
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TestRandomReportResultWindow.baml
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.g.cs
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.g.cs
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeImportListWindow.baml
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\WorkerPrizeScanWindow.baml
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.g.cs
-C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.baml
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.g.cs
-F:\SV PROJECT\HRS\Original_12 Flash Test Covid\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\Views\TLClinicWindow.baml
+C:\Users\NgToann\Desktop\SV_WFH\ThienLocCovidTestModule\PersonalSV\obj\x86\Debug\TLCovidTest.csproj.AssemblyReference.cache

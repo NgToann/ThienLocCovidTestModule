@@ -17,6 +17,14 @@ namespace TLCovidTest.Controllers
                 return db.ExecuteStoreQuery<PatientModel>("EXEC spm_SelectPatient").ToList();
             };
         }
+
+        public static List<string> GetTotal()
+        {
+            using (var db = new PersonalDataEntities())
+            {
+                return db.ExecuteStoreQuery<string>("EXEC spm_SelectPatientTotal").ToList();
+            };
+        }
         public static List<PatientModel> GetByEmpId(string empId)
         {
             var @EmployeeID = new SqlParameter("@EmployeeID", empId);
@@ -25,7 +33,15 @@ namespace TLCovidTest.Controllers
                 return db.ExecuteStoreQuery<PatientModel>("EXEC spm_SelectPatientByEmployeeID @EmployeeID", @EmployeeID).ToList();
             };
         }
-
+        public static List<PatientModel> GetFromTo(DateTime dateFrom, DateTime dateTo)
+        {
+            var @DateFrom = new SqlParameter("@DateFrom", dateFrom);
+            var @DateTo = new SqlParameter("@DateTo", dateTo);
+            using (var db = new PersonalDataEntities())
+            {
+                return db.ExecuteStoreQuery<PatientModel>("EXEC spm_SelectPatientInFromTo @DateFrom, @DateTo", @DateFrom, @DateTo).ToList();
+            };
+        }
         public static bool Insert(PatientModel model)
         {
             var @EmployeeID = new SqlParameter("@EmployeeID", model.EmployeeID);

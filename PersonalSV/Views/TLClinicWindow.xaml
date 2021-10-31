@@ -84,7 +84,7 @@
                                 <TextBlock Text="{Binding EmployeeName}" HorizontalAlignment="Center" FontWeight="SemiBold" />
                                 <TextBlock Grid.Row="1" Text="{Binding EmployeeID}" HorizontalAlignment="Center" FontWeight="SemiBold"/>
                                 <TextBlock Grid.Row="2" Text="{Binding DepartmentName}" HorizontalAlignment="Center" FontWeight="SemiBold" />
-                                <TextBlock Grid.Row="3" Text="{Binding Message}" HorizontalAlignment="Center" FontWeight="SemiBold" />
+                                <!--<TextBlock Grid.Row="3" Text="{Binding Message}" HorizontalAlignment="Center" FontWeight="SemiBold" />-->
                             </Grid>
                         </Viewbox>
                     </GroupBox>

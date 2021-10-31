@@ -13,5 +13,7 @@ namespace TLCovidTest.Models
         public bool IsPersonel { get; set; }
         public bool IsCovidTest { get; set; }
         public string Branch { get; set; }
+        public bool IsClinic { get; set; }
+        public bool IsScan { get; set; }
     }
 }

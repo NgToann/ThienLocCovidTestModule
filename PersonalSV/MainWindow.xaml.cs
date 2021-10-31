@@ -212,6 +212,14 @@ namespace TLCovidTest
                 miTestCovidRandom.Visibility = Visibility.Collapsed;
                 miReports.Visibility = Visibility.Collapsed;
                 miCovidTest.Visibility = Visibility.Collapsed;
+
+                if (account.IsScan && !account.IsClinic && !account.IsCovidTest)
+                {
+                    miGift.Visibility = Visibility.Collapsed;
+                    miClinic.Visibility = Visibility.Collapsed;
+                    WorkerCheckInWindow window = new WorkerCheckInWindow();
+                    window.ShowDialog();
+                }
             }
             else if(account.Branch.Equals("SAOVIET") || account.Branch.Equals("DAILOC"))
             {
@@ -284,6 +292,18 @@ namespace TLCovidTest
         {
             TLClinicWindow window = new TLClinicWindow();
             window.ShowDialog();
+        }
+
+        private void miPatientScan_Click(object sender, RoutedEventArgs e)
+        {
+            WorkerCheckInWindow window = new WorkerCheckInWindow();
+            window.ShowDialog();
+        }
+
+        private void miPatientReport_Click(object sender, RoutedEventArgs e)
+        {
+            WorkerCheckInReportWindow window = new WorkerCheckInReportWindow();
+            window.Show();
         }
 
         //private void miLeaveWithReason_Click(object sender, RoutedEventArgs e)
